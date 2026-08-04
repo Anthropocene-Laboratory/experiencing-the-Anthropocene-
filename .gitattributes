@@ -16,4 +16,4 @@
 
 # Large committed tables and boundary files: keep diffs out of the way.
 *.geojson -diff
-Feature explorations/Analysis/data_processed/tables/layerA_stack_30km.csv -diff
+layerA_stack_30km.csv -diff

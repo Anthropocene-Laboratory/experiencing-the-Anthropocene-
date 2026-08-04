@@ -32,8 +32,8 @@ figure. Some of those caveats are load-bearing, for example:
 
 ## What is and is not in this repository
 
-**In:** every analysis script (45 R, 8 Python), the method notes, and the final outputs —
-51 PNG figures under `data_processed/maps/` and 37 CSV tables under `data_processed/tables/`.
+**In:** every analysis script (46 R, 7 Python), the method notes, and the final outputs —
+52 PNG figures under `data_processed/maps/` and 37 CSV tables under `data_processed/tables/`.
 About 33 MB in total. The committed figures are there so you can check that a run on your
 machine reproduces them.
 
