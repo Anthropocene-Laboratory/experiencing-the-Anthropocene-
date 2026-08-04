@@ -1,0 +1,10 @@
+"variable","n_in_mask","n_available","pct_available","pct_uniquely_limiting"
+"built_pct",8798,7480,85,0
+"light_mcd_m2",8798,7510,85.4,0
+"pm25_ug_m3",8798,7509,85.3,0
+"utci_strong_h",8798,8767,99.6,0
+"hw_days",8798,8542,97.1,1.1
+"crop_frac",8798,8737,99.3,0
+"bii",8798,7311,83.1,15.1
+"landchange_freq",8798,6569,74.7,10.9
+"pop_dens_km2",8798,8779,99.8,0

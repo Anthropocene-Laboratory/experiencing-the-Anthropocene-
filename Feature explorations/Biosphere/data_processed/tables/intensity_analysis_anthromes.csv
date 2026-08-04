@@ -1,0 +1,7 @@
+"class","size1960_pct","size2015_pct","gain_intensity","loss_intensity","active_gain","active_loss"
+"Wildlands",12.9,12.7,0.019,0.05,"dormant","dormant"
+"Semi-natural",26.3,29.6,0.233,0.038,"ACTIVE","dormant"
+"Rangelands",9.1,8,0.207,0.396,"ACTIVE","ACTIVE"
+"Croplands",34.8,31.7,0.06,0.215,"dormant","ACTIVE"
+"Villages",14.2,13.1,0.225,0.356,"ACTIVE","ACTIVE"
+"Dense settlements",2.7,5,0.868,0.063,"ACTIVE","dormant"

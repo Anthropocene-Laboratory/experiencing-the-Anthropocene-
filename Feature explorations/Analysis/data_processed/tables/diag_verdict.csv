@@ -1,0 +1,4 @@
+"test","observed","failed"
+"FAIL-1 redundancy (PC1 >= 65%)","PC1 = 40.4%",FALSE
+"FAIL-2 coverage (complete cases < 75% of mask)","56.4% complete (4962 / 8798 cells)",TRUE
+"FAIL-3 no archetypes (silhouette < .25, or k=2 with one-directional centres)","best k = 2, silhouette = 0.250, one-directional centres = FALSE",FALSE

@@ -1,0 +1,3 @@
+"profile_id","utci_strong_hours","cropland_fraction","pm25_annual_ug_m3","built_fraction_pct","cropland_percent","raw_kmeans_cluster","profile_label","utci_definition","pm25_definition","grid_support","coverage_rule"
+1,11.640930954589,0.0251086362357243,3.74159611212767,1.76564801747925,2.51086362357243,1,"P1: low strong heat; low cropland; low PM2.5; low built share","Hours in 2022 with UTCI >=32 C","Annual PM2.5 mean (2024; ug/m3)","30-km equal-area grid","UTCI valid hours >= 8322"
+2,244.795309515391,0.286390207876226,8.74288238225893,4.34246852434845,28.6390207876226,2,"P2: high strong heat; high cropland; high PM2.5; high built share","Hours in 2022 with UTCI >=32 C","Annual PM2.5 mean (2024; ug/m3)","30-km equal-area grid","UTCI valid hours >= 8322"

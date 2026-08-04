@@ -1,0 +1,1373 @@
+"nuts3","name","median_age"
+"BG423","Пазарджик",48.2
+"BG424","Смолян",52.3
+"BG425","Кърджали",50.5
+"CH011","Vaud",40.5
+"CH012","Valais",43.9
+"CH013","Genève",40.9
+"CH021","Bern",44.8
+"CH022","Freiburg",40.8
+"CH023","Solothurn",44.5
+"CH024","Neuchâtel",42.9
+"CH025","Jura",44.8
+"CH031","Basel-Stadt",42.4
+"CH032","Basel-Landschaft",46.3
+"CH033","Aargau",42.9
+"CH040","Zürich",41.3
+"CH051","Glarus",44.4
+"CH052","Schaffhausen",45
+"CH053","Appenzell Ausserrhoden",44.8
+"CH054","Appenzell Innerrhoden",43.7
+"CH055","St. Gallen",42.2
+"CH056","Graubünden",46.7
+"CH057","Thurgau",43.1
+"CH061","Luzern",42.1
+"CH062","Uri",45
+"AT111","Mittelburgenland",50.3
+"AT112","Nordburgenland",47.1
+"AT113","Südburgenland",50
+"AT121","Mostviertel-Eisenwurzen",43.8
+"AT122","Niederösterreich-Süd",45.4
+"AT123","Sankt Pölten",44.7
+"AT124","Waldviertel",48.4
+"AT125","Weinviertel",48.2
+"AT126","Wiener Umland/Nordteil",45.9
+"AT127","Wiener Umland/Südteil",45.8
+"AT130","Wien",39.7
+"AT211","Klagenfurt-Villach",46.8
+"AT212","Oberkärnten",48.9
+"AT213","Unterkärnten",48
+"AT221","Graz",41.1
+"AT222","Liezen",48.2
+"AT223","Östliche Obersteiermark",49.4
+"AT224","Oststeiermark",46.7
+"AT225","West- und Südsteiermark",47.5
+"AT226","Westliche Obersteiermark",48.9
+"AT311","Innviertel",43.6
+"AT312","Linz-Wels",42.5
+"AT313","Mühlviertel",43.6
+"AT314","Steyr-Kirchdorf",44.7
+"AT315","Traunviertel",44.5
+"AT321","Lungau",46.4
+"AT322","Pinzgau-Pongau",43.9
+"AT323","Salzburg und Umgebung",43.2
+"AT331","Außerfern",45.6
+"AT332","Innsbruck",42.2
+"AT333","Osttirol",46.4
+"AT334","Tiroler Oberland",42.6
+"AT335","Tiroler Unterland",43.8
+"AT341","Bludenz-Bregenzer Wald",43
+"AT342","Rheintal-Bodenseegebiet",42.2
+"BE100","Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad",35.9
+"BE211","Arr. Antwerpen",40.5
+"BE212","Arr. Mechelen",43
+"BE213","Arr. Turnhout",44.6
+"BE224","Arr. Hasselt",44.3
+"BE225","Arr. Maaseik",44.8
+"BE223","Arr. Tongeren",45.5
+"BE231","Arr. Aalst",43.9
+"BE232","Arr. Dendermonde",43.9
+"BE233","Arr. Eeklo",44.9
+"BE234","Arr. Gent",41.2
+"BE235","Arr. Oudenaarde",44.2
+"BE236","Arr. Sint-Niklaas",42.4
+"BE241","Arr. Halle-Vilvoorde",41.8
+"BE242","Arr. Leuven",43.3
+"BE251","Arr. Brugge",48.2
+"BE252","Arr. Diksmuide",43.6
+"BE253","Arr. Ieper",44.3
+"BE254","Arr. Kortrijk",43.1
+"BE255","Arr. Oostende",50.4
+"BE256","Arr. Roeselare",43
+"BE257","Arr. Tielt",43.6
+"BE258","Arr. Veurne",56.2
+"BE310","Arr. Nivelles",42.8
+"BE32A","Arr. Ath",43.1
+"BE32B","Arr. Charleroi",40.9
+"BE323","Arr. Mons",41.8
+"BE328","Arr. Tournai-Mouscron",42.3
+"BE32C","Arr. Soignies",42
+"BE32D","Arr. Thuin",43.8
+"BE331","Arr. Huy",42.1
+"BE332","Arr. Liège",41.1
+"BE334","Arr. Waremme",42.9
+"BE335","Arr. Verviers — communes francophones",41.6
+"BE336","Bezirk Verviers — Deutschsprachige Gemeinschaft",43.8
+"BE341","Arr. Arlon",39.2
+"BE342","Arr. Bastogne",38.6
+"BE343","Arr. Marche-en-Famenne",42.4
+"BE344","Arr. Neufchâteau",40.2
+"BE345","Arr. Virton",40.7
+"BE351","Arr. Dinant",42.6
+"BE352","Arr. Namur",41.3
+"BE353","Arr. Philippeville",44
+"BG311","Видин",52.6
+"BG312","Монтана",50.6
+"BG313","Враца",48.5
+"BG314","Плевен",50.3
+"BG315","Ловеч",50.3
+"BG321","Велико Търново",49.6
+"BG322","Габрово",51.8
+"BG323","Русе",49.7
+"BG324","Разград",49.3
+"BG325","Силистра",51.1
+"BG331","Варна",44.9
+"BG332","Добрич",50.2
+"BG333","Шумен",48.7
+"BG334","Търговище",49.2
+"BG341","Бургас",46.1
+"BG342","Сливен",44.6
+"BG343","Ямбол",49
+"BG344","Стара Загора",47.4
+"BG411","София (столица)",42.8
+"BG412","София",47.3
+"BG413","Благоевград",46.2
+"BG414","Перник",48.8
+"BG415","Кюстендил",50.9
+"BG421","Пловдив",45.6
+"BG422","Хасково",48.6
+"DE736","Waldeck-Frankenberg",48.8
+"DE737","Werra-Meißner-Kreis",50.9
+"DE803","Rostock, Kreisfreie Stadt",45.1
+"DE804","Schwerin, Kreisfreie Stadt",48.1
+"DE80J","Mecklenburgische Seenplatte",53.1
+"DE80K","Landkreis Rostock",51.2
+"DE80L","Vorpommern-Rügen",53.1
+"DE80M","Nordwestmecklenburg",50.4
+"DE80N","Vorpommern-Greifswald",51.5
+"DE80O","Ludwigslust-Parchim",51.6
+"DE911","Braunschweig, Kreisfreie Stadt",43.1
+"DE912","Salzgitter, Kreisfreie Stadt",45.1
+"DE913","Wolfsburg, Kreisfreie Stadt",44.2
+"DE914","Gifhorn",46.4
+"DE916","Goslar",51.8
+"DE917","Helmstedt",48.7
+"DE918","Northeim",50.9
+"DE91A","Peine",46.6
+"DE91B","Wolfenbüttel",49.8
+"DE91C","Göttingen",46.6
+"DE922","Diepholz",48.1
+"DE923","Hameln-Pyrmont",49.9
+"DE925","Hildesheim",48
+"DE926","Holzminden",50.8
+"DE927","Nienburg (Weser)",47.9
+"DE928","Schaumburg",50.1
+"CH063","Schwyz",44.7
+"CH064","Obwalden",44.9
+"CH065","Nidwalden",46.9
+"CH066","Zug",43.7
+"DE40B","Oberspreewald-Lausitz",53.5
+"DE40C","Oder-Spree",51.9
+"DE40D","Ostprignitz-Ruppin",52.3
+"DE40E","Potsdam-Mittelmark",50.1
+"DE40F","Prignitz",53.8
+"DE40G","Spree-Neiße",54.8
+"DE40H","Teltow-Fläming",47.8
+"DE40I","Uckermark",54.3
+"DE501","Bremen, Kreisfreie Stadt",42.6
+"DE502","Bremerhaven, Kreisfreie Stadt",43.2
+"DE600","Hamburg",41.1
+"DE711","Darmstadt, Kreisfreie Stadt",38.3
+"DE712","Frankfurt am Main, Kreisfreie Stadt",39.7
+"DE713","Offenbach am Main, Kreisfreie Stadt",40.1
+"DE714","Wiesbaden, Kreisfreie Stadt",43.1
+"DE715","Bergstraße",47.6
+"DE716","Darmstadt-Dieburg",46.3
+"DE717","Groß-Gerau",43.7
+"DE718","Hochtaunuskreis",47.8
+"DE719","Main-Kinzig-Kreis",46.4
+"DE71A","Main-Taunus-Kreis",46
+"DE71B","Odenwaldkreis",49.2
+"DE71C","Offenbach, Landkreis",45.2
+"DE71D","Rheingau-Taunus-Kreis",49
+"DE71E","Wetteraukreis",46.5
+"DE721","Gießen, Landkreis",42.1
+"DE722","Lahn-Dill-Kreis",46.9
+"DE723","Limburg-Weilburg",47.1
+"DE724","Marburg-Biedenkopf",43.5
+"DE725","Vogelsbergkreis",50.5
+"DE731","Kassel, Kreisfreie Stadt",41.4
+"DE732","Fulda",45.6
+"DE929","Region Hannover",44.7
+"DE931","Celle",47.6
+"DE11A","Schwäbisch Hall",44
+"DE11B","Main-Tauber-Kreis",47.8
+"DE11C","Heidenheim",45.5
+"DE11D","Ostalbkreis",45.2
+"DE121","Baden-Baden, Stadtkreis",50.2
+"DE122","Karlsruhe, Stadtkreis",41.2
+"DE123","Karlsruhe, Landkreis",46.3
+"DE124","Rastatt",47.1
+"DE125","Heidelberg, Stadtkreis",35.6
+"DE126","Mannheim, Stadtkreis",41.1
+"DE127","Neckar-Odenwald-Kreis",47.3
+"DE128","Rhein-Neckar-Kreis",46.4
+"DE129","Pforzheim, Stadtkreis",41.8
+"DE12A","Calw",45.8
+"DE12B","Enzkreis",46.3
+"DE12C","Freudenstadt",45.7
+"DE131","Freiburg im Breisgau, Stadtkreis",37.7
+"DE132","Breisgau-Hochschwarzwald",46.5
+"DE133","Emmendingen",46
+"DE134","Ortenaukreis",45.6
+"DE135","Rottweil",45.8
+"DE136","Schwarzwald-Baar-Kreis",45.5
+"DE137","Tuttlingen",43.5
+"DE138","Konstanz",44.5
+"DE139","Lörrach",45.3
+"DE13A","Waldshut",45.4
+"DE141","Reutlingen",45.1
+"DE142","Tübingen, Landkreis",40.5
+"DE143","Zollernalbkreis",46.7
+"DE144","Ulm, Stadtkreis",40.5
+"DE145","Alb-Donau-Kreis",44
+"DE146","Biberach",43.6
+"DE147","Bodenseekreis",47
+"DE148","Ravensburg",44.4
+"DE149","Sigmaringen",45.5
+"DE211","Ingolstadt, Kreisfreie Stadt",41.2
+"DE212","München, Kreisfreie Stadt",39.8
+"DE213","Rosenheim, Kreisfreie Stadt",42.9
+"DE214","Altötting",46.2
+"DE215","Berchtesgadener Land",46.7
+"DE216","Bad Tölz-Wolfratshausen",46.3
+"DE217","Dachau",44.2
+"DE218","Ebersberg",44.5
+"DE219","Eichstätt",43.1
+"DE21A","Erding",44
+"DE21B","Freising",42
+"DE21C","Fürstenfeldbruck",45.6
+"DE21D","Garmisch-Partenkirchen",49.1
+"DE21E","Landsberg am Lech",46.5
+"DE21F","Miesbach",47.7
+"DE21G","Mühldorf a. Inn",44.9
+"DE21H","München, Landkreis",44.7
+"DE21I","Neuburg-Schrobenhausen",44.4
+"DE21J","Pfaffenhofen a. d. Ilm",43.7
+"DE21K","Rosenheim, Landkreis",46.7
+"DE21L","Starnberg",48.2
+"DE21M","Traunstein",47.5
+"DE21N","Weilheim-Schongau",46.5
+"DE221","Landshut, Kreisfreie Stadt",43.4
+"DE222","Passau, Kreisfreie Stadt",42.5
+"DE223","Straubing, Kreisfreie Stadt",45.1
+"DE224","Deggendorf",45.7
+"DE225","Freyung-Grafenau",49
+"DE226","Kelheim",44.3
+"DE227","Landshut, Landkreis",44.9
+"DE228","Passau, Landkreis",48.1
+"DE229","Regen",48.4
+"DE22A","Rottal-Inn",46.7
+"DE22B","Straubing-Bogen",46
+"DE22C","Dingolfing-Landau",44.5
+"DE231","Amberg, Kreisfreie Stadt",47
+"DE232","Regensburg, Kreisfreie Stadt",39.1
+"DE233","Weiden i. d. Opf, Kreisfreie Stadt",46.6
+"CH070","Ticino",48
+"CY000","Κύπρος",40.2
+"CZ010","Hlavní město Praha",41.6
+"CZ020","Středočeský kraj",42.4
+"CZ031","Jihočeský kraj",44.2
+"CZ032","Plzeňský kraj",43.7
+"CZ041","Karlovarský kraj",45
+"CZ042","Ústecký kraj",44
+"CZ051","Liberecký kraj",43.7
+"CZ052","Královéhradecký kraj",44.8
+"CZ053","Pardubický kraj",43.7
+"CZ063","Kraj Vysočina",44.3
+"CZ064","Jihomoravský kraj",43.2
+"CZ071","Olomoucký kraj",44.6
+"CZ072","Zlínský kraj",45
+"CZ080","Moravskoslezský kraj",44.6
+"DE111","Stuttgart, Stadtkreis",40.4
+"DE112","Böblingen",44
+"DE113","Esslingen",44.8
+"DE114","Göppingen",45.8
+"DE115","Ludwigsburg",44.4
+"DE116","Rems-Murr-Kreis",45.7
+"DE117","Heilbronn, Stadtkreis",41
+"DE118","Heilbronn, Landkreis",44.4
+"DE119","Hohenlohekreis",44.6
+"DE264","Aschaffenburg, Landkreis",48
+"DE265","Bad Kissingen",50.2
+"DE266","Rhön-Grabfeld",48.2
+"DE267","Haßberge",47.8
+"DE268","Kitzingen",46.3
+"DE269","Miltenberg",47.7
+"DE26A","Main-Spessart",49.5
+"DE26B","Schweinfurt, Landkreis",47.3
+"DE26C","Würzburg, Landkreis",47
+"DE271","Augsburg, Kreisfreie Stadt",41.4
+"DE272","Kaufbeuren, Kreisfreie Stadt",45.1
+"DE273","Kempten (Allgäu), Kreisfreie Stadt",43.8
+"DE274","Memmingen, Kreisfreie Stadt",44.6
+"DE275","Aichach-Friedberg",45.5
+"DE276","Augsburg, Landkreis",45.4
+"DE277","Dillingen a.d. Donau",45.6
+"DE278","Günzburg",44.8
+"DE279","Neu-Ulm",44
+"DE27A","Lindau (Bodensee)",47.5
+"DE27B","Ostallgäu",46
+"DE27C","Unterallgäu",45.6
+"DE27D","Donau-Ries",45.4
+"DE27E","Oberallgäu",47.8
+"DE300","Berlin",41.5
+"DE401","Brandenburg an der Havel, Kreisfreie Stadt",50
+"DE402","Cottbus, Kreisfreie Stadt",49.4
+"DE403","Frankfurt (Oder), Kreisfreie Stadt",50.7
+"DE404","Potsdam, Kreisfreie Stadt",42.5
+"DE405","Barnim",49.6
+"DE406","Dahme-Spreewald",49.1
+"DE407","Elbe-Elster",54
+"DE408","Havelland",49.1
+"DE409","Märkisch-Oderland",50.7
+"DE40A","Oberhavel",49.8
+"DE234","Amberg-Sulzbach",47.8
+"DE235","Cham",47.4
+"DE236","Neumarkt i. d. OPf.",45.2
+"DE237","Neustadt a. d. Waldnaab",47.6
+"DE238","Regensburg, Landkreis",46.1
+"DE239","Schwandorf",46.1
+"DE23A","Tirschenreuth",48.9
+"DE241","Bamberg, Kreisfreie Stadt",41.3
+"DE242","Bayreuth, Kreisfreie Stadt",42.5
+"DE243","Coburg, Kreisfreie Stadt",46
+"DE244","Hof, Kreisfreie Stadt",45.8
+"DE245","Bamberg, Landkreis",46.3
+"DE246","Bayreuth, Landkreis",49.1
+"DE247","Coburg, Landkreis",49.6
+"DE248","Forchheim",47
+"DE249","Hof, Landkreis",51.2
+"DE24A","Kronach",51.2
+"DE24B","Kulmbach",50.6
+"DE24C","Lichtenfels",48.8
+"DE24D","Wunsiedel i. Fichtelgebirge",51.3
+"DE251","Ansbach, Kreisfreie Stadt",45.1
+"DE252","Erlangen, Kreisfreie Stadt",39.5
+"DE253","Fürth, Kreisfreie Stadt",43.5
+"DE254","Nürnberg, Kreisfreie Stadt",42.8
+"DE255","Schwabach, Kreisfreie Stadt",47
+"DE256","Ansbach, Landkreis",45.6
+"DE257","Erlangen-Höchstadt",45.9
+"DE258","Fürth, Landkreis",47.7
+"DE259","Nürnberger Land",47.8
+"DE25A","Neustadt a. d. Aisch-Bad Windsheim",46.9
+"DE25B","Roth",47.2
+"DE25C","Weißenburg-Gunzenhausen",46.8
+"DE261","Aschaffenburg, Kreisfreie Stadt",44.7
+"DE262","Schweinfurt, Kreisfreie Stadt",44.9
+"DE263","Würzburg, Kreisfreie Stadt",39.5
+"DE932","Cuxhaven",50.4
+"DE933","Harburg",47.6
+"DE934","Lüchow-Dannenberg",52.8
+"DE935","Lüneburg, Landkreis",45.7
+"DE936","Osterholz",49.4
+"DE937","Rotenburg (Wümme)",47.1
+"DE938","Heidekreis",47.2
+"DE939","Stade",46.1
+"DE93A","Uelzen",50.7
+"DE93B","Verden",46.9
+"DE941","Delmenhorst, Kreisfreie Stadt",45.4
+"DE942","Emden, Kreisfreie Stadt",44.7
+"DE943","Oldenburg (Oldenburg), Kreisfreie Stadt",42.1
+"DE944","Osnabrück, Kreisfreie Stadt",40.3
+"DE945","Wilhelmshaven, Kreisfreie Stadt",48.1
+"DE946","Ammerland",48.3
+"DE947","Aurich",49.3
+"DE948","Cloppenburg",41.2
+"DE949","Emsland",44.1
+"DE94A","Friesland (DE)",51.1
+"DE94B","Grafschaft Bentheim",45.6
+"DE94C","Leer",46.5
+"DE94D","Oldenburg, Landkreis",47.9
+"DE94E","Osnabrück, Landkreis",46.4
+"DE94F","Vechta",41.6
+"DE94G","Wesermarsch",49.3
+"DE94H","Wittmund",50.5
+"DEA11","Düsseldorf, Kreisfreie Stadt",42.2
+"DEA12","Duisburg, Kreisfreie Stadt",43.5
+"DEA13","Essen, Kreisfreie Stadt",44.1
+"DEA14","Krefeld, Kreisfreie Stadt",45.9
+"DE733","Hersfeld-Rotenburg",49.2
+"DE734","Kassel, Landkreis",50.1
+"DE735","Schwalm-Eder-Kreis",48.8
+"DEA53","Hagen, Kreisfreie Stadt",44.6
+"DEA54","Hamm, Kreisfreie Stadt",44.5
+"DEA55","Herne, Kreisfreie Stadt",45.5
+"DEA56","Ennepe-Ruhr-Kreis",49.1
+"DEA57","Hochsauerlandkreis",48.2
+"DEA58","Märkischer Kreis",47.5
+"DEA59","Olpe",46.4
+"DEA5A","Siegen-Wittgenstein",45.6
+"DEA5B","Soest",47.2
+"DEA5C","Unna",47.9
+"DEB11","Koblenz, Kreisfreie Stadt",42.5
+"DEB12","Ahrweiler",49.8
+"DEB13","Altenkirchen (Westerwald)",47.3
+"DEB14","Bad Kreuznach",48.2
+"DEB15","Birkenfeld",48.9
+"DEB17","Mayen-Koblenz",47.1
+"DEB18","Neuwied",47.1
+"DEB1A","Rhein-Lahn-Kreis",48.5
+"DEB1B","Westerwaldkreis",47
+"DEB1C","Cochem-Zell",50.4
+"DEB1D","Rhein-Hunsrück-Kreis",48.4
+"DEB21","Trier, Kreisfreie Stadt",40.7
+"DEB22","Bernkastel-Wittlich",48.4
+"DEB23","Eifelkreis Bitburg-Prüm",45.9
+"DEB24","Vulkaneifel",50.2
+"DEB25","Trier-Saarburg",46.5
+"DEB31","Frankenthal (Pfalz), Kreisfreie Stadt",45.7
+"DEB32","Kaiserslautern, Kreisfreie Stadt",42.4
+"DEB33","Landau in der Pfalz, Kreisfreie Stadt",42.6
+"DEB34","Ludwigshafen am Rhein, Kreisfreie Stadt",42
+"DEB35","Mainz, Kreisfreie Stadt",38.7
+"DEB36","Neustadt an der Weinstraße, Kreisfreie Stadt",49.1
+"DEB37","Pirmasens, Kreisfreie Stadt",48.6
+"DEB38","Speyer, Kreisfreie Stadt",47.4
+"DEB39","Worms, Kreisfreie Stadt",43.8
+"DEB3A","Zweibrücken, Kreisfreie Stadt",47.2
+"DEB3B","Alzey-Worms",46.7
+"DEB3C","Bad Dürkheim",50.6
+"DEB3D","Donnersbergkreis",48.6
+"DEB3E","Germersheim",45.8
+"DEB3F","Kaiserslautern, Landkreis",47.4
+"DEB3G","Kusel",50
+"DEB3H","Südliche Weinstraße",49.6
+"DEB3I","Rhein-Pfalz-Kreis",48
+"DEB3J","Mainz-Bingen",47.5
+"DEB3K","Südwestpfalz",52
+"DEC01","Regionalverband Saarbrücken",46.2
+"DEC02","Merzig-Wadern",48.6
+"DEC03","Neunkirchen",49.6
+"DEC04","Saarlouis",49.2
+"DEC05","Saarpfalz-Kreis",50.4
+"DEC06","St. Wendel",51.4
+"DED21","Dresden, Kreisfreie Stadt",41.8
+"DED2C","Bautzen",52
+"DED2D","Görlitz",53.6
+"DED2E","Meißen",51.8
+"DED2F","Sächsische Schweiz-Osterzgebirge",50.8
+"DED41","Chemnitz, Kreisfreie Stadt",47.7
+"DED42","Erzgebirgskreis",52.9
+"DED43","Mittelsachsen",52
+"DED44","Vogtlandkreis",53.4
+"DED45","Zwickau",52.4
+"DED51","Leipzig, Kreisfreie Stadt",39.6
+"DED52","Leipzig",51.2
+"DED53","Nordsachsen",50.8
+"DEE01","Dessau-Roßlau, Kreisfreie Stadt",54.6
+"DEE02","Halle (Saale), Kreisfreie Stadt",43.9
+"DEE03","Magdeburg, Kreisfreie Stadt",44.4
+"DEE04","Altmarkkreis Salzwedel",52
+"DEE05","Anhalt-Bitterfeld",53
+"DEE06","Jerichower Land",52.5
+"DEE07","Börde",51
+"DEE08","Burgenlandkreis",53
+"DEG0E","Hildburghausen",51.4
+"DEG0F","Ilm-Kreis",49.6
+"DEG0G","Weimarer Land",49.7
+"DEG0H","Sonneberg",53
+"DEG0I","Saalfeld-Rudolstadt",53.8
+"DEG0J","Saale-Holzland-Kreis",51.6
+"DEG0K","Saale-Orla-Kreis",52.6
+"DEG0L","Greiz",54.7
+"DEG0M","Altenburger Land",54.4
+"DEG0N","Eisenach, Kreisfreie Stadt",49.6
+"DEG0P","Wartburgkreis",51.8
+"DK011","Byen København",34
+"DK012","Københavns omegn",41
+"DK013","Nordsjælland",47
+"DK014","Bornholm",52.9
+"DK021","Østsjælland",44.3
+"DK022","Vest- og Sydsjælland",47.8
+"DK031","Fyn",43.9
+"DK032","Sydjylland",44.8
+"DK041","Vestjylland",44.8
+"DK042","Østjylland",39.3
+"DK050","Nordjylland",43.9
+"EE001","Põhja-Eesti",40.2
+"EE004","Lääne-Eesti",45.3
+"EE009","Kesk-Eesti",44.8
+"EE00A","Kirde-Eesti",49.6
+"EE008","Lõuna-Eesti",42.4
+"EL301","Βόρειος Τομέας Αθηνών",47
+"EL302","Δυτικός Τομέας Αθηνών",45.3
+"EL303","Κεντρικός Τομέας Αθηνών",46
+"EL304","Νότιος Τομέας Αθηνών",47
+"EL305","Ανατολική Αττική",45.2
+"EL306","Δυτική Αττική",41.7
+"EL307","Πειραιάς, Νήσοι",46.2
+"EL411","Λέσβος, Λήμνος",45.8
+"EL412","Ικαρία, Σάμος",47.2
+"EL413","Χίος",46
+"EL421","Κάλυμνος, Κάρπαθος – Ηρωική Νήσος Κάσος, Κως, Ρόδος",42.9
+"EL422","Άνδρος, Θήρα, Κέα, Μήλος, Μύκονος, Νάξος, Πάρος, Σύρος, Τήνος",45.4
+"EL431","Ηράκλειο",43.7
+"EL432","Λασίθι",47.3
+"EL433","Ρέθυμνο",41.7
+"EL434","Χανιά",44.4
+"EL511","Έβρος",46.4
+"EL512","Ξάνθη",42.8
+"EL513","Ροδόπη",45.8
+"EL514","Δράμα",49.3
+"EL515","Θάσος, Καβάλα",48.8
+"EL521","Ημαθία",48
+"EL522","Θεσσαλονίκη",45.3
+"EL523","Κιλκίς",49.6
+"DEA15","Mönchengladbach, Kreisfreie Stadt",44.5
+"DEE09","Harz",53.4
+"DEE0A","Mansfeld-Südharz",54.9
+"DEE0B","Saalekreis",51.3
+"DEE0C","Salzlandkreis",53.1
+"DEE0D","Stendal",52.7
+"DEE0E","Wittenberg",53.9
+"DEF01","Flensburg, Kreisfreie Stadt",41
+"DEF02","Kiel, Kreisfreie Stadt",40.2
+"DEF03","Lübeck, Kreisfreie Stadt",46.1
+"DEF04","Neumünster, Kreisfreie Stadt",46.6
+"DEF05","Dithmarschen",50.3
+"DEF06","Herzogtum Lauenburg",47.4
+"DEF07","Nordfriesland",49.9
+"DEF08","Ostholstein",52.7
+"DEF09","Pinneberg",47.1
+"DEF0A","Plön",51.5
+"DEF0B","Rendsburg-Eckernförde",49.2
+"DEF0C","Schleswig-Flensburg",49.4
+"DEF0D","Segeberg",46.9
+"DEF0E","Steinburg",49.4
+"DEF0F","Stormarn",48.2
+"DEG01","Erfurt, Kreisfreie Stadt",44.2
+"DEG02","Gera, Kreisfreie Stadt",51.5
+"DEG03","Jena, Kreisfreie Stadt",41
+"DEG04","Suhl, Kreisfreie Stadt",54.5
+"DEG05","Weimar, Kreisfreie Stadt",45
+"DEG06","Eichsfeld",49
+"DEG07","Nordhausen",51.5
+"DEG09","Unstrut-Hainich-Kreis",50.8
+"DEG0A","Kyffhäuserkreis",53
+"DEG0B","Schmalkalden-Meiningen",51.9
+"DEG0C","Gotha",50.3
+"DEG0D","Sömmerda",50.9
+"DEA16","Mülheim an der Ruhr, Kreisfreie Stadt",47.2
+"DEA17","Oberhausen, Kreisfreie Stadt",46
+"DEA18","Remscheid, Kreisfreie Stadt",46
+"DEA19","Solingen, Kreisfreie Stadt",46.2
+"DEA1A","Wuppertal, Kreisfreie Stadt",43.6
+"DEA1B","Kleve",46
+"DEA1C","Mettmann",48.6
+"DEA1D","Rhein-Kreis Neuss",47
+"DEA1E","Viersen",49
+"DEA1F","Wesel",49.2
+"DEA22","Bonn, Kreisfreie Stadt",41
+"DEA23","Köln, Kreisfreie Stadt",41.4
+"DEA24","Leverkusen, Kreisfreie Stadt",45.3
+"DEA26","Düren",46
+"DEA27","Rhein-Erft-Kreis",46
+"DEA28","Euskirchen",47.6
+"DEA29","Heinsberg",46.8
+"DEA2A","Oberbergischer Kreis",46.4
+"DEA2B","Rheinisch-Bergischer Kreis",49
+"DEA2C","Rhein-Sieg-Kreis",47
+"DEA2D","Städteregion Aachen",42.6
+"DEA31","Bottrop, Kreisfreie Stadt",47.7
+"DEA32","Gelsenkirchen, Kreisfreie Stadt",43.3
+"DEA33","Münster, Kreisfreie Stadt",39.1
+"DEA34","Borken",44.7
+"DEA35","Coesfeld",47.3
+"DEA36","Recklinghausen",47.6
+"DEA37","Steinfurt",45.7
+"DEA38","Warendorf",46.6
+"DEA41","Bielefeld, Kreisfreie Stadt",42.3
+"DEA42","Gütersloh",45.2
+"DEA43","Herford",46.8
+"DEA44","Höxter",48.7
+"DEA45","Lippe",46.8
+"DEA46","Minden-Lübbecke",46.3
+"DEA47","Paderborn",42.9
+"DEA51","Bochum, Kreisfreie Stadt",44.5
+"DEA52","Dortmund, Kreisfreie Stadt",43.1
+"FI1C4","Kymenlaakso",51
+"FI1C5","Etelä-Karjala",49.5
+"FI1D1","Etelä-Savo",54.1
+"FI1D2","Pohjois-Savo",46.6
+"FI1D3","Pohjois-Karjala",47.7
+"FI1D5","Keski-Pohjanmaa",43.3
+"FI1D7","Lappi",47.3
+"FI1D8","Kainuu",51.2
+"FI1D9","Pohjois-Pohjanmaa",40.2
+"FI200","Åland",45.4
+"FR101","Paris",38.8
+"EL524","Πέλλα",48.9
+"FI193","Keski-Suomi",43.9
+"FI194","Etelä-Pohjanmaa",46.3
+"FI195","Pohjanmaa",42.7
+"FI196","Satakunta",48.6
+"FI197","Pirkanmaa",42
+"FI1B1","Helsinki-Uusimaa",40.2
+"FI1C1","Varsinais-Suomi",44.1
+"FI1C2","Kanta-Häme",47.9
+"FI1C3","Päijät-Häme",48.3
+"EL642","Εύβοια",47.5
+"EL643","Ευρυτανία",56.4
+"EL644","Φθιώτιδα",50.5
+"EL645","Φωκίδα",53.2
+"EL651","Αργολίδα, Αρκαδία",49.7
+"EL652","Κορινθία",48.2
+"EL653","Λακωνία, Μεσσηνία",49.8
+"ES111","A Coruña",49.1
+"ES112","Lugo",52.1
+"ES113","Ourense",53
+"ES114","Pontevedra",48
+"ES120","Asturias",51.1
+"ES130","Cantabria",48.1
+"ES211","Araba/Álava",46.8
+"ES212","Gipuzkoa",47.4
+"ES213","Bizkaia",48.3
+"ES220","Navarra",45.2
+"ES230","La Rioja",46.4
+"ES241","Huesca",46.9
+"ES242","Teruel",48
+"ES243","Zaragoza",46.3
+"ES300","Madrid",43.9
+"ES411","Ávila",50.3
+"ES412","Burgos",48.9
+"ES413","León",51.8
+"ES414","Palencia",51.1
+"ES415","Salamanca",50.8
+"ES416","Segovia",48
+"ES417","Soria",49.2
+"ES418","Valladolid",48.5
+"ES419","Zamora",54
+"EL525","Πιερία",48.1
+"EL526","Σέρρες",51.5
+"EL527","Χαλκιδική",47.4
+"EL531","Γρεβενά, Κοζάνη",49.4
+"EL532","Καστοριά",51.1
+"EL533","Φλώρινα",47.8
+"EL541","Άρτα, Πρέβεζα",51.8
+"EL542","Θεσπρωτία",50.9
+"EL543","Ιωάννινα",47.1
+"EL611","Καρδίτσα, Τρίκαλα",50.6
+"EL612","Λάρισα",46.5
+"EL613","Μαγνησία, Σποράδες",47.2
+"EL621","Ζάκυνθος",45.1
+"EL622","Κέρκυρα",48.1
+"EL623","Ιθάκη, Κεφαλληνία",48.4
+"EL624","Λευκάδα",47.7
+"EL631","Αιτωλοακαρνανία",48.8
+"EL632","Αχαΐα",44.8
+"EL633","Ηλεία",47.7
+"EL641","Βοιωτία",46.9
+"ES531","Eivissa y Formentera",41.5
+"ES532","Mallorca",42.9
+"ES533","Menorca",44.3
+"ES611","Almería",41.5
+"ES612","Cádiz",44.4
+"ES613","Córdoba",45.6
+"ES614","Granada",44.3
+"ES615","Huelva",43.8
+"ES616","Jaén",45.8
+"ES617","Málaga",44.1
+"ES618","Sevilla",43.7
+"ES620","Murcia",42.2
+"ES630","Ceuta",38.3
+"ES640","Melilla",35.9
+"HU321","Hajdú-Bihar",42.6
+"HU322","Jász-Nagykun-Szolnok",44.5
+"ES421","Albacete",45.6
+"ES422","Ciudad Real",45.9
+"ES423","Cuenca",47.5
+"ES424","Guadalajara",43.5
+"ES425","Toledo",43.7
+"ES431","Badajoz",45.8
+"ES432","Cáceres",49
+"ES511","Barcelona",44.1
+"ES512","Girona",43.7
+"ES513","Lleida",44.8
+"ES514","Tarragona",44.6
+"ES521","Alicante/Alacant",45.6
+"ES522","Castellón/Castelló",45.4
+"ES523","Valencia/València",45.2
+"HR022","Virovitičko-podravska županija",46.6
+"FR102","Seine-et-Marne",38.5
+"FR103","Yvelines",39.8
+"FR104","Essonne",38.1
+"FR105","Hauts-de-Seine",38.6
+"FR106","Seine-Saint-Denis",35.6
+"FR107","Val-de-Marne",38
+"FR108","Val-d’Oise",37.1
+"FRB01","Cher",48.1
+"FRB02","Eure-et-Loir",43.5
+"FRB03","Indre",50.8
+"FRB04","Indre-et-Loire",43.4
+"FRB05","Loir-et-Cher",47.5
+"FRB06","Loiret",42.1
+"FRC11","Côte-d’Or",42.7
+"FRC12","Nièvre",51.6
+"FRC13","Saône-et-Loire",48.5
+"FRC14","Yonne",47.2
+"FRC21","Doubs",41.3
+"FRC22","Jura",46.5
+"FRC23","Haute-Saône",46.9
+"FRC24","Territoire de Belfort",42.4
+"FRD11","Calvados",43.7
+"FRG02","Maine-et-Loire",41.7
+"FRG03","Mayenne",44.5
+"FRG04","Sarthe",44.3
+"FRG05","Vendée",47.2
+"FRH01","Côtes-d’Armor",48.5
+"FRH02","Finistère",46.2
+"FRH03","Ille-et-Vilaine",39.9
+"FRH04","Morbihan",47.9
+"FRI11","Dordogne",52
+"FRI12","Gironde",41.5
+"FRI13","Landes",48.6
+"FRI14","Lot-et-Garonne",48.5
+"FRI15","Pyrénées-Atlantiques",47
+"FRI21","Corrèze",50
+"FRI22","Creuse",53.2
+"FRI23","Haute-Vienne",46.7
+"FRI31","Charente",48.3
+"FRI32","Charente-Maritime",50.1
+"FRI33","Deux-Sèvres",46.4
+"FRI34","Vienne",43.5
+"FRJ11","Aude",49.1
+"FRJ12","Gard",46
+"FRJ13","Hérault",42.8
+"FRJ14","Lozère",48.9
+"FRJ15","Pyrénées-Orientales",47.9
+"FRJ21","Ariège",48.8
+"FRJ22","Aveyron",49.6
+"FRJ23","Haute-Garonne",38.7
+"FRJ24","Gers",51
+"FRJ25","Lot",53
+"FRJ26","Hautes-Pyrénées",49.4
+"FRJ27","Tarn",47.9
+"FRJ28","Tarn-et-Garonne",44.8
+"FRK11","Allier",49.8
+"FRK12","Cantal",51.4
+"FRK13","Haute-Loire",47.6
+"HR031","Primorsko-goranska županija",48.2
+"HR032","Ličko-senjska županija",48.8
+"HR033","Zadarska županija",45.6
+"HR034","Šibensko-kninska županija",49.3
+"HR035","Splitsko-dalmatinska županija",44.5
+"HR036","Istarska županija",47.2
+"HR037","Dubrovačko-neretvanska županija",44.7
+"HR050","Grad Zagreb",43
+"HR065","Zagrebačka županija",44.4
+"HR064","Krapinsko-zagorska županija",45.5
+"HR062","Varaždinska županija",44.9
+"HR063","Koprivničko-križevačka županija",45.8
+"HR061","Međimurska županija",43.7
+"HR021","Bjelovarsko-bilogorska županija",46.9
+"HR023","Požeško-slavonska županija",46.5
+"HR024","Brodsko-posavska županija",46.6
+"HR025","Osječko-baranjska županija",46.2
+"HR026","Vukovarsko-srijemska županija",46.9
+"HR027","Karlovačka županija",48.1
+"HR028","Sisačko-moslavačka županija",48.4
+"HU110","Budapest",43.7
+"HU120","Pest",42.6
+"HU211","Fejér",44.2
+"HU212","Komárom-Esztergom",43.9
+"HU213","Veszprém",45.8
+"HU221","Győr-Moson-Sopron",43.3
+"HU222","Vas",45.6
+"HU223","Zala",47.7
+"HU231","Baranya",45.7
+"HU232","Somogy",46.7
+"HU233","Tolna",46.2
+"HU311","Borsod-Abaúj-Zemplén",42.7
+"HU312","Heves",44.8
+"HU313","Nógrád",45.5
+"LT025","Panevėžio apskritis",48.9
+"LT026","Šiaulių apskritis",46.7
+"HU323","Szabolcs-Szatmár-Bereg",42
+"HU331","Bács-Kiskun",45
+"HU332","Békés",46.8
+"HU333","Csongrád",44.9
+"IE041","Border",40.3
+"IE042","West",40.4
+"IE051","Mid-West",40.4
+"IE052","South-East",40.4
+"IE053","South-West",40.1
+"IE061","Dublin",37.3
+"IE062","Mid-East",38.5
+"IE063","Midland",38.9
+"IS001","Höfuðborgarsvæði",36.7
+"FRD12","Manche",47.8
+"FRD13","Orne",48.8
+"FRD21","Eure",42.9
+"ITF65","Reggio di Calabria",46.6
+"FRK14","Puy-de-Dôme",43.8
+"FRK21","Ain",41.3
+"FRK22","Ardèche",48.1
+"FRK23","Drôme",44.3
+"FRK24","Isère",41.2
+"FRK25","Loire",43.4
+"FRK26","Rhône",37.9
+"FRK27","Savoie",43.8
+"FRK28","Haute-Savoie",40.6
+"FRL01","Alpes-de-Haute-Provence",49.4
+"FRL02","Hautes-Alpes",49
+"FRL03","Alpes-Maritimes",46.1
+"FRL04","Bouches-du-Rhône",42.5
+"FRL05","Var",48.2
+"FRL06","Vaucluse",45
+"FRM01","Corse-du-Sud",45.9
+"FRM02","Haute-Corse",46.6
+"FRD22","Seine-Maritime",41.9
+"FRE11","Nord",39.3
+"FRE12","Pas-de-Calais",42
+"FRE21","Aisne",43.3
+"FRE22","Oise",40.8
+"FRE23","Somme",42.4
+"FRF11","Bas-Rhin",41.8
+"FRF12","Haut-Rhin",44.2
+"FRF21","Ardennes",45.1
+"FRF22","Aube",43.3
+"FRF23","Marne",41.9
+"FRF24","Haute-Marne",48
+"FRF31","Meurthe-et-Moselle",41.4
+"FRF32","Meuse",46.7
+"FRF33","Moselle",43.4
+"FRF34","Vosges",47.8
+"FRG01","Loire-Atlantique",40.5
+"NL133","Zuidwest-Drenthe",46.3
+"NL211","Noord-Overijssel",40.9
+"NL212","Zuidwest-Overijssel",43.9
+"NL213","Twente",43.4
+"NL221","Veluwe",42.4
+"NL224","Zuidwest-Gelderland",43.5
+"NL225","Achterhoek",49
+"NL226","Arnhem/Nijmegen",43
+"NL230","Flevoland",38.8
+"NL310","Utrecht",39.9
+"NL321","Kop van Noord-Holland",45.5
+"NL323","IJmond",45.5
+"NL324","Agglomeratie Haarlem",43
+"NL325","Zaanstreek",42.3
+"NL327","Het Gooi en Vechtstreek",44.7
+"NL328","Alkmaar en omgeving",45.1
+"NL329","Groot-Amsterdam",38
+"NL332","Agglomeratie ’s-Gravenhage",40.2
+"NL333","Delft en Westland",39.1
+"NL337","Agglomeratie Leiden en Bollenstreek",41.9
+"IS002","Landsbyggð",36.9
+"ITC11","Torino",49.7
+"ITC12","Vercelli",51.3
+"ITC13","Biella",52.8
+"LT027","Tauragės apskritis",46.9
+"LT028","Telšių apskritis",45.8
+"LT029","Utenos apskritis",50.4
+"LU000","Luxembourg",39.7
+"LV003","Kurzeme",45
+"LV005","Latgale",48.1
+"LV006","Rīga",43.3
+"LV007","Pierīga",41.5
+"LV008","Vidzeme",45.3
+"LV009","Zemgale",43.6
+"NL33A","Zuidoost-Zuid-Holland",42.1
+"NL33B","Oost-Zuid-Holland",42.7
+"NL33C","Groot-Rijnmond",40.6
+"NL341","Zeeuwsch-Vlaanderen",50
+"ITC49","Lodi",47.4
+"ITC4A","Cremona",49
+"ITC4B","Mantova",48.5
+"ITC4C","Milano",47.3
+"ITC4D","Monza e della Brianza",47.9
+"ITF11","L’Aquila",49.6
+"ITF12","Teramo",48.9
+"ITF13","Pescara",48.7
+"ITF14","Chieti",49.5
+"ITF21","Isernia",50.3
+"ITF22","Campobasso",49.9
+"ITF31","Caserta",44.1
+"ITF32","Benevento",48.4
+"ITF33","Napoli",44.3
+"ITF34","Avellino",48.1
+"ITF35","Salerno",46.8
+"ITF43","Taranto",48.2
+"ITF44","Brindisi",48.5
+"ITF45","Lecce",49
+"ITF46","Foggia",46.7
+"ITF47","Bari",47.5
+"ITF48","Barletta-Andria-Trani",46.1
+"ITF51","Potenza",49.6
+"ITF52","Matera",47.9
+"ITF61","Cosenza",47.9
+"ITF62","Crotone",45.5
+"ITF63","Catanzaro",47.8
+"ITF64","Vibo Valentia",47.2
+"ITG11","Trapani",47.8
+"ITG12","Palermo",46.3
+"ITG13","Messina",48.7
+"ITG14","Agrigento",47.3
+"ITG15","Caltanissetta",46.8
+"ITG16","Enna",48.4
+"ITG17","Catania",45.6
+"ITG18","Ragusa",45.1
+"ITG19","Siracusa",47.1
+"ITG2D","Sassari",49.8
+"ITG2E","Nuoro",50.7
+"ITG2H","Sud Sardegna",51.8
+"ITG2G","Oristano",52.2
+"ITH10","Bolzano-Bozen",44.9
+"ITH20","Trento",47.3
+"ITH31","Verona",47.4
+"ITH32","Vicenza",48.1
+"ITC14","Verbano-Cusio-Ossola",51.9
+"ITC15","Novara",49
+"ITC16","Cuneo",48.4
+"ITC17","Asti",50.6
+"ITC18","Alessandria",51.9
+"ITC20","Valle d’Aosta/Vallée d’Aoste",49.6
+"ITC31","Imperia",51.8
+"ITC32","Savona",52.9
+"ITC33","Genova",52.1
+"ITC34","La Spezia",51.4
+"ITC41","Varese",48.7
+"ITC42","Como",48.3
+"ITC43","Lecco",49
+"ITC44","Sondrio",49.3
+"ITC46","Bergamo",47.1
+"ITC47","Brescia",47.2
+"ITC48","Pavia",49.5
+"ITI17","Pisa",48.8
+"ITI18","Arezzo",49.8
+"ITI19","Siena",49.9
+"ITI1A","Grosseto",51.8
+"ITI21","Perugia",49.4
+"ITI22","Terni",51.4
+"ITI31","Pesaro e Urbino",49.1
+"ITI32","Ancona",49.3
+"ITI33","Macerata",49.4
+"ITI34","Ascoli Piceno",50.2
+"ITI35","Fermo",49.8
+"ITI41","Viterbo",49.6
+"ITI42","Rieti",50.5
+"ITI43","Roma",48
+"ITI44","Latina",47.2
+"ITI45","Frosinone",48.6
+"LI000","Liechtenstein",45
+"LT011","Vilniaus apskritis",41.1
+"LT021","Alytaus apskritis",48.7
+"LT022","Kauno apskritis",43.6
+"LT023","Klaipėdos apskritis",43.4
+"LT024","Marijampolės apskritis",46.1
+"PL213","Miasto Kraków",40
+"PL214","Krakowski",40.4
+"PL217","Tarnowski",42.3
+"PL218","Nowosądecki",39.3
+"PL219","Nowotarski",40.4
+"PL225","Bielski",42.9
+"PL227","Rybnicki",43.2
+"PL228","Bytomski",44
+"PL229","Gliwicki",44.1
+"PL22A","Katowicki",44
+"ITH33","Belluno",51.4
+"ITH34","Treviso",48.3
+"ITH35","Venezia",50.3
+"ITH36","Padova",48.8
+"ITH37","Rovigo",51.6
+"ITH41","Pordenone",48.8
+"ITH42","Udine",51.2
+"ITH43","Gorizia",50.8
+"ITH44","Trieste",51.6
+"ITH51","Piacenza",49.1
+"ITH52","Parma",47.6
+"ITH53","Reggio nell’Emilia",47.2
+"ITH54","Modena",47.7
+"ITH55","Bologna",48.5
+"ITH56","Ferrara",52
+"ITH57","Ravenna",49.9
+"ITH58","Forlì-Cesena",49
+"ITH59","Rimini",48.7
+"ITI11","Massa-Carrara",51.8
+"ITI12","Lucca",50.7
+"ITI13","Pistoia",49.8
+"ITI14","Firenze",49.5
+"ITI15","Prato",47.3
+"ITI16","Livorno",51.3
+"NL342","Overig Zeeland",45.9
+"NL411","West-Noord-Brabant",44.9
+"NL412","Midden-Noord-Brabant",42.4
+"NL413","Noordoost-Noord-Brabant",44.6
+"NL414","Zuidoost-Noord-Brabant",42.8
+"NL421","Noord-Limburg",47
+"NL422","Midden-Limburg",48.7
+"NL423","Zuid-Limburg",48.5
+"NO081","Oslo",35.9
+"NO082","Viken",41.6
+"NO020","Innlandet",45.7
+"NO091","Vestfold og Telemark",43.9
+"NO092","Agder",40.6
+"MT001","Malta",39.9
+"MT002","Gozo and Comino/Għawdex u Kemmuna",43.8
+"NL111","Oost-Groningen",48.9
+"NL112","Delfzijl en omgeving",49.2
+"NL113","Overig Groningen",38.6
+"NL124","Noord-Friesland",43.7
+"NL125","Zuidwest-Friesland",47.3
+"NL126","Zuidoost-Friesland",46.6
+"NL131","Noord-Drenthe",48.1
+"NL132","Zuidoost-Drenthe",48.4
+"NO071","Nordland",43.7
+"SK032","Banskobystrický kraj",43.3
+"SK041","Prešovský kraj",39
+"SK042","Košický kraj",40.3
+"NO074","Troms og Finnmark",41.5
+"PL22B","Sosnowiecki",46
+"PL22C","Tyski",42
+"PL411","Pilski",42.1
+"PL414","Koniński",42.4
+"PL415","Miasto Poznań",41.1
+"SE110","Stockholms län",38.8
+"SE121","Uppsala län",38.1
+"SE122","Södermanlands län",42.9
+"SE123","Östergötlands län",40.6
+"SE124","Örebro län",41.3
+"PL515","Jeleniogórski",45.2
+"PL516","Legnicko-głogowski",43.8
+"PL517","Wałbrzyski",46.1
+"PL518","Wrocławski",41
+"PL523","Nyski",44.7
+"PL524","Opolski",44.3
+"PL613","Bydgosko-toruński",43
+"PL616","Grudziądzki",42.4
+"PL617","Inowrocławski",43.3
+"PL618","Świecki",42
+"PL619","Włocławski",44.5
+"PL621","Elbląski",43
+"PL622","Olsztyński",43.3
+"PL623","Ełcki",42.8
+"PL633","Trójmiejski",42.3
+"PL634","Gdański",38.3
+"PL636","Słupski",42.6
+"PL637","Chojnicki",40.7
+"PL638","Starogardzki",41.5
+"PL711","Miasto Łódź",45.3
+"PL712","Łódzki",44.1
+"PL713","Piotrkowski",43.6
+"PL714","Sieradzki",43.7
+"PL715","Skierniewicki",44.2
+"PL721","Kielecki",44.8
+"PL722","Sandomiersko-jędrzejowski",44.9
+"PL811","Bialski",42.9
+"PL812","Chełmsko-zamojski",44.9
+"PL814","Lubelski",42.4
+"PL815","Puławski",43.8
+"PL821","Krośnieński",43.5
+"PL822","Przemyski",43.3
+"PL823","Rzeszowski",40.3
+"PL824","Tarnobrzeski",42.9
+"PL841","Białostocki",42.3
+"PL842","Łomżyński",44.1
+"PL843","Suwalski",42.9
+"PL911","Miasto Warszawa",40.6
+"PL912","Warszawski wschodni",40.4
+"NO0A1","Rogaland",38.7
+"PL416","Kaliski",42.2
+"PL417","Leszczyński",40.8
+"PL418","Poznański",39.6
+"PL424","Miasto Szczecin",43.8
+"PL426","Koszaliński",44.3
+"PL427","Szczecinecko-pyrzycki",44.2
+"PL428","Szczeciński",43.4
+"PL431","Gorzowski",43.1
+"PL432","Zielonogórski",43.1
+"PL514","Miasto Wrocław",40.1
+"NO0A2","Vestland",39.8
+"NO0A3","Møre og Romsdal",42.2
+"PL21A","Oświęcimski",43.5
+"PL224","Częstochowski",45.6
+"SI044","Obalno-kraška",46.6
+"SK010","Bratislavský kraj",42
+"SK021","Trnavský kraj",43.3
+"SK022","Trenčiansky kraj",44.2
+"SK023","Nitriansky kraj",44.3
+"SK031","Žilinský kraj",41.5
+"PT16F","Região de Leiria",48
+"PT16G","Viseu Dão Lafões",50
+"PT16H","Beira Baixa",53.8
+"PT16I","Médio Tejo",50.9
+"PT16J","Beiras e Serra da Estrela",54.2
+"PT170","Área Metropolitana de Lisboa",44.8
+"PT181","Alentejo Litoral",47.5
+"PT184","Baixo Alentejo",49.3
+"PT185","Lezíria do Tejo",47.8
+"PT186","Alto Alentejo",51.1
+"PT187","Alentejo Central",49.2
+"SE313","Gävleborgs län",44.9
+"RO126","Sibiu",42.1
+"RO211","Bacău",43
+"RO212","Botoşani",42.1
+"RO213","Iaşi",38.6
+"RO214","Neamţ",45.1
+"RO215","Suceava",40.4
+"RO216","Vaslui",42.5
+"RO221","Brăila",47.6
+"RO222","Buzău",46.5
+"RO223","Constanţa",43.4
+"RO224","Galaţi",45
+"RO225","Tulcea",46.2
+"RO226","Vrancea",43.9
+"RO311","Argeş",45.7
+"RO312","Călăraşi",44.1
+"RO313","Dâmboviţa",43.9
+"RO314","Giurgiu",44.8
+"RO315","Ialomiţa",44.4
+"RO316","Prahova",46.2
+"RO317","Teleorman",48.7
+"RO321","Bucureşti",42.5
+"RO322","Ilfov",39.3
+"RO411","Dolj",44.4
+"RO412","Gorj",45.5
+"RO413","Mehedinţi",46.8
+"RO414","Olt",46.8
+"RO415","Vâlcea",47.3
+"RO421","Arad",43.9
+"RO422","Caraş-Severin",47.2
+"RO423","Hunedoara",48.4
+"RO424","Timiş",41.8
+"UKF11","Derby",NA
+"UKF12","East Derbyshire",NA
+"UKF13","South and West Derbyshire",NA
+"UKF14","Nottingham",NA
+"UKF15","North Nottinghamshire",NA
+"UKF16","South Nottinghamshire",NA
+"UKF21","Leicester",NA
+"UKF22","Leicestershire CC and Rutland",NA
+"UKF24","West Northamptonshire",NA
+"UKF25","North Northamptonshire",NA
+"UKF30","Lincolnshire",NA
+"UKG11","Herefordshire, County of",NA
+"UKG12","Worcestershire",NA
+"UKG13","Warwickshire",NA
+"UKG21","Telford and Wrekin",NA
+"UKG22","Shropshire CC",NA
+"UKG23","Stoke-on-Trent",NA
+"UKG24","Staffordshire CC",NA
+"UKG31","Birmingham",NA
+"RO111","Bihor",42.3
+"RO112","Bistriţa-Năsăud",41.3
+"RO113","Cluj",42
+"RO114","Maramureş",42.7
+"RO115","Satu Mare",42.2
+"RO116","Sălaj",43.9
+"RO121","Alba",45.3
+"RO122","Braşov",42.7
+"RO123","Covasna",42.5
+"RO124","Harghita",42.7
+"RO125","Mureş",43.1
+"SE125","Västmanlands län",41.8
+"SE211","Jönköpings län",40.8
+"SE212","Kronobergs län",40.8
+"SE213","Kalmar län",45.5
+"SE214","Gotlands län",47
+"SE221","Blekinge län",44.5
+"SE224","Skåne län",40.3
+"SE231","Hallands län",42.8
+"SE232","Västra Götalands län",40.2
+"SE311","Värmlands län",44.6
+"SE312","Dalarnas län",45
+"SI041","Osrednjeslovenska",42.6
+"SI042","Gorenjska",44.3
+"SI043","Goriška",47
+"UKG32","Solihull",NA
+"UKG33","Coventry",NA
+"UKG36","Dudley",NA
+"UKG37","Sandwell",NA
+"UKG38","Walsall",NA
+"UKG39","Wolverhampton",NA
+"UKH11","Peterborough",NA
+"UKH12","Cambridgeshire CC",NA
+"UKH14","Suffolk",NA
+"UKH15","Norwich and East Norfolk",NA
+"UKH16","North and West Norfolk",NA
+"UKH17","Breckland and South Norfolk",NA
+"UKH21","Luton",NA
+"UKH23","Hertfordshire",NA
+"UKH24","Bedford",NA
+"SE321","Västernorrlands län",45.2
+"SE322","Jämtlands län",43.6
+"SE331","Västerbottens län",40.5
+"SE332","Norrbottens län",45
+"SI031","Pomurska",48.4
+"SI032","Podravska",45.8
+"SI033","Koroška",46.7
+"SI034","Savinjska",45.2
+"SI035","Zasavska",46.5
+"SI036","Posavska",46.1
+"SI037","Jugovzhodna Slovenija",44
+"SI038","Primorsko-notranjska",45.6
+"PL913","Warszawski zachodni",41.1
+"PL921","Radomski",43
+"PL922","Ciechanowski",42.4
+"PL923","Płocki",43.6
+"PL924","Ostrołęcki",41.5
+"PL925","Siedlecki",41.3
+"PL926","Żyrardowski",42.4
+"PT111","Alto Minho",50.3
+"PT112","Cávado",45.3
+"PT119","Ave",46.8
+"PT11A","Área Metropolitana do Porto",46.7
+"PT11B","Alto Tâmega",56.5
+"PT11C","Tâmega e Sousa",46
+"PT11D","Douro",52
+"PT11E","Terras de Trás-os-Montes",54.6
+"PT150","Algarve",46.7
+"PT16B","Oeste",46.9
+"PT16D","Região de Aveiro",47.2
+"PT16E","Região de Coimbra",50
+"UKC11","Hartlepool and Stockton-on-Tees",NA
+"UKC12","South Teesside",NA
+"UKC13","Darlington",NA
+"UKC14","Durham CC",NA
+"UKC21","Northumberland",NA
+"UKC22","Tyneside",NA
+"UKC23","Sunderland",NA
+"UKD11","West Cumbria",NA
+"UKD12","East Cumbria",NA
+"UKD33","Manchester",NA
+"UKD34","Greater Manchester South West",NA
+"UKD35","Greater Manchester South East",NA
+"UKD36","Greater Manchester North West",NA
+"UKD37","Greater Manchester North East",NA
+"UKD41","Blackburn with Darwen",NA
+"UKD42","Blackpool",NA
+"UKD44","Lancaster and Wyre",NA
+"UKD45","Mid Lancashire",NA
+"UKD46","East Lancashire",NA
+"UKD47","Chorley and West Lancashire",NA
+"UKD61","Warrington",NA
+"UKD62","Cheshire East",NA
+"UKD63","Cheshire West and Chester",NA
+"UKD71","East Merseyside",NA
+"UKD72","Liverpool",NA
+"UKD73","Sefton",NA
+"UKD74","Wirral",NA
+"UKE11","Kingston upon Hull, City of",NA
+"UKE12","East Riding of Yorkshire",NA
+"UKE13","North and North East Lincolnshire",NA
+"UKE21","York",NA
+"UKH25","Central Bedfordshire",NA
+"UKH31","Southend-on-Sea",NA
+"UKH32","Thurrock",NA
+"UKH34","Essex Haven Gateway",NA
+"UKH35","West Essex",NA
+"UKH36","Heart of Essex",NA
+"UKH37","Essex Thames Gateway",NA
+"UKI31","Camden and City of London",NA
+"UKI32","Westminster",NA
+"UKI33","Kensington & Chelsea and Hammersmith & Fulham",NA
+"UKI34","Wandsworth",NA
+"UKI41","Hackney and Newham",NA
+"UKI42","Tower Hamlets",NA
+"UKI43","Haringey and Islington",NA
+"UKI44","Lewisham and Southwark",NA
+"UKI45","Lambeth",NA
+"UKI51","Bexley and Greenwich",NA
+"UKI52","Barking & Dagenham and Havering",NA
+"UKI53","Redbridge and Waltham Forest",NA
+"UKI54","Enfield",NA
+"UKI61","Bromley",NA
+"UKI62","Croydon",NA
+"UKI63","Merton, Kingston upon Thames and Sutton",NA
+"UKI71","Barnet",NA
+"UKI72","Brent",NA
+"UKI73","Ealing",NA
+"UKI74","Harrow and Hillingdon",NA
+"UKI75","Hounslow and Richmond upon Thames",NA
+"UKJ11","Berkshire",NA
+"UKJ12","Milton Keynes",NA
+"UKJ13","Buckinghamshire CC",NA
+"UKJ14","Oxfordshire",NA
+"UKJ21","Brighton and Hove",NA
+"UKJ22","East Sussex CC",NA
+"UKJ25","West Surrey",NA
+"UKJ26","East Surrey",NA
+"UKJ27","West Sussex (South West)",NA
+"UKJ28","West Sussex (North East)",NA
+"UKE22","North Yorkshire CC",NA
+"UKE31","Barnsley, Doncaster and Rotherham",NA
+"UKE32","Sheffield",NA
+"UKE41","Bradford",NA
+"UKE42","Leeds",NA
+"UKE44","Calderdale and Kirklees",NA
+"UKE45","Wakefield",NA
+"UKL17","Bridgend and Neath Port Talbot",NA
+"UKL18","Swansea",NA
+"UKL21","Monmouthshire and Newport",NA
+"UKL22","Cardiff and Vale of Glamorgan",NA
+"UKL23","Flintshire and Wrexham",NA
+"UKL24","Powys",NA
+"UKM50","Aberdeen City and Aberdeenshire",NA
+"UKM61","Caithness & Sutherland and Ross & Cromarty",NA
+"UKM62","Inverness & Nairn and Moray, Badenoch & Strathspey",NA
+"UKM63","Lochaber, Skye & Lochalsh, Arran & Cumbrae and Argyll & Bute",NA
+"UKM64","Na h-Eileanan Siar (Western Isles)",NA
+"UKM71","Angus and Dundee City",NA
+"UKM72","Clackmannanshire and Fife",NA
+"UKM73","East Lothian and Midlothian",NA
+"UKM75","Edinburgh, City of",NA
+"UKM76","Falkirk",NA
+"UKM77","Perth & Kinross and Stirling",NA
+"UKM78","West Lothian",NA
+"UKM81","East Dunbartonshire, West Dunbartonshire and Helensburgh & Lomond",NA
+"UKM82","Glasgow City",NA
+"UKM83","Inverclyde, East Renfrewshire and Renfrewshire",NA
+"UKM84","North Lanarkshire",NA
+"UKM91","Scottish Borders",NA
+"UKM92","Dumfries & Galloway",NA
+"UKM93","East Ayrshire and North Ayrshire mainland",NA
+"UKM94","South Ayrshire",NA
+"UKM95","South Lanarkshire",NA
+"UKN06","Belfast",NA
+"UKN07","Armagh City, Banbridge and Craigavon",NA
+"UKN08","Newry, Mourne and Down",NA
+"UKN09","Ards and North Down",NA
+"UKN0A","Derry City and Strabane",NA
+"UKN0B","Mid Ulster",NA
+"UKN0C","Causeway Coast and Glens",NA
+"UKN0D","Antrim and Newtownabbey",NA
+"UKN0E","Lisburn and Castlereagh",NA
+"UKN0F","Mid and East Antrim",NA
+"UKN0G","Fermanagh and Omagh",NA
+"UKM65","Orkney Islands",NA
+"UKM66","Shetland Islands",NA
+"UKJ31","Portsmouth",NA
+"UKJ32","Southampton",NA
+"UKJ34","Isle of Wight",NA
+"UKJ35","South Hampshire",NA
+"UKJ36","Central Hampshire",NA
+"UKJ37","North Hampshire",NA
+"UKJ41","Medway",NA
+"UKJ43","Kent Thames Gateway",NA
+"UKJ44","East Kent",NA
+"UKJ45","Mid Kent",NA
+"UKJ46","West Kent",NA
+"UKK11","Bristol, City of",NA
+"UKK12","Bath and North East Somerset, North Somerset and South Gloucestershire",NA
+"UKK13","Gloucestershire",NA
+"UKK14","Swindon",NA
+"UKK15","Wiltshire CC",NA
+"UKK24","Bournemouth, Christchurch and Poole",NA
+"UKK25","Dorset",NA
+"UKK23","Somerset",NA
+"UKK30","Cornwall and Isles of Scilly",NA
+"UKK41","Plymouth",NA
+"UKK42","Torbay",NA
+"UKK43","Devon CC",NA
+"UKL11","Isle of Anglesey",NA
+"UKL12","Gwynedd",NA
+"UKL13","Conwy and Denbighshire",NA
+"UKL14","South West Wales",NA
+"UKL15","Central Valleys",NA
+"UKL16","Gwent Valleys",NA
+"NO0B1","Jan Mayen",NA
+"ITG2F","Cagliari",50
+"BE329","Arr. La Louvière",42.1
+"NO060","Trøndelag",39.7

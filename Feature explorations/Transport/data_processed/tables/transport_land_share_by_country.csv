@@ -1,0 +1,42 @@
+"CNTR_ID","NAME_ENGL","land_km2","t_km2","pct_of_country"
+"VA","Vatican City",19,0.1,0.7476
+"SI","Slovenia",20216,73.8,0.3652
+"BE","Belgium",30760,105.7,0.3436
+"NL","Netherlands",37140,112.7,0.3035
+"LU","Luxembourg",2590,7.2,0.2785
+"HR","Croatia",56194,140.5,0.25
+"EL","Greece",132126,279.6,0.2116
+"PL","Poland",312011,435.2,0.1395
+"PT","Portugal",91740,123,0.134
+"HU","Hungary",93129,103.8,0.1115
+"ES","Spain",506174,509,0.1005
+"IE","Ireland",69997,68.3,0.0976
+"SK","Slovakia",49023,47.6,0.0971
+"CZ","Czechia",78859,71.1,0.0901
+"FR","France",638612,575,0.09
+"LT","Lithuania",64850,52.2,0.0805
+"UK","United Kingdom",243104,162.1,0.0667
+"AT","Austria",83997,55.7,0.0663
+"IT","Italy",301391,192.4,0.0638
+"CY","Cyprus",9274,5.5,0.0598
+"DE","Germany",357509,211.5,0.0592
+"TR","Türkiye",781181,415.6,0.0532
+"EE","Estonia",45293,23.1,0.051
+"CH","Switzerland",41258,19.6,0.0475
+"RO","Romania",238385,99.2,0.0416
+"BG","Bulgaria",111125,44.7,0.0403
+"DK","Denmark",43258,13.4,0.0309
+"LV","Latvia",64601,19.8,0.0307
+"RS","Serbia",88314,20,0.0227
+"BA","Bosnia and Herzegovina",51290,11.2,0.0219
+"ME","Montenegro",13970,3,0.0213
+"AL","Albania",28881,5,0.0172
+"SE","Sweden",450189,61.2,0.0136
+"NO","Norway",324729,25.7,0.0079
+"MK","North Macedonia",25339,1.6,0.0064
+"FI","Finland",338614,11.8,0.0035
+"IS","Iceland",102210,3,0.0029
+"BY","Belarus",207483,0.8,4e-04
+"UA","Ukraine",598532,1,2e-04
+"RU","Russian Federation",16933740,0.5,0
+"IR","Iran",1623532,0,0

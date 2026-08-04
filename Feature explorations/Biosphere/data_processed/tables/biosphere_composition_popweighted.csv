@@ -1,0 +1,13 @@
+"dataset","year","class","pct_people"
+"HILDA+",2019,"Urban",24.3
+"HILDA+",2019,"Cropland",14.8
+"HILDA+",2019,"Pasture/rangeland",5.8
+"HILDA+",2019,"Forest",11.1
+"HILDA+",2019,"Unmanaged grass/shrub",2
+"HILDA+",2019,"Sparse/no vegetation",0
+"Anthromes",2015,"Wildlands",0.1
+"Anthromes",2015,"Semi-natural",3.3
+"Anthromes",2015,"Rangelands",1.1
+"Anthromes",2015,"Croplands",9.5
+"Anthromes",2015,"Villages",22.2
+"Anthromes",2015,"Dense settlements",24.6

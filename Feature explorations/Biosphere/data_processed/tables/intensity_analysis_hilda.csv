@@ -1,0 +1,7 @@
+"class","size1960_pct","size2019_pct","gain_intensity","loss_intensity","active_gain","active_loss"
+"Urban",3.2,5.5,0.786,0.128,"ACTIVE","dormant"
+"Cropland",29.4,24.2,0.155,0.427,"dormant","ACTIVE"
+"Pasture/rangeland",15.3,12.9,0.497,0.687,"ACTIVE","ACTIVE"
+"Forest",34.3,41.3,0.389,0.119,"ACTIVE","dormant"
+"Unmanaged grass/shrub",14.4,12.6,0.586,0.725,"ACTIVE","ACTIVE"
+"Sparse/no veg",3.4,3.5,0.16,0.134,"dormant","dormant"
