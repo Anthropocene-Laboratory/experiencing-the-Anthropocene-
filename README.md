@@ -48,8 +48,8 @@ is documented in **[`data_sources.md`](data_sources.md)**. Also out: literature 
 ## Quickstart
 
 ```bash
-git clone https://github.com/Anthropocene-Laboratory/<repo>.git
-cd <repo>
+git clone https://github.com/Anthropocene-Laboratory/experiencing-the-Anthropocene-.git
+cd experiencing-the-Anthropocene-
 ```
 
 **1. R packages** — the exact versions used to produce the committed figures are pinned
