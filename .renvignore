@@ -1,0 +1,9 @@
+# Keep renv's dependency scan out of the data tree.
+# On a working machine `data_raw/` is a junction to tens of gigabytes of NetCDF
+# and GeoTIFF; walking it looking for R code costs minutes and finds nothing.
+data_raw/
+**/data_raw/
+**/data_processed/
+Feature explorations/Heatwaves/.python_packages/
+node_modules/
+.venv/

@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this code or its figures, please cite it as below, and cite the underlying datasets named in data_sources.md."
+title: "Experiencing the Anthropocene: code and figures"
+abstract: >-
+  Analysis code and derived figures mapping how human-driven Earth-system
+  transformations are encountered in daily life across Europe - heat stress,
+  fine-particle air pollution, the built environment, night-sky brightness,
+  road density and biosphere condition - together with the exposure filters
+  that determine who meets which of them. Exploratory prototype work: results
+  are provisional and have not been through the project's feature-ranking
+  phase.
+type: software
+
+# TODO before publishing: confirm the author list and add every contributor,
+# with ORCIDs and affiliations. The entry below is a placeholder derived from
+# the repository owner and is almost certainly incomplete.
+authors:
+  - family-names: "Loeffler"
+    given-names: "Benjamin"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+    # affiliation: ""
+
+repository-code: "https://github.com/Anthropocene-Laboratory/experiencing-the-anthropocene"
+license: MIT
+keywords:
+  - Anthropocene
+  - environmental exposure
+  - Europe
+  - heatwaves
+  - air quality
+  - biodiversity intactness
+  - reproducible research
+  - R

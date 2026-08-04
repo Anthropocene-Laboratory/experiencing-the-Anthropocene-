@@ -1,0 +1,41 @@
+# Python dependencies - Experiencing the Anthropocene
+#
+# Versions reconstructed from the vendored package tree that these scripts used
+# to carry (Feature explorations/Heatwaves/.python_packages/), so a fresh
+# environment matches the one the published figures were produced with.
+#
+#   python -m venv .venv
+#   .venv\Scripts\activate          (Windows)   |   source .venv/bin/activate  (macOS/Linux)
+#   pip install -r requirements.txt
+#
+# Tested with Python 3.11-3.14.
+
+# --- Copernicus Climate/Atmosphere Data Store clients -------------------------
+# Used by Feature explorations/Heatwaves/scripts/1_acquire_*.py to download
+# ERA5-Land, ERA5-HEAT (UTCI) and E-OBS. Requires a ~/.cdsapirc credentials file
+# (see data_sources.md); the scripts never contain a key.
+cdsapi==0.7.7
+ecmwf-datastores-client==0.5.1
+multiurl==0.3.9
+
+# --- HTTP stack (transitive, pinned for reproducibility) ----------------------
+requests==2.34.2
+urllib3==2.7.0
+certifi==2026.6.17
+charset-normalizer==3.4.7
+idna==3.18
+
+# --- Utilities ----------------------------------------------------------------
+attrs==26.1.0
+colorama==0.4.6
+python-dateutil==2.9.0.post0
+pytz==2026.2
+six==1.17.0
+tqdm==4.68.3
+typing-extensions==4.15.0
+
+# --- Documentation generation --------------------------------------------------
+# Only needed for the two scripts that build the methods .docx
+# (Heatwaves/scripts/docgen_analysis_options_doc.py, Analysis/add_part_iv_to_docx.py).
+# Not required to reproduce any map or table.
+python-docx>=1.1.0

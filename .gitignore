@@ -1,0 +1,97 @@
+# =============================================================================
+# .gitignore - Experiencing the Anthropocene
+#
+# Strategy: this repository holds CODE, DOCUMENTATION and FINAL OUTPUTS only
+# (PNG figures + CSV tables). Every byte of source and intermediate raster data
+# stays local and is re-obtained through the acquisition scripts documented in
+# data_sources.md.
+#
+# The rules below are deliberately blanket rules by EXTENSION rather than by
+# path. A path rule only protects the folders that exist today; an extension
+# rule also protects the folder someone adds next month. A single 9 GB NetCDF
+# committed by accident stays in the history forever, even after deletion.
+# =============================================================================
+
+# --- Source data: never committed, re-downloadable (see data_sources.md) ------
+data_raw/
+**/data_raw/
+
+# --- Heavy geospatial formats, anywhere in the tree --------------------------
+# Intermediate rasters live at the data_processed/ root by convention
+# (see "Feature explorations/CLAUDE.md"): computational plumbing, not deliverables.
+*.nc
+*.nc4
+*.tif
+*.tiff
+*.aux.xml
+*.vrt
+*.gpkg
+*.asc
+*.tpk
+*.zip
+*.7z
+*.gz
+*.grib
+*.grb
+
+# Exception: small shared reference grid, needed by several scripts (0.7 MB,
+# GHSL-derived, CC-BY 4.0 - redistributable).
+!Feature explorations/_shared/pop2020_0p1deg.tif
+
+# --- Internal working documents ----------------------------------------------
+# Word/Excel working documents carry tracked changes and named collaborator
+# comments; literature PDFs are third-party copyright. None of it belongs in a
+# public repository.
+*.docx
+*.doc
+*.xlsx
+*.xls
+*.pptx
+*.pdf
+Reading/
+
+# --- Vendored dependency trees (replaced by renv.lock / requirements.txt) -----
+.python_packages/
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- renv: lockfile is committed, the library is not -------------------------
+renv/library/
+renv/local/
+renv/cellar/
+renv/staging/
+renv/python/
+renv/sandbox/
+
+# --- R / RStudio session litter ----------------------------------------------
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+Rplots.pdf
+
+# --- QGIS --------------------------------------------------------------------
+*.qgz
+*.qgs~
+qgis_log.txt
+
+# --- Credentials: read at runtime from the user's home directory --------------
+# (~/.cdsapirc for Copernicus CDS/ADS). Belt and braces in case a copy lands here.
+.cdsapirc
+.Renviron
+*.key
+*.pem
+.env
+
+# --- OS / editor --------------------------------------------------------------
+Thumbs.db
+Desktop.ini
+.DS_Store
+*~
+.claude/
+.codex-tmp/

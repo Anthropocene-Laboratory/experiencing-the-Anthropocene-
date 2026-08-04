@@ -1,0 +1,8 @@
+This file marks the root of the project for the R `here` package.
+
+Every R script in this repository resolves its paths with `here::here(...)`,
+which walks up from the current working directory until it finds this file.
+That is what makes the scripts runnable from any directory, on any machine,
+without a `setwd()` to someone's personal folder.
+
+Do not delete, do not move.
