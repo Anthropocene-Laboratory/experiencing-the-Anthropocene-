@@ -1,0 +1,19 @@
+# Normalise line endings so a Windows and a Linux clone hold identical bytes.
+# Without this, whether a script has CRLF or LF depends on each collaborator's
+# core.autocrlf setting - which turns into spurious whole-file diffs.
+* text=auto eol=lf
+
+# Binary outputs: never touch these.
+*.png binary
+*.tif binary
+*.tiff binary
+*.nc  binary
+*.zip binary
+*.gpkg binary
+*.docx binary
+*.xlsx binary
+*.pdf binary
+
+# Large committed tables and boundary files: keep diffs out of the way.
+*.geojson -diff
+Feature explorations/Analysis/data_processed/tables/layerA_stack_30km.csv -diff
