@@ -37,6 +37,11 @@ suppressPackageStartupMessages({
   library(sf); library(terra); library(ggplot2); library(ggspatial); library(ragg)
 })
 setwd(here::here())
+
+# Date the source data was retrieved. Fixed on purpose: this is a property of
+# the DATA, not of the day the figure happens to be redrawn. Stamping Sys.Date()
+# here made every rerun differ from the committed reference for no real reason.
+DATA_RETRIEVED <- "2026-07-30"
 sf::sf_use_s2(FALSE)
 
 shared     <- "Feature explorations/_shared"
@@ -111,7 +116,7 @@ p <- ggplot() +
     subtitle = "Metres of road per km² of land, all road classes, GRIP4",
     caption = paste0(
       "Data: Global Roads Inventory Project v4 (Meijer et al. 2018, PBL/GLOBIO, ODbL), ",
-      "total road density, retrieved ", format(Sys.Date()), ".\nNative 5 arcmin (~55 km² ",
+      "total road density, retrieved ", DATA_RETRIEVED, ".\nNative 5 arcmin (~55 km² ",
       "per cell at 50°N) reprojected to 8 km, bilinear. Sea masked with GRIP4's land-area ",
       "grid; the darkest band is land with no road recorded.\nCompleteness: GRIP4 recovers ",
       "~0.5–0.7 of published national network length (municipal roads are the gap), but the ",

@@ -5,10 +5,16 @@ suppressPackageStartupMessages({
   library(viridis); library(ragg); library(dplyr)
 })
 
-out_png <- "world_agri_employment.png"
+# Date the source data was retrieved. Fixed on purpose: this is a property of
+# the DATA, not of the day the figure happens to be redrawn. Stamping Sys.Date()
+# here made every rerun differ from the committed reference for no real reason.
+DATA_RETRIEVED <- "2026-07-21"
+
+out_png <- here::here("validation", "world_agri_employment.png")
 
 # 1. LOAD DATA (harvested locally from World Bank bulk CSV) -------------------
-csv <- list.files("wb_data", pattern = "^API_SL.AGR.EMPL.ZS.*\\.csv$", full.names = TRUE)[1]
+csv <- list.files(here::here("validation", "wb_data"),
+                  pattern = "^API_SL.AGR.EMPL.ZS.*\\.csv$", full.names = TRUE)[1]
 wb <- read.csv(csv, skip = 4, check.names = FALSE, stringsAsFactors = FALSE)
 
 # take each country's most recent non-NA year to maximise coverage
@@ -18,10 +24,12 @@ latest <- apply(wb[, year_cols], 1, function(r) {
   if (length(idx) == 0) return(NA_real_)
   v[max(idx)]
 })
+
 latest_year <- apply(wb[, year_cols], 1, function(r) {
   v <- suppressWarnings(as.numeric(r)); idx <- which(!is.na(v))
   if (length(idx) == 0) return(NA) else year_cols[max(idx)]
 })
+
 wb_clean <- data.frame(iso_a3 = wb$`Country Code`, agri = latest, yr = latest_year)
 message("Countries with a value: ", sum(!is.na(wb_clean$agri)),
         " | year range used: ", paste(range(as.numeric(wb_clean$yr), na.rm = TRUE), collapse = "–"))
@@ -57,7 +65,7 @@ p <- ggplot() +
        subtitle = "Share of total employment, latest available year (modelled ILO estimate)",
        caption = paste0(
          "Data: World Bank, World Development Indicators (SL.AGR.EMPL.ZS), ",
-         "retrieved ", format(Sys.Date()), "; values 2021–2025. Grey = no data.\n",
+         "retrieved ", DATA_RETRIEVED, "; values 2021–2025. Grey = no data.\n",
          "Projection: Equal Earth (ESRI:54035). Boundaries: Natural Earth 1:50m.")) +
   coord_sf(crs = "ESRI:54035", datum = NA, expand = FALSE) +
   theme_void(base_size = 12) +

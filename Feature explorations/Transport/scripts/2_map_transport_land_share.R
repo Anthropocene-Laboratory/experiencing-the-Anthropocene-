@@ -39,6 +39,11 @@ suppressPackageStartupMessages({
   library(sf); library(terra); library(ggplot2); library(ggspatial); library(ragg)
 })
 setwd(here::here())
+
+# Date the source data was retrieved. Fixed on purpose: this is a property of
+# the DATA, not of the day the figure happens to be redrawn. Stamping Sys.Date()
+# here made every rerun differ from the committed reference for no real reason.
+DATA_RETRIEVED <- "2026-07-30"
 sf::sf_use_s2(FALSE)   # planar CRS (3035): s2 not applicable
 
 shared     <- "Feature explorations/_shared"
@@ -126,7 +131,7 @@ p <- ggplot() +
     subtitle = "Road and rail corridors as a share of each 10 km cell, CORINE Land Cover 2018",
     caption = paste0(
       "Data: Copernicus/EEA CORINE Land Cover 2018, class 122 'Road and rail networks and ",
-      "associated land' (4,839 polygons, 4,143 km²), retrieved ", format(Sys.Date()),
+      "associated land' (4,839 polygons, 4,143 km²), retrieved ", DATA_RETRIEVED,
       " from the EEA discomap CLC2018_LAEA service.\nExact polygon-grid intersection; ",
       "the map window holds 93 % of the EEA39 class-122 area (Turkey, Iceland and the ",
       "outermost regions fall outside it).\nCells with no class-122 land are dark. CLC's ",

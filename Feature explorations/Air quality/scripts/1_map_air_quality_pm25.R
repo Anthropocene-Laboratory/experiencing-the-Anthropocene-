@@ -23,6 +23,11 @@ suppressPackageStartupMessages({
 })
 setwd(here::here())
 
+# Date the source data was retrieved. Fixed on purpose: this is a property of
+# the DATA, not of the day the figure happens to be redrawn. Stamping Sys.Date()
+# here made every rerun differ from the committed reference for no real reason.
+DATA_RETRIEVED <- "2026-07-21"
+
 shared   <- "Feature explorations/_shared"
 feat     <- "Feature explorations/Air quality"
 out_maps <- file.path(feat, "data_processed/maps")
@@ -68,7 +73,7 @@ p <- ggplot() +
     subtitle = "PM2.5 annual mean, WHO guideline bands — EEA interpolated (1 km)",
     caption = paste0(
       "Data: EEA interpolated air quality, PM2.5 annual mean (µg/m³), CC-BY 4.0, ",
-      "retrieved ", format(Sys.Date()), ". Classes: WHO 2021 AQG (5) + interim targets; ",
+      "retrieved ", DATA_RETRIEVED, ". Classes: WHO 2021 AQG (5) + interim targets; ",
       "25 = EU annual limit.\nResampled to 3 km. Projection: LAEA Europe (EPSG:3035). ",
       "Boundaries: Eurostat GISCO CNTR 10M.")
   ) +

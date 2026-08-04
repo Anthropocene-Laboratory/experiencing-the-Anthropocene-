@@ -20,6 +20,11 @@ suppressPackageStartupMessages({
 })
 setwd(here::here())
 
+# Date the source data was retrieved. Fixed on purpose: this is a property of
+# the DATA, not of the day the figure happens to be redrawn. Stamping Sys.Date()
+# here made every rerun differ from the committed reference for no real reason.
+DATA_RETRIEVED <- "2026-07-21"
+
 shared   <- "Feature explorations/_shared"
 out      <- "Feature explorations/Technosphere/data_processed"
 out_maps <- file.path(out, "maps")
@@ -69,7 +74,7 @@ p <- ggplot() +
     subtitle = "Building footprint as a share of each 3 km cell, WSF3D",
     caption = paste0(
       "Data: DLR World Settlement Footprint 3D v02 (BuildingFraction), retrieved ",
-      format(Sys.Date()), ". Cells with no building are dark.\nResampled to 3 km ",
+      DATA_RETRIEVED, ". Cells with no building are dark.\nResampled to 3 km ",
       "(average). Projection: LAEA Europe (EPSG:3035). Boundaries: Eurostat GISCO CNTR 10M.")
   ) +
   theme_void(base_size = 12) +
