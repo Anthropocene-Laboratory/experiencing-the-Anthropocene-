@@ -110,6 +110,21 @@ differs from the one that produced it — say so in an issue rather than working
 | GEOS | 3.14.1 | |
 | Python | 3.11-3.14 | only for the acquisition scripts |
 
+> **Install R 4.5.x, not the newest R.** This is the one prerequisite that is not
+> optional, and getting it wrong costs half an hour. CRAN serves Windows and macOS
+> *binaries* only for the current R minor version. On R 4.6, the exact versions pinned in
+> `renv.lock` have no binary, so `renv::restore()` falls back to building them from source
+> — which needs Rtools (Windows) or a full toolchain (macOS) and otherwise fails on
+> `Rcpp`, `stringi`, `sf`, `sp` and `openssl`.
+>
+> If you are already on a newer R and do not want to downgrade, answer **yes** when renv
+> offers *"try installing the latest available versions"*. It installs binaries and
+> repairs the dependency tree, and the pipeline runs. You are then on patch versions
+> slightly newer than the pinned set, so verify with the reproduction check in step 5
+> before trusting a figure. **Do not run `renv::snapshot()`** to silence the warnings —
+> that rewrites the lockfile to your machine's versions and removes the pin for everyone
+> else. Renewing the pin is a maintainer decision.
+
 `sf` and `terra` bind to whatever GDAL/PROJ your OS provides. renv cannot pin those, and
 they are the most likely source of a result that differs from the committed figures.
 Check yours with `Rscript -e "print(sf::sf_extSoftVersion())"`.
