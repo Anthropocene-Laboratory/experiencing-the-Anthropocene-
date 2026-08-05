@@ -16,8 +16,28 @@ setwd(here::here())
 raw <- "Feature explorations/Air quality/data_raw"
 dir.create(raw, showWarnings = FALSE, recursive = TRUE)
 
-# PAT from existing .cdsapirc (works for ADS on the unified ECMWF infra)
-lines <- readLines("~/.cdsapirc", warn = FALSE)
+# PAT from existing .cdsapirc (works for ADS on the unified ECMWF infra).
+#
+# Do NOT write readLines("~/.cdsapirc"). On Windows, R expands "~" to the user's
+# Documents folder - which OneDrive commonly redirects - while Python's cdsapi
+# expands it to %USERPROFILE%. The two disagree, so the file the Python
+# downloaders read is invisible to R. Look in the real home directory first.
+find_cdsapirc <- function() {
+  cands <- c(
+    if (nzchar(Sys.getenv("USERPROFILE"))) file.path(Sys.getenv("USERPROFILE"), ".cdsapirc"),
+    if (nzchar(Sys.getenv("HOME")))        file.path(Sys.getenv("HOME"), ".cdsapirc"),
+    path.expand("~/.cdsapirc")
+  )
+  hit <- unique(cands)[file.exists(unique(cands))]
+  if (!length(hit)) {
+    stop("No .cdsapirc found. Create it in your home directory with your ECMWF\n",
+         "  Personal Access Token - see the credentials section of data_sources.md.\n",
+         "  Looked in: ", paste(unique(cands), collapse = ", "), call. = FALSE)
+  }
+  hit[1]
+}
+
+lines <- readLines(find_cdsapirc(), warn = FALSE)
 key <- trimws(sub("^key:", "", grep("^key:", lines, value = TRUE)))
 wf_set_key(key = key)
 

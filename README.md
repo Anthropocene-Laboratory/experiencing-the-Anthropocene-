@@ -72,12 +72,23 @@ See the credentials section of [`data_sources.md`](data_sources.md). Check it wo
 python "Feature explorations/Heatwaves/scripts/1_acquire_test_cds_connection.py"
 ```
 
-**4. Get some data.** Start with Transport — it is the lightest feature (~360 MB), both
-its sources are scripted, and it needs no credentials:
+**4. Get some data.** `download_data.R` is the front door. With no arguments it downloads
+nothing — it prints the catalogue, what is already on disk, and what each item costs:
 
 ```bash
-Rscript "Feature explorations/Transport/scripts/3_acquire_grip4_road_density.R"
+Rscript download_data.R
 ```
+
+Then pick a scope. Start with Transport: lightest feature (~40 MB), both sources scripted,
+no credentials needed.
+
+```bash
+Rscript download_data.R --feature=Transport
+```
+
+`--all` fetches the ~23 GB that can be fetched by code. It cannot fetch everything: ten
+datasets sit behind a login, a request form or a Cloudflare challenge, and every run ends
+by listing them with their landing pages. A completed run is **not** a complete dataset.
 
 **5. Reproduce a figure** and compare it to the committed one:
 

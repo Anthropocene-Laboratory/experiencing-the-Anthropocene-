@@ -26,6 +26,54 @@ or, on macOS/Linux, `shasum -a 256 "<file>"`.
 
 ---
 
+## Every dataset, with its link
+
+`download_data.R` fetches everything in the **scripted** rows. Run it with no arguments
+to see what is already on disk and what is outstanding:
+
+```bash
+Rscript download_data.R
+```
+
+The **manual** rows are the ones no code can reach — a login, a request form, a tile
+picker or a Cloudflare challenge sits in the way. Follow the link, then verify the file
+against the SHA-256 given in its section below.
+
+| Dataset | Feature | Route | Link |
+|---|---|---|---|
+| E-OBS v33.0e daily TX/TN | Heatwaves | scripted (CDS) | https://cds.climate.copernicus.eu/datasets/insitu-gridded-observations-europe |
+| ERA5-HEAT UTCI 2022 | Heatwaves | scripted (CDS) | https://cds.climate.copernicus.eu/datasets/derived-utci-historical |
+| ERA5-Land 2 m temperature | Heatwaves | scripted (CDS) | https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land |
+| GHS-POP R2023A population grid | Heatwaves | scripted | https://human-settlement.emergency.copernicus.eu/download.php |
+| Eurostat population by age (`demo_pjangroup`) | Heatwaves | scripted | https://ec.europa.eu/eurostat/databrowser/view/demo_pjangroup |
+| GISCO country / NUTS boundaries | shared | scripted (committed) | https://ec.europa.eu/eurostat/web/gisco/geodata/administrative-units |
+| CAMS European air quality reanalysis, PM2.5 | Air quality | scripted (ADS) | https://ads.atmosphere.copernicus.eu/datasets/cams-europe-air-quality-reanalyses |
+| CORINE Land Cover 2018, class 122 | Transport | scripted | https://image.discomap.eea.europa.eu/arcgis/rest/services/Corine/CLC2018_LAEA/MapServer/0 |
+| GRIP4 global roads | Transport | scripted | https://www.globio.info/download-grip-dataset |
+| HILDA+ v2.0 land-use states | Biosphere | scripted | https://doi.pangaea.de/10.1594/PANGAEA.974335 |
+| HILDA+ 1 km COGs (OpenLandMap) | Biosphere | streamed | https://stac.openlandmap.org/land.use.land.cover_hilda.plus/collection.json |
+| WSF3D v02 building fraction / height | Technosphere | streamed | https://download.geoservice.dlr.de/WSF3D/files/global/ |
+| World Bank indicator API | Layer B | streamed | https://data.worldbank.org |
+| Biodiversity Intactness Index v2.1.1 | Biosphere | **manual** | https://data.nhm.ac.uk/dataset/bii-developed-by-nhm-v2-1-1-limited-release |
+| World Atlas of Artificial Night Sky Brightness 2015 | Technosphere | **manual** | https://doi.org/10.5880/GFZ.1.4.2016.001 |
+| Anthromes v2 (1700-2000) | Biosphere | **manual** | https://sedac.ciesin.columbia.edu/data/set/anthromes-anthropogenic-biomes-world-v2-1700/data-download |
+| Anthromes 12K | Biosphere | **manual** | https://dataverse.harvard.edu/dataverse/anthromes_12K |
+| HILDA+ v1.0 change layers | Biosphere | **manual** | https://doi.pangaea.de/10.1594/PANGAEA.921846 |
+| EEA interpolated PM2.5, 1 km | Air quality | **manual** | https://sdi.eea.europa.eu/catalogue/srv/eng/catalog.search#/search?any=interpolated%20pm2.5 |
+| GLAD global cropland | Heatwaves | **manual** | https://glad.umd.edu/dataset/croplands |
+| Global Human Day time-use budgets | Heatwaves | **manual** | https://doi.org/10.5281/zenodo.7941615 |
+| Gridded GDP per capita, admin-2 | Layer B | **manual** | https://doi.org/10.5281/zenodo.13943886 |
+| `T.ambient.buildings.nc` | Heatwaves | **manual** | ⚠️ provenance unknown — see the last section |
+
+Underlying papers, where the link above points at data rather than at the article:
+Falchi et al. 2016, *Sci. Adv.* [10.1126/sciadv.1600377](https://doi.org/10.1126/sciadv.1600377) ·
+Fajzel et al. 2023, *PNAS* [10.1073/pnas.2219564120](https://doi.org/10.1073/pnas.2219564120) ·
+Kummu et al. 2025, *Sci. Data* [10.1038/s41597-025-04487-x](https://doi.org/10.1038/s41597-025-04487-x) ·
+Winkler et al. 2021, *Nat. Commun.* (HILDA+) · Ellis et al. 2021, *PNAS* (Anthromes 12K) ·
+De Palma et al. 2024 (BII) · Meijer et al. 2018, *Environ. Res. Lett.* (GRIP4).
+
+---
+
 ## Credentials
 
 Two Copernicus accounts are needed for the climate and air-quality downloads. Both are
@@ -373,13 +421,18 @@ Re-fetched if needed by `Heatwaves/scripts/1_acquire_boundaries_age_population.R
 Honest list of what a reader could not currently verify from this file alone. None of it
 blocks re-running the pipeline; all of it should be closed before any publication.
 
-- **Persistent identifiers (DOI / accession) for the manual downloads**: Anthromes v2,
-  Anthromes 12K, HILDA+ v1 change layers, BII v2.1.1, World Atlas 2015, GLAD cropland,
-  Global Human Day, `T.ambient.buildings.nc`. Author, year and version are recorded above
-  and in the script headers; the exact landing-page URL and DOI are not, because they were
-  obtained through a browser and never written down. Add them from the provider pages.
+- **Which record inside a multi-record archive.** The links above reach the right
+  collection, not always the right file. Two cases to nail down: Anthromes 12K is split
+  across several Dataverse records (the DGG tables at `10.7910/DVN/E3H3AK`, the raster
+  release separately) and this project holds the `.asc` rasters, so the raster record is
+  the one to cite; SEDAC publishes Anthromes v2 as one record per year (1700/1800/1900/
+  2000) and only the 2000 raster is used here.
 - **`T.ambient.buildings.nc`** has no provenance anywhere in the repository beyond the
-  filename. Identify it or drop it.
+  filename — no URL, no script, no note. Identify it or drop it. It is the only input in
+  the project that nobody could obtain from this documentation.
 - **EEA PM2.5 reference year** (see above).
 - **Exact acquisition dates** for the manual files. The SHA-256 values pin the *bytes*,
   which is the part that matters for reproducibility, but not the release date.
+- **A SHA-256 for the scripted downloads.** Only the manual files are checksummed here.
+  The scripted ones are re-fetched from a versioned endpoint, so a provider re-issuing a
+  file under the same version would pass unnoticed.
