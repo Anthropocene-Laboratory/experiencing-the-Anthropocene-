@@ -1,0 +1,12 @@
+country_chapter,page,kind,indicator,region_low,value_low_pct,region_high,value_high_pct
+Austria,73,total,GE IN EUROPE 2024 Regional coverage by broadband technology Fixed VHCN (FTTP & DOCSIS 3.1) coverage in Austria,Oberkärnten,18.4,Wien,93.9
+Croatia,87,total,BAND COVERAGE IN EUROPE 2024 Regional coverage by broadband technology Fixed VHCN (FTTP & DOCSIS 3.1) coverage,Šibensko-kninska županija,30.3,"Primorsko-goranska županija, Grad Zagreb, and Koprivničko-križevačka županija",100.0
+Czechia,97,total,"rage by broadband technology The fixed VHCN (combined FTTP & DOCSIS 3.1) coverage recorded very varied levels,",Kraj Vysočina and Jihočeský kraj,29.0,Prague,98.0
+Denmark,102,total,BAND COVERAGE IN EUROPE 2024 Regional coverage by broadband technology Fixed VHCN (FTTP & DOCSIS 3.1) coverage,Bornholm,73.2,Vest- og Sydsjælland,98.5
+Estonia,107,total,BAND COVERAGE IN EUROPE 2024 Regional coverage by broadband technology Fixed VHCN (FTTP & DOCSIS 3.1) coverage,Kesk-Eesti,44.9,Põhja-Eesti,95.1
+Germany,124,rural,"BROADBAND COVERAGE IN EUROPE 2024 In rural Germany, rural fixed VHCN (FTTP & DOCSIS 3.1) coverage",St. Wendel and Odenwaldkreis,0.2,Lüchow-Dannenberg,99.8
+Hungary,133,total,GE IN EUROPE 2024 Regional coverage by broadband technology Fixed VHCN (FTTP & DOCSIS 3.1) coverage in Hungary,Vas,33.1,Budapest,98.1
+Netherlands,173,total,"Regional coverage levels are much more varied in terms of FTTP coverage, which",Delfzijl en omgeving,22.0,Zuidwest-Gelderland,97.8
+Slovakia,198,total,E IN EUROPE 2024 Regional coverage by broadband technology Fixed VHCN (FTTP & DOCSIS 3.1) coverage in Slovakia,Banskobystrický kraj,63.6,Košický kraj,86.3
+Slovenia,203,rural,"In rural Slovenia, fixed VHCN (FTTP & DOCSIS 3.1) coverage",Savinjska,21.7,Primorsko-notranjska,91.6
+Switzerland,220,rural,"GE IN EUROPE 2024 Rural fixed VHCN (FTTP & DOCSIS 3.1) coverage also varied significantly among Swiss cantons,",Schwyz,53.0,"Genève, Neuchâtel, and Ticino",100.0

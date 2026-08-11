@@ -1,0 +1,20 @@
+"band","role","feature","unit","note","pct_available_in_mask"
+"built_pct","A","Technosphere","% of cell covered by building footprint","WSF3D via 3 km product.",85
+"built_height_m","A","Technosphere","m, mean height weighted by built fraction","Long tail at source (max ~283 m at 3 km); cap before mapping.",85.1
+"light_mcd_m2","A","Technosphere","mcd/m2 artificial night sky brightness","",85.4
+"pm25_ug_m3","A","Air quality","ug/m3 annual mean PM2.5","CAMS reanalysis. Reference year NOT confirmed (source code 'avg25').",85.3
+"road_density_m_km2","A","Transport","m of road per km2","GRIP4. This is the 'how roaded is this place' layer.",85.2
+"transport_land_pct","alt","Transport","% of cell in CLC class 122","Land TAKE only (road/rail surfaces), not road presence - road_density_m_km2 is the 'how roaded' layer. OUT of the analysis set on a MEASURED ground, not a preference: it is available on 33.2% of masked cells against ~85% for every other Layer-A band, and it is uniquely limiting on 25.0% of them. Including it drops complete cases from 56.1% to 31.1%. Promote it back by setting role='A' here, and expect to lose half the study area.",33.2
+"broadband_mbps","A","Connectivity","Mbit/s, test-weighted fixed broadband","Re-weighted by test count on aggregation. Read with broadband_tests.",82.8
+"mobile_mbps","A","Connectivity","Mbit/s, test-weighted mobile","Re-weighted by test count on aggregation. Read with mobile_tests.",81.8
+"utci_strong_h","A","Heatwaves","hours in 2022 of strong heat stress","ERA5-HEAT. Compare only where utci_valid_h is high.",99.6
+"hw_days","A","Heatwaves","days in 2022 inside a heatwave","Perkins-Alexander TX > P90 (1991-2020, +-2 d) for >= 3 consecutive days.",97.1
+"crop_frac","A","Heatwaves","fraction of cell in cropland (0-1)","",99.3
+"bii","A","Biosphere","Biodiversity Intactness Index, PERCENT (0-100)","NHM v2.1.1, 2020. Source range measured 0.42-99.96, i.e. a 0-100 scale, NOT 0-1; the planetary boundary is at 90, not 0.9. 5_bii_planetary_boundary.R already treats it as a percent - 0_load_layers.R used to document it as 0-1. CC-BY-NC-SA.",83.1
+"landchange_freq","A","Biosphere","mean land-use changes 1960-2019","HILDA+ v1.",74.7
+"pop_dens_km2","B","_shared","people per km2","GHS-POP 2020, summed then densified. EXPOSURE FILTER - held out of clustering.",99.8
+"gdp_pc_2022","B","_shared","GDP per capita, PPP, constant USD","Kummu et al. ADM2. IE/LU inflated by transfer pricing. Held out of clustering.",83.7
+"utci_valid_h","QC","Heatwaves","hours of valid UTCI in 2022","Masking band: cells below MIN_UTCI_COVERAGE are dropped.",99.6
+"broadband_tests","QC","Connectivity","n speed tests behind broadband_mbps","Never report a speed without it: low counts are unreliable.",82.8
+"mobile_tests","QC","Connectivity","n speed tests behind mobile_mbps","Never report a speed without it: low counts are unreliable.",81.8
+"landchange_freq_v2","alt","Biosphere","mean broad-class changes 1960-2019","HILDA+ v2 recomputation of landchange_freq. Same grid, near-identical distribution (medians 0.61 vs 0.64 at source). Carried for comparison, OUT of the analysis set: two copies of one gradient would inflate PC1 and trip FAIL-1 for a purely mechanical reason.",74.7

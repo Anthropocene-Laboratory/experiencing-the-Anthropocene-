@@ -1,0 +1,2233 @@
+country,year,metric,total_pct,rural_pct,source_country_chapter,page
+Austria,2024,DSL,95.7,91.8,Austria,75
+Austria,2023,DSL,96.5,92.7,Austria,75
+Austria,2022,DSL,97.0,93.6,Austria,75
+EU27,2024,DSL,74.5,63.1,Austria,75
+Austria,2024,VDSL,82.9,48.6,Austria,75
+Austria,2023,VDSL,83.4,47.8,Austria,75
+Austria,2022,VDSL,81.6,49.6,Austria,75
+EU27,2024,VDSL,52.1,36.9,Austria,75
+Austria,2024,VDSL2 Vectoring,58.0,28.7,Austria,75
+Austria,2023,VDSL2 Vectoring,57.1,27.4,Austria,75
+Austria,2022,VDSL2 Vectoring,55.3,26.1,Austria,75
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Austria,75
+Austria,2024,FTTP,44.8,33.9,Austria,75
+Austria,2023,FTTP,41.0,28.7,Austria,75
+Austria,2022,FTTP,36.6,22.6,Austria,75
+EU27,2024,FTTP,69.2,58.8,Austria,75
+Austria,2024,Cable modem DOCSIS 3.0,59.1,13.0,Austria,75
+Austria,2023,Cable modem DOCSIS 3.0,59.4,13.1,Austria,75
+Austria,2022,Cable modem DOCSIS 3.0,59.3,12.8,Austria,75
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Austria,75
+Austria,2024,Cable modem DOCSIS 3.1,54.8,10.8,Austria,75
+Austria,2023,Cable modem DOCSIS 3.1,52.6,9.1,Austria,75
+Austria,2022,Cable modem DOCSIS 3.1,39.5,6.3,Austria,75
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Austria,75
+Austria,2024,FWA,8.6,10.7,Austria,75
+Austria,2023,FWA,18.7,23.5,Austria,75
+Austria,2022,FWA,20.7,27.6,Austria,75
+EU27,2024,FWA,69.3,62.2,Austria,75
+Austria,2024,5G,99.5,97.8,Austria,75
+Austria,2023,5G,96.0,82.0,Austria,75
+Austria,2022,5G,91.7,68.9,Austria,75
+EU27,2024,5G,94.3,79.6,Austria,75
+Austria,2024,5G in the 3.4– 3.8 GHz band,84.0,51.8,Austria,75
+Austria,2023,5G in the 3.4– 3.8 GHz band,79.1,41.5,Austria,75
+Austria,2022,5G in the 3.4– 3.8 GHz band,73.6,31.3,Austria,75
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Austria,75
+Austria,2024,Satellite,100.0,100.0,Austria,75
+Austria,2023,Satellite,100.0,100.0,Austria,75
+Austria,2022,Satellite,100.0,100.0,Austria,75
+EU27,2024,Satellite,99.9,99.9,Austria,75
+Austria,2024,Overall fixed broadband,99.1,96.1,Austria,75
+Austria,2023,Overall fixed broadband,99.2,96.2,Austria,75
+Austria,2022,Overall fixed broadband,99.1,96.0,Austria,75
+EU27,2024,Overall fixed broadband,97.9,93.1,Austria,75
+Austria,2024,Overall NGA broadband,95.1,74.9,Austria,75
+Austria,2023,Overall NGA broadband,94.2,71.1,Austria,75
+Austria,2022,Overall NGA broadband,94.7,74.2,Austria,75
+EU27,2024,Overall NGA broadband,94.1,82.6,Austria,75
+Austria,2024,Fixed VHCN (FTTP & DOCSIS 3.1),72.2,42.2,Austria,75
+Austria,2023,Fixed VHCN (FTTP & DOCSIS 3.1),67.6,35.8,Austria,75
+Austria,2022,Fixed VHCN (FTTP & DOCSIS 3.1),54.8,27.4,Austria,75
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Austria,75
+Austria,2024,VHCN (as defined by BEREC),,,Austria,75
+Austria,2023,VHCN (as defined by BEREC),,,Austria,75
+Austria,2022,VHCN (as defined by BEREC),,,Austria,75
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Austria,75
+Austria,2024,At least 30Mbps,95.1,,Austria,75
+Austria,2023,At least 30Mbps,94.2,,Austria,75
+Austria,2022,At least 30Mbps,94.8,,Austria,75
+EU27,2024,At least 30Mbps,94.8,,Austria,75
+Austria,2024,At least 100Mbps,89.3,,Austria,75
+Austria,2023,At least 100Mbps,87.5,,Austria,75
+Austria,2022,At least 100Mbps,85.8,,Austria,75
+EU27,2024,At least 100Mbps,91.1,,Austria,75
+Austria,2024,At least 1Gbps,69.3,,Austria,75
+Austria,2023,At least 1Gbps,65.1,,Austria,75
+Austria,2022,At least 1Gbps,54.8,,Austria,75
+EU27,2024,At least 1Gbps,79.7,,Austria,75
+Austria,2024,At least 1Gbps upload and download,44.0,,Austria,75
+Austria,2023,At least 1Gbps upload and download,39.9,,Austria,75
+Austria,2022,At least 1Gbps upload and download,21.6,,Austria,75
+EU27,2024,At least 1Gbps upload and download,,,Austria,75
+Belgium,2024,DSL,99.8,98.1,Belgium,80
+Belgium,2023,DSL,99.9,97.4,Belgium,80
+Belgium,2022,DSL,99.9,97.8,Belgium,80
+EU27,2024,DSL,74.5,63.1,Belgium,80
+Belgium,2024,VDSL,97.5,86.0,Belgium,80
+Belgium,2023,VDSL,96.5,85.1,Belgium,80
+Belgium,2022,VDSL,96.9,84.6,Belgium,80
+EU27,2024,VDSL,52.1,36.9,Belgium,80
+Belgium,2024,VDSL2 Vectoring,38.8,18.0,Belgium,80
+Belgium,2023,VDSL2 Vectoring,43.8,23.7,Belgium,80
+Belgium,2022,VDSL2 Vectoring,47.9,29.5,Belgium,80
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Belgium,80
+Belgium,2024,FTTP,30.7,2.0,Belgium,80
+Belgium,2023,FTTP,25.0,1.9,Belgium,80
+Belgium,2022,FTTP,17.2,1.3,Belgium,80
+EU27,2024,FTTP,69.2,58.8,Belgium,80
+Belgium,2024,Cable modem DOCSIS 3.0,94.8,81.6,Belgium,80
+Belgium,2023,Cable modem DOCSIS 3.0,95.3,76.8,Belgium,80
+Belgium,2022,Cable modem DOCSIS 3.0,95.7,70.2,Belgium,80
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Belgium,80
+Belgium,2024,Cable modem DOCSIS 3.1,90.3,79.8,Belgium,80
+Belgium,2023,Cable modem DOCSIS 3.1,86.4,71.5,Belgium,80
+Belgium,2022,Cable modem DOCSIS 3.1,74.4,61.5,Belgium,80
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Belgium,80
+Belgium,2024,FWA,99.8,95.9,Belgium,80
+Belgium,2023,FWA,99.8,96.9,Belgium,80
+Belgium,2022,FWA,99.8,96.1,Belgium,80
+EU27,2024,FWA,69.3,62.2,Belgium,80
+Belgium,2024,5G,96.9,69.8,Belgium,80
+Belgium,2023,5G,40.4,28.9,Belgium,80
+Belgium,2022,5G,29.6,21.2,Belgium,80
+EU27,2024,5G,94.3,79.6,Belgium,80
+Belgium,2024,5G in the 3.4– 3.8 GHz band,49.3,39.6,Belgium,80
+Belgium,2023,5G in the 3.4– 3.8 GHz band,14.2,3.8,Belgium,80
+Belgium,2022,5G in the 3.4– 3.8 GHz band,5.6,2.0,Belgium,80
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Belgium,80
+Belgium,2024,Satellite,100.0,100.0,Belgium,80
+Belgium,2023,Satellite,100.0,100.0,Belgium,80
+Belgium,2022,Satellite,100.0,100.0,Belgium,80
+EU27,2024,Satellite,99.9,99.9,Belgium,80
+Belgium,2024,Overall fixed broadband,100.0,99.9,Belgium,80
+Belgium,2023,Overall fixed broadband,100.0,99.5,Belgium,80
+Belgium,2022,Overall fixed broadband,100.0,99.6,Belgium,80
+EU27,2024,Overall fixed broadband,97.9,93.1,Belgium,80
+Belgium,2024,Overall NGA broadband,99.1,95.2,Belgium,80
+Belgium,2023,Overall NGA broadband,99.2,96.1,Belgium,80
+Belgium,2022,Overall NGA broadband,99.4,95.3,Belgium,80
+EU27,2024,Overall NGA broadband,94.1,82.6,Belgium,80
+Belgium,2024,Fixed VHCN (FTTP & DOCSIS 3.1),93.8,80.8,Belgium,80
+Belgium,2023,Fixed VHCN (FTTP & DOCSIS 3.1),91.2,72.0,Belgium,80
+Belgium,2022,Fixed VHCN (FTTP & DOCSIS 3.1),78.3,62.2,Belgium,80
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Belgium,80
+Belgium,2024,VHCN (as defined by BEREC),,,Belgium,80
+Belgium,2023,VHCN (as defined by BEREC),,,Belgium,80
+Belgium,2022,VHCN (as defined by BEREC),,,Belgium,80
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Belgium,80
+Belgium,2024,At least 30Mbps,99.2,,Belgium,80
+Belgium,2023,At least 30Mbps,97.8,,Belgium,80
+Belgium,2022,At least 30Mbps,97.8,,Belgium,80
+EU27,2024,At least 30Mbps,94.8,,Belgium,80
+Belgium,2024,At least 100Mbps,97.2,,Belgium,80
+Belgium,2023,At least 100Mbps,96.9,,Belgium,80
+Belgium,2022,At least 100Mbps,96.9,,Belgium,80
+EU27,2024,At least 100Mbps,91.1,,Belgium,80
+Belgium,2024,At least 1Gbps,93.5,,Belgium,80
+Belgium,2023,At least 1Gbps,90.4,,Belgium,80
+Belgium,2022,At least 1Gbps,78.0,,Belgium,80
+EU27,2024,At least 1Gbps,79.7,,Belgium,80
+Belgium,2024,At least 1Gbps upload and download,30.6,,Belgium,80
+Belgium,2023,At least 1Gbps upload and download,25.0,,Belgium,80
+Belgium,2022,At least 1Gbps upload and download,14.6,,Belgium,80
+EU27,2024,At least 1Gbps upload and download,,,Belgium,80
+Bulgaria,2024,DSL,85.5,75.6,Bulgaria,84
+Bulgaria,2023,DSL,85.5,75.7,Bulgaria,84
+Bulgaria,2022,DSL,85.4,75.7,Bulgaria,84
+EU27,2024,DSL,74.5,63.1,Bulgaria,84
+Bulgaria,2024,VDSL,22.3,19.7,Bulgaria,84
+Bulgaria,2023,VDSL,22.5,19.7,Bulgaria,84
+Bulgaria,2022,VDSL,21.9,15.6,Bulgaria,84
+EU27,2024,VDSL,52.1,36.9,Bulgaria,84
+Bulgaria,2024,VDSL2 Vectoring,0.0,0.0,Bulgaria,84
+Bulgaria,2023,VDSL2 Vectoring,0.0,0.0,Bulgaria,84
+Bulgaria,2022,VDSL2 Vectoring,0.0,0.0,Bulgaria,84
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Bulgaria,84
+Bulgaria,2024,FTTP,90.4,79.1,Bulgaria,84
+Bulgaria,2023,FTTP,88.6,72.6,Bulgaria,84
+Bulgaria,2022,FTTP,85.6,65.4,Bulgaria,84
+EU27,2024,FTTP,69.2,58.8,Bulgaria,84
+Bulgaria,2024,Cable modem DOCSIS 3.0,71.2,28.8,Bulgaria,84
+Bulgaria,2023,Cable modem DOCSIS 3.0,70.9,28.3,Bulgaria,84
+Bulgaria,2022,Cable modem DOCSIS 3.0,70.9,27.6,Bulgaria,84
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Bulgaria,84
+Bulgaria,2024,Cable modem DOCSIS 3.1,0.0,0.0,Bulgaria,84
+Bulgaria,2023,Cable modem DOCSIS 3.1,0.0,0.0,Bulgaria,84
+Bulgaria,2022,Cable modem DOCSIS 3.1,0.0,0.0,Bulgaria,84
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Bulgaria,84
+Bulgaria,2024,FWA,18.8,9.8,Bulgaria,84
+Bulgaria,2023,FWA,18.8,9.8,Bulgaria,84
+Bulgaria,2022,FWA,18.8,9.8,Bulgaria,84
+EU27,2024,FWA,69.3,62.2,Bulgaria,84
+Bulgaria,2024,5G,81.3,38.3,Bulgaria,84
+Bulgaria,2023,5G,78.9,28.5,Bulgaria,84
+Bulgaria,2022,5G,67.2,18.4,Bulgaria,84
+EU27,2024,5G,94.3,79.6,Bulgaria,84
+Bulgaria,2024,5G in the 3.4– 3.8 GHz band,81.3,38.3,Bulgaria,84
+Bulgaria,2023,5G in the 3.4– 3.8 GHz band,80.1,23.7,Bulgaria,84
+Bulgaria,2022,5G in the 3.4– 3.8 GHz band,36.7,8.6,Bulgaria,84
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Bulgaria,84
+Bulgaria,2024,Satellite,100.0,100.0,Bulgaria,84
+Bulgaria,2023,Satellite,100.0,100.0,Bulgaria,84
+Bulgaria,2022,Satellite,100.0,100.0,Bulgaria,84
+EU27,2024,Satellite,99.9,99.9,Bulgaria,84
+Bulgaria,2024,Overall fixed broadband,99.0,94.5,Bulgaria,84
+Bulgaria,2023,Overall fixed broadband,98.9,94.3,Bulgaria,84
+Bulgaria,2022,Overall fixed broadband,98.9,93.7,Bulgaria,84
+EU27,2024,Overall fixed broadband,97.9,93.1,Bulgaria,84
+Bulgaria,2024,Overall NGA broadband,97.4,88.9,Bulgaria,84
+Bulgaria,2023,Overall NGA broadband,95.8,84.8,Bulgaria,84
+Bulgaria,2022,Overall NGA broadband,94.8,78.2,Bulgaria,84
+EU27,2024,Overall NGA broadband,94.1,82.6,Bulgaria,84
+Bulgaria,2024,Fixed VHCN (FTTP & DOCSIS 3.1),90.4,79.1,Bulgaria,84
+Bulgaria,2023,Fixed VHCN (FTTP & DOCSIS 3.1),88.6,72.6,Bulgaria,84
+Bulgaria,2022,Fixed VHCN (FTTP & DOCSIS 3.1),85.6,65.4,Bulgaria,84
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Bulgaria,84
+Bulgaria,2024,VHCN (as defined by BEREC),,,Bulgaria,84
+Bulgaria,2023,VHCN (as defined by BEREC),,,Bulgaria,84
+Bulgaria,2022,VHCN (as defined by BEREC),,,Bulgaria,84
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Bulgaria,84
+Bulgaria,2024,At least 30Mbps,96.0,,Bulgaria,84
+Bulgaria,2023,At least 30Mbps,95.1,,Bulgaria,84
+Bulgaria,2022,At least 30Mbps,93.9,,Bulgaria,84
+EU27,2024,At least 30Mbps,94.8,,Bulgaria,84
+Bulgaria,2024,At least 100Mbps,94.5,,Bulgaria,84
+Bulgaria,2023,At least 100Mbps,93.6,,Bulgaria,84
+Bulgaria,2022,At least 100Mbps,91.9,,Bulgaria,84
+EU27,2024,At least 100Mbps,91.1,,Bulgaria,84
+Bulgaria,2024,At least 1Gbps,31.0,,Bulgaria,84
+Bulgaria,2023,At least 1Gbps,28.4,,Bulgaria,84
+Bulgaria,2022,At least 1Gbps,21.4,,Bulgaria,84
+EU27,2024,At least 1Gbps,79.7,,Bulgaria,84
+Bulgaria,2024,At least 1Gbps upload and download,,,Bulgaria,84
+Bulgaria,2023,At least 1Gbps upload and download,,,Bulgaria,84
+Bulgaria,2022,At least 1Gbps upload and download,,,Bulgaria,84
+EU27,2024,At least 1Gbps upload and download,,,Bulgaria,84
+Croatia,2024,DSL,97.6,92.8,Croatia,89
+Croatia,2023,DSL,98.0,92.8,Croatia,89
+Croatia,2022,DSL,98.1,91.9,Croatia,89
+EU27,2024,DSL,74.5,63.1,Croatia,89
+Croatia,2024,VDSL,77.8,35.9,Croatia,89
+Croatia,2023,VDSL,77.9,35.9,Croatia,89
+Croatia,2022,VDSL,78.1,36.0,Croatia,89
+EU27,2024,VDSL,52.1,36.9,Croatia,89
+Croatia,2024,VDSL2 Vectoring,14.1,4.1,Croatia,89
+Croatia,2023,VDSL2 Vectoring,13.9,4.1,Croatia,89
+Croatia,2022,VDSL2 Vectoring,12.1,3.8,Croatia,89
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Croatia,89
+Croatia,2024,FTTP,75.4,44.4,Croatia,89
+Croatia,2023,FTTP,62.1,19.7,Croatia,89
+Croatia,2022,FTTP,53.9,13.7,Croatia,89
+EU27,2024,FTTP,69.2,58.8,Croatia,89
+Croatia,2024,Cable modem DOCSIS 3.0,37.3,12.0,Croatia,89
+Croatia,2023,Cable modem DOCSIS 3.0,34.6,11.4,Croatia,89
+Croatia,2022,Cable modem DOCSIS 3.0,35.1,11.9,Croatia,89
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Croatia,89
+Croatia,2024,Cable modem DOCSIS 3.1,35.4,9.7,Croatia,89
+Croatia,2023,Cable modem DOCSIS 3.1,32.9,9.2,Croatia,89
+Croatia,2022,Cable modem DOCSIS 3.1,33.3,9.4,Croatia,89
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Croatia,89
+Croatia,2024,FWA,56.9,15.5,Croatia,89
+Croatia,2023,FWA,44.5,7.9,Croatia,89
+Croatia,2022,FWA,38.4,6.5,Croatia,89
+EU27,2024,FWA,69.3,62.2,Croatia,89
+Croatia,2024,5G,94.2,86.3,Croatia,89
+Croatia,2023,5G,83.4,80.1,Croatia,89
+Croatia,2022,5G,82.5,73.5,Croatia,89
+EU27,2024,5G,94.3,79.6,Croatia,89
+Croatia,2024,5G in the 3.4– 3.8 GHz band,45.2,8.5,Croatia,89
+Croatia,2023,5G in the 3.4– 3.8 GHz band,40.0,8.0,Croatia,89
+Croatia,2022,5G in the 3.4– 3.8 GHz band,37.2,5.0,Croatia,89
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Croatia,89
+Croatia,2024,Satellite,100.0,100.0,Croatia,89
+Croatia,2023,Satellite,100.0,100.0,Croatia,89
+Croatia,2022,Satellite,100.0,100.0,Croatia,89
+EU27,2024,Satellite,99.9,99.9,Croatia,89
+Croatia,2024,Overall fixed broadband,99.1,97.5,Croatia,89
+Croatia,2023,Overall fixed broadband,99.1,95.9,Croatia,89
+Croatia,2022,Overall fixed broadband,99.0,95.4,Croatia,89
+EU27,2024,Overall fixed broadband,97.9,93.1,Croatia,89
+Croatia,2024,Overall NGA broadband,91.2,70.0,Croatia,89
+Croatia,2023,Overall NGA broadband,89.0,56.9,Croatia,89
+Croatia,2022,Overall NGA broadband,88.1,49.9,Croatia,89
+EU27,2024,Overall NGA broadband,94.1,82.6,Croatia,89
+Croatia,2024,Fixed VHCN (FTTP & DOCSIS 3.1),78.9,49.1,Croatia,89
+Croatia,2023,Fixed VHCN (FTTP & DOCSIS 3.1),67.8,25.5,Croatia,89
+Croatia,2022,Fixed VHCN (FTTP & DOCSIS 3.1),61.5,19.2,Croatia,89
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Croatia,89
+Croatia,2024,VHCN (as defined by BEREC),,,Croatia,89
+Croatia,2023,VHCN (as defined by BEREC),,,Croatia,89
+Croatia,2022,VHCN (as defined by BEREC),,,Croatia,89
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Croatia,89
+Croatia,2024,At least 30Mbps,91.2,,Croatia,89
+Croatia,2023,At least 30Mbps,89.0,,Croatia,89
+Croatia,2022,At least 30Mbps,88.0,,Croatia,89
+EU27,2024,At least 30Mbps,94.8,,Croatia,89
+Croatia,2024,At least 100Mbps,74.7,,Croatia,89
+Croatia,2023,At least 100Mbps,71.5,,Croatia,89
+Croatia,2022,At least 100Mbps,67.4,,Croatia,89
+EU27,2024,At least 100Mbps,91.1,,Croatia,89
+Croatia,2024,At least 1Gbps,74.7,,Croatia,89
+Croatia,2023,At least 1Gbps,67.8,,Croatia,89
+Croatia,2022,At least 1Gbps,57.6,,Croatia,89
+EU27,2024,At least 1Gbps,79.7,,Croatia,89
+Croatia,2024,At least 1Gbps upload and download,25.3,,Croatia,89
+Croatia,2023,At least 1Gbps upload and download,10.7,,Croatia,89
+Croatia,2022,At least 1Gbps upload and download,5.7,,Croatia,89
+EU27,2024,At least 1Gbps upload and download,,,Croatia,89
+Cyprus,2024,DSL,100.0,100.0,Cyprus,93
+Cyprus,2023,DSL,100.0,100.0,Cyprus,93
+Cyprus,2022,DSL,100.0,100.0,Cyprus,93
+EU27,2024,DSL,74.5,63.1,Cyprus,93
+Cyprus,2024,VDSL,100.0,100.0,Cyprus,93
+Cyprus,2023,VDSL,100.0,100.0,Cyprus,93
+Cyprus,2022,VDSL,100.0,100.0,Cyprus,93
+EU27,2024,VDSL,52.1,36.9,Cyprus,93
+Cyprus,2024,VDSL2 Vectoring,15.4,2.2,Cyprus,93
+Cyprus,2023,VDSL2 Vectoring,21.5,8.9,Cyprus,93
+Cyprus,2022,VDSL2 Vectoring,32.6,19.9,Cyprus,93
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Cyprus,93
+Cyprus,2024,FTTP,89.1,78.1,Cyprus,93
+Cyprus,2023,FTTP,77.1,55.7,Cyprus,93
+Cyprus,2022,FTTP,60.0,35.0,Cyprus,93
+EU27,2024,FTTP,69.2,58.8,Cyprus,93
+Cyprus,2024,Cable modem DOCSIS 3.0,54.9,0.0,Cyprus,93
+Cyprus,2023,Cable modem DOCSIS 3.0,59.0,0.0,Cyprus,93
+Cyprus,2022,Cable modem DOCSIS 3.0,50.6,0.0,Cyprus,93
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Cyprus,93
+Cyprus,2024,Cable modem DOCSIS 3.1,0.0,0.0,Cyprus,93
+Cyprus,2023,Cable modem DOCSIS 3.1,0.0,0.0,Cyprus,93
+Cyprus,2022,Cable modem DOCSIS 3.1,0.0,0.0,Cyprus,93
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Cyprus,93
+Cyprus,2024,FWA,99.6,98.0,Cyprus,93
+Cyprus,2023,FWA,99.6,97.9,Cyprus,93
+Cyprus,2022,FWA,99.7,98.0,Cyprus,93
+EU27,2024,FWA,69.3,62.2,Cyprus,93
+Cyprus,2024,5G,100.0,100.0,Cyprus,93
+Cyprus,2023,5G,100.0,100.0,Cyprus,93
+Cyprus,2022,5G,100.0,100.0,Cyprus,93
+EU27,2024,5G,94.3,79.6,Cyprus,93
+Cyprus,2024,5G in the 3.4– 3.8 GHz band,35.0,28.0,Cyprus,93
+Cyprus,2023,5G in the 3.4– 3.8 GHz band,35.0,28.0,Cyprus,93
+Cyprus,2022,5G in the 3.4– 3.8 GHz band,25.0,6.8,Cyprus,93
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Cyprus,93
+Cyprus,2024,Satellite,100.0,100.0,Cyprus,93
+Cyprus,2023,Satellite,100.0,100.0,Cyprus,93
+Cyprus,2022,Satellite,100.0,100.0,Cyprus,93
+EU27,2024,Satellite,99.9,99.9,Cyprus,93
+Cyprus,2024,Overall fixed broadband,100.0,100.0,Cyprus,93
+Cyprus,2023,Overall fixed broadband,100.0,100.0,Cyprus,93
+Cyprus,2022,Overall fixed broadband,100.0,100.0,Cyprus,93
+EU27,2024,Overall fixed broadband,97.9,93.1,Cyprus,93
+Cyprus,2024,Overall NGA broadband,100.0,100.0,Cyprus,93
+Cyprus,2023,Overall NGA broadband,100.0,100.0,Cyprus,93
+Cyprus,2022,Overall NGA broadband,100.0,100.0,Cyprus,93
+EU27,2024,Overall NGA broadband,94.1,82.6,Cyprus,93
+Cyprus,2024,Fixed VHCN (FTTP & DOCSIS 3.1),89.1,78.1,Cyprus,93
+Cyprus,2023,Fixed VHCN (FTTP & DOCSIS 3.1),77.1,55.7,Cyprus,93
+Cyprus,2022,Fixed VHCN (FTTP & DOCSIS 3.1),60.0,35.0,Cyprus,93
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Cyprus,93
+Cyprus,2024,VHCN (as defined by BEREC),89.1,78.1,Cyprus,93
+Cyprus,2023,VHCN (as defined by BEREC),77.1,55.7,Cyprus,93
+Cyprus,2022,VHCN (as defined by BEREC),,,Cyprus,93
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Cyprus,93
+Cyprus,2024,At least 30Mbps,100.0,,Cyprus,93
+Cyprus,2023,At least 30Mbps,100.0,,Cyprus,93
+Cyprus,2022,At least 30Mbps,100.0,,Cyprus,93
+EU27,2024,At least 30Mbps,94.8,,Cyprus,93
+Cyprus,2024,At least 100Mbps,96.5,,Cyprus,93
+Cyprus,2023,At least 100Mbps,92.5,,Cyprus,93
+Cyprus,2022,At least 100Mbps,86.9,,Cyprus,93
+EU27,2024,At least 100Mbps,91.1,,Cyprus,93
+Cyprus,2024,At least 1Gbps,89.1,,Cyprus,93
+Cyprus,2023,At least 1Gbps,77.1,,Cyprus,93
+Cyprus,2022,At least 1Gbps,60.0,,Cyprus,93
+EU27,2024,At least 1Gbps,79.7,,Cyprus,93
+Cyprus,2024,At least 1Gbps upload and download,,,Cyprus,93
+Cyprus,2023,At least 1Gbps upload and download,,,Cyprus,93
+Cyprus,2022,At least 1Gbps upload and download,,,Cyprus,93
+EU27,2024,At least 1Gbps upload and download,,,Cyprus,93
+Czechia,2024,DSL,89.6,85.1,Czechia,99
+Czechia,2023,DSL,91.0,77.5,Czechia,99
+Czechia,2022,DSL,97.6,93.1,Czechia,99
+EU27,2024,DSL,74.5,63.1,Czechia,99
+Czechia,2024,VDSL,80.8,64.0,Czechia,99
+Czechia,2023,VDSL,81.8,61.5,Czechia,99
+Czechia,2022,VDSL,86.1,64.2,Czechia,99
+EU27,2024,VDSL,52.1,36.9,Czechia,99
+Czechia,2024,VDSL2 Vectoring,80.8,64.0,Czechia,99
+Czechia,2023,VDSL2 Vectoring,81.7,61.5,Czechia,99
+Czechia,2022,VDSL2 Vectoring,86.0,64.2,Czechia,99
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Czechia,99
+Czechia,2024,FTTP,40.6,10.0,Czechia,99
+Czechia,2023,FTTP,36.0,7.2,Czechia,99
+Czechia,2022,FTTP,37.4,8.1,Czechia,99
+EU27,2024,FTTP,69.2,58.8,Czechia,99
+Czechia,2024,Cable modem DOCSIS 3.0,38.6,2.0,Czechia,99
+Czechia,2023,Cable modem DOCSIS 3.0,38.5,2.0,Czechia,99
+Czechia,2022,Cable modem DOCSIS 3.0,42.1,3.8,Czechia,99
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Czechia,99
+Czechia,2024,Cable modem DOCSIS 3.1,32.4,0.0,Czechia,99
+Czechia,2023,Cable modem DOCSIS 3.1,32.2,0.0,Czechia,99
+Czechia,2022,Cable modem DOCSIS 3.1,34.9,0.0,Czechia,99
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Czechia,99
+Czechia,2024,FWA,84.0,86.9,Czechia,99
+Czechia,2023,FWA,80.5,85.4,Czechia,99
+Czechia,2022,FWA,85.1,85.4,Czechia,99
+EU27,2024,FWA,69.3,62.2,Czechia,99
+Czechia,2024,5G,99.1,95.3,Czechia,99
+Czechia,2023,5G,94.6,72.7,Czechia,99
+Czechia,2022,5G,82.6,78.0,Czechia,99
+EU27,2024,5G,94.3,79.6,Czechia,99
+Czechia,2024,5G in the 3.4– 3.8 GHz band,42.4,32.3,Czechia,99
+Czechia,2023,5G in the 3.4– 3.8 GHz band,39.3,32.3,Czechia,99
+Czechia,2022,5G in the 3.4– 3.8 GHz band,42.3,32.0,Czechia,99
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Czechia,99
+Czechia,2024,Satellite,100.0,100.0,Czechia,99
+Czechia,2023,Satellite,100.0,100.0,Czechia,99
+Czechia,2022,Satellite,100.0,100.0,Czechia,99
+EU27,2024,Satellite,99.9,99.9,Czechia,99
+Czechia,2024,Overall fixed broadband,100.0,99.8,Czechia,99
+Czechia,2023,Overall fixed broadband,99.6,98.7,Czechia,99
+Czechia,2022,Overall fixed broadband,99.9,99.8,Czechia,99
+EU27,2024,Overall fixed broadband,97.9,93.1,Czechia,99
+Czechia,2024,Overall NGA broadband,90.6,68.4,Czechia,99
+Czechia,2023,Overall NGA broadband,88.4,63.6,Czechia,99
+Czechia,2022,Overall NGA broadband,93.3,70.1,Czechia,99
+EU27,2024,Overall NGA broadband,94.1,82.6,Czechia,99
+Czechia,2024,Fixed VHCN (FTTP & DOCSIS 3.1),53.9,10.0,Czechia,99
+Czechia,2023,Fixed VHCN (FTTP & DOCSIS 3.1),50.5,7.2,Czechia,99
+Czechia,2022,Fixed VHCN (FTTP & DOCSIS 3.1),53.2,8.2,Czechia,99
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Czechia,99
+Czechia,2024,VHCN (as defined by BEREC),55.6,12.7,Czechia,99
+Czechia,2023,VHCN (as defined by BEREC),55.6,14.8,Czechia,99
+Czechia,2022,VHCN (as defined by BEREC),,,Czechia,99
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Czechia,99
+Czechia,2024,At least 30Mbps,98.8,,Czechia,99
+Czechia,2023,At least 30Mbps,98.2,,Czechia,99
+Czechia,2022,At least 30Mbps,98.3,,Czechia,99
+EU27,2024,At least 30Mbps,94.8,,Czechia,99
+Czechia,2024,At least 100Mbps,89.2,,Czechia,99
+Czechia,2023,At least 100Mbps,91.1,,Czechia,99
+Czechia,2022,At least 100Mbps,90.2,,Czechia,99
+EU27,2024,At least 100Mbps,91.1,,Czechia,99
+Czechia,2024,At least 1Gbps,23.6,,Czechia,99
+Czechia,2023,At least 1Gbps,40.3,,Czechia,99
+Czechia,2022,At least 1Gbps,42.5,,Czechia,99
+EU27,2024,At least 1Gbps,79.7,,Czechia,99
+Czechia,2024,At least 1Gbps upload and download,18.4,,Czechia,99
+Czechia,2023,At least 1Gbps upload and download,13.5,,Czechia,99
+Czechia,2022,At least 1Gbps upload and download,,,Czechia,99
+EU27,2024,At least 1Gbps upload and download,,,Czechia,99
+Denmark,2024,DSL,78.5,86.1,Denmark,104
+Denmark,2023,DSL,87.8,89.7,Denmark,104
+Denmark,2022,DSL,89.2,90.6,Denmark,104
+EU27,2024,DSL,74.5,63.1,Denmark,104
+Denmark,2024,VDSL,51.7,15.8,Denmark,104
+Denmark,2023,VDSL,57.5,16.5,Denmark,104
+Denmark,2022,VDSL,58.5,16.7,Denmark,104
+EU27,2024,VDSL,52.1,36.9,Denmark,104
+Denmark,2024,VDSL2 Vectoring,13.5,4.3,Denmark,104
+Denmark,2023,VDSL2 Vectoring,14.9,4.4,Denmark,104
+Denmark,2022,VDSL2 Vectoring,15.1,4.4,Denmark,104
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Denmark,104
+Denmark,2024,FTTP,87.2,91.5,Denmark,104
+Denmark,2023,FTTP,84.0,90.3,Denmark,104
+Denmark,2022,FTTP,77.9,87.0,Denmark,104
+EU27,2024,FTTP,69.2,58.8,Denmark,104
+Denmark,2024,Cable modem DOCSIS 3.0,57.9,4.5,Denmark,104
+Denmark,2023,Cable modem DOCSIS 3.0,66.1,5.1,Denmark,104
+Denmark,2022,Cable modem DOCSIS 3.0,66.2,5.3,Denmark,104
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Denmark,104
+Denmark,2024,Cable modem DOCSIS 3.1,57.9,4.5,Denmark,104
+Denmark,2023,Cable modem DOCSIS 3.1,66.1,5.1,Denmark,104
+Denmark,2022,Cable modem DOCSIS 3.1,66.1,5.3,Denmark,104
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Denmark,104
+Denmark,2024,FWA,7.6,11.8,Denmark,104
+Denmark,2023,FWA,9.9,14.7,Denmark,104
+Denmark,2022,FWA,10.4,17.0,Denmark,104
+EU27,2024,FWA,69.3,62.2,Denmark,104
+Denmark,2024,5G,100.0,100.0,Denmark,104
+Denmark,2023,5G,100.0,100.0,Denmark,104
+Denmark,2022,5G,97.8,99.2,Denmark,104
+EU27,2024,5G,94.3,79.6,Denmark,104
+Denmark,2024,5G in the 3.4– 3.8 GHz band,87.5,27.8,Denmark,104
+Denmark,2023,5G in the 3.4– 3.8 GHz band,85.0,24.0,Denmark,104
+Denmark,2022,5G in the 3.4– 3.8 GHz band,75.0,21.1,Denmark,104
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Denmark,104
+Denmark,2024,Satellite,100.0,100.0,Denmark,104
+Denmark,2023,Satellite,100.0,100.0,Denmark,104
+Denmark,2022,Satellite,100.0,100.0,Denmark,104
+EU27,2024,Satellite,99.9,99.9,Denmark,104
+Denmark,2024,Overall fixed broadband,99.4,99.0,Denmark,104
+Denmark,2023,Overall fixed broadband,99.6,99.0,Denmark,104
+Denmark,2022,Overall fixed broadband,99.5,99.0,Denmark,104
+EU27,2024,Overall fixed broadband,97.9,93.1,Denmark,104
+Denmark,2024,Overall NGA broadband,98.4,93.2,Denmark,104
+Denmark,2023,Overall NGA broadband,98.5,92.1,Denmark,104
+Denmark,2022,Overall NGA broadband,98.0,89.9,Denmark,104
+EU27,2024,Overall NGA broadband,94.1,82.6,Denmark,104
+Denmark,2024,Fixed VHCN (FTTP & DOCSIS 3.1),96.8,92.0,Denmark,104
+Denmark,2023,Fixed VHCN (FTTP & DOCSIS 3.1),97.2,90.8,Denmark,104
+Denmark,2022,Fixed VHCN (FTTP & DOCSIS 3.1),96.3,88.0,Denmark,104
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Denmark,104
+Denmark,2024,VHCN (as defined by BEREC),100.0,100.0,Denmark,104
+Denmark,2023,VHCN (as defined by BEREC),99.9,99.9,Denmark,104
+Denmark,2022,VHCN (as defined by BEREC),,,Denmark,104
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Denmark,104
+Denmark,2024,At least 30Mbps,98.7,,Denmark,104
+Denmark,2023,At least 30Mbps,98.8,,Denmark,104
+Denmark,2022,At least 30Mbps,98.4,,Denmark,104
+EU27,2024,At least 30Mbps,94.8,,Denmark,104
+Denmark,2024,At least 100Mbps,97.7,,Denmark,104
+Denmark,2023,At least 100Mbps,98.0,,Denmark,104
+Denmark,2022,At least 100Mbps,97.3,,Denmark,104
+EU27,2024,At least 100Mbps,91.1,,Denmark,104
+Denmark,2024,At least 1Gbps,95.0,,Denmark,104
+Denmark,2023,At least 1Gbps,94.6,,Denmark,104
+Denmark,2022,At least 1Gbps,91.6,,Denmark,104
+EU27,2024,At least 1Gbps,79.7,,Denmark,104
+Denmark,2024,At least 1Gbps upload and download,87.1,,Denmark,104
+Denmark,2023,At least 1Gbps upload and download,84.6,,Denmark,104
+Denmark,2022,At least 1Gbps upload and download,78.0,,Denmark,104
+EU27,2024,At least 1Gbps upload and download,,,Denmark,104
+Estonia,2024,DSL,56.5,27.0,Estonia,108
+Estonia,2023,DSL,58.8,51.6,Estonia,108
+Estonia,2022,DSL,61.4,50.2,Estonia,108
+EU27,2024,DSL,74.5,63.1,Estonia,108
+Estonia,2024,VDSL,54.6,24.9,Estonia,108
+Estonia,2023,VDSL,53.3,47.5,Estonia,108
+Estonia,2022,VDSL,55.3,42.1,Estonia,108
+EU27,2024,VDSL,52.1,36.9,Estonia,108
+Estonia,2024,VDSL2 Vectoring,46.7,17.2,Estonia,108
+Estonia,2023,VDSL2 Vectoring,45.4,40.1,Estonia,108
+Estonia,2022,VDSL2 Vectoring,41.2,19.6,Estonia,108
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Estonia,108
+Estonia,2024,FTTP,76.3,71.8,Estonia,108
+Estonia,2023,FTTP,76.9,67.8,Estonia,108
+Estonia,2022,FTTP,76.3,33.9,Estonia,108
+EU27,2024,FTTP,69.2,58.8,Estonia,108
+Estonia,2024,Cable modem DOCSIS 3.0,61.6,29.2,Estonia,108
+Estonia,2023,Cable modem DOCSIS 3.0,77.3,46.8,Estonia,108
+Estonia,2022,Cable modem DOCSIS 3.0,79.0,30.7,Estonia,108
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Estonia,108
+Estonia,2024,Cable modem DOCSIS 3.1,0.0,0.0,Estonia,108
+Estonia,2023,Cable modem DOCSIS 3.1,0.0,0.0,Estonia,108
+Estonia,2022,Cable modem DOCSIS 3.1,0.0,0.0,Estonia,108
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Estonia,108
+Estonia,2024,FWA,99.9,99.8,Estonia,108
+Estonia,2023,FWA,99.9,99.9,Estonia,108
+Estonia,2022,FWA,95.6,96.0,Estonia,108
+EU27,2024,FWA,69.3,62.2,Estonia,108
+Estonia,2024,5G,91.5,92.3,Estonia,108
+Estonia,2023,5G,87.5,87.0,Estonia,108
+Estonia,2022,5G,43.3,32.5,Estonia,108
+EU27,2024,5G,94.3,79.6,Estonia,108
+Estonia,2024,5G in the 3.4– 3.8 GHz band,69.5,49.2,Estonia,108
+Estonia,2023,5G in the 3.4– 3.8 GHz band,43.7,40.6,Estonia,108
+Estonia,2022,5G in the 3.4– 3.8 GHz band,14.5,6.7,Estonia,108
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Estonia,108
+Estonia,2024,Satellite,75.4,75.4,Estonia,108
+Estonia,2023,Satellite,75.4,75.4,Estonia,108
+Estonia,2022,Satellite,75.4,75.4,Estonia,108
+EU27,2024,Satellite,99.9,99.9,Estonia,108
+Estonia,2024,Overall fixed broadband,100.0,99.9,Estonia,108
+Estonia,2023,Overall fixed broadband,100.0,100.0,Estonia,108
+Estonia,2022,Overall fixed broadband,97.8,98.0,Estonia,108
+EU27,2024,Overall fixed broadband,97.9,93.1,Estonia,108
+Estonia,2024,Overall NGA broadband,92.3,81.5,Estonia,108
+Estonia,2023,Overall NGA broadband,90.4,78.3,Estonia,108
+Estonia,2022,Overall NGA broadband,89.9,69.4,Estonia,108
+EU27,2024,Overall NGA broadband,94.1,82.6,Estonia,108
+Estonia,2024,Fixed VHCN (FTTP & DOCSIS 3.1),76.3,71.8,Estonia,108
+Estonia,2023,Fixed VHCN (FTTP & DOCSIS 3.1),76.9,67.8,Estonia,108
+Estonia,2022,Fixed VHCN (FTTP & DOCSIS 3.1),76.3,33.9,Estonia,108
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Estonia,108
+Estonia,2024,VHCN (as defined by BEREC),,,Estonia,108
+Estonia,2023,VHCN (as defined by BEREC),,,Estonia,108
+Estonia,2022,VHCN (as defined by BEREC),,,Estonia,108
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Estonia,108
+Estonia,2024,At least 30Mbps,100.0,,Estonia,108
+Estonia,2023,At least 30Mbps,100.0,,Estonia,108
+Estonia,2022,At least 30Mbps,89.5,,Estonia,108
+EU27,2024,At least 30Mbps,94.8,,Estonia,108
+Estonia,2024,At least 100Mbps,83.1,,Estonia,108
+Estonia,2023,At least 100Mbps,84.4,,Estonia,108
+Estonia,2022,At least 100Mbps,84.2,,Estonia,108
+EU27,2024,At least 100Mbps,91.1,,Estonia,108
+Estonia,2024,At least 1Gbps,76.3,,Estonia,108
+Estonia,2023,At least 1Gbps,67.0,,Estonia,108
+Estonia,2022,At least 1Gbps,56.5,,Estonia,108
+EU27,2024,At least 1Gbps,79.7,,Estonia,108
+Estonia,2024,At least 1Gbps upload and download,65.0,,Estonia,108
+Estonia,2023,At least 1Gbps upload and download,60.8,,Estonia,108
+Estonia,2022,At least 1Gbps upload and download,55.8,,Estonia,108
+EU27,2024,At least 1Gbps upload and download,,,Estonia,108
+Finland,2024,DSL,20.2,29.7,Finland,114
+Finland,2023,DSL,27.5,42.0,Finland,114
+Finland,2022,DSL,42.0,59.5,Finland,114
+EU27,2024,DSL,74.5,63.1,Finland,114
+Finland,2024,VDSL,17.9,21.8,Finland,114
+Finland,2023,VDSL,23.0,27.4,Finland,114
+Finland,2022,VDSL,34.0,35.6,Finland,114
+EU27,2024,VDSL,52.1,36.9,Finland,114
+Finland,2024,VDSL2 Vectoring,16.0,12.5,Finland,114
+Finland,2023,VDSL2 Vectoring,20.2,14.1,Finland,114
+Finland,2022,VDSL2 Vectoring,29.6,16.5,Finland,114
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Finland,114
+Finland,2024,FTTP,68.3,50.0,Finland,114
+Finland,2023,FTTP,61.1,39.3,Finland,114
+Finland,2022,FTTP,50.3,25.4,Finland,114
+EU27,2024,FTTP,69.2,58.8,Finland,114
+Finland,2024,Cable modem DOCSIS 3.0,31.7,0.0,Finland,114
+Finland,2023,Cable modem DOCSIS 3.0,32.4,0.0,Finland,114
+Finland,2022,Cable modem DOCSIS 3.0,37.9,0.0,Finland,114
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Finland,114
+Finland,2024,Cable modem DOCSIS 3.1,31.7,0.0,Finland,114
+Finland,2023,Cable modem DOCSIS 3.1,32.4,0.0,Finland,114
+Finland,2022,Cable modem DOCSIS 3.1,37.9,0.0,Finland,114
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Finland,114
+Finland,2024,FWA,0.0,0.0,Finland,114
+Finland,2023,FWA,0.0,0.0,Finland,114
+Finland,2022,FWA,0.0,0.0,Finland,114
+EU27,2024,FWA,69.3,62.2,Finland,114
+Finland,2024,5G,99.5,97.1,Finland,114
+Finland,2023,5G,98.3,92.4,Finland,114
+Finland,2022,5G,94.7,77.6,Finland,114
+EU27,2024,5G,94.3,79.6,Finland,114
+Finland,2024,5G in the 3.4– 3.8 GHz band,91.9,58.8,Finland,114
+Finland,2023,5G in the 3.4– 3.8 GHz band,89.7,50.2,Finland,114
+Finland,2022,5G in the 3.4– 3.8 GHz band,83.9,30.8,Finland,114
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Finland,114
+Finland,2024,Satellite,100.0,100.0,Finland,114
+Finland,2023,Satellite,100.0,100.0,Finland,114
+Finland,2022,Satellite,100.0,100.0,Finland,114
+EU27,2024,Satellite,99.9,99.9,Finland,114
+Finland,2024,Overall fixed broadband,84.1,70.0,Finland,114
+Finland,2023,Overall fixed broadband,82.7,76.6,Finland,114
+Finland,2022,Overall fixed broadband,82.4,80.1,Finland,114
+EU27,2024,Overall fixed broadband,97.9,93.1,Finland,114
+Finland,2024,Overall NGA broadband,82.5,62.8,Finland,114
+Finland,2023,Overall NGA broadband,79.7,57.6,Finland,114
+Finland,2022,Overall NGA broadband,74.9,51.1,Finland,114
+EU27,2024,Overall NGA broadband,94.1,82.6,Finland,114
+Finland,2024,Fixed VHCN (FTTP & DOCSIS 3.1),81.7,50.0,Finland,114
+Finland,2023,Fixed VHCN (FTTP & DOCSIS 3.1),77.7,39.3,Finland,114
+Finland,2022,Fixed VHCN (FTTP & DOCSIS 3.1),70.8,25.4,Finland,114
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Finland,114
+Finland,2024,VHCN (as defined by BEREC),,,Finland,114
+Finland,2023,VHCN (as defined by BEREC),,,Finland,114
+Finland,2022,VHCN (as defined by BEREC),,,Finland,114
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Finland,114
+Finland,2024,At least 30Mbps,83.0,,Finland,114
+Finland,2023,At least 30Mbps,81.0,,Finland,114
+Finland,2022,At least 30Mbps,78.0,,Finland,114
+EU27,2024,At least 30Mbps,94.8,,Finland,114
+Finland,2024,At least 100Mbps,81.0,,Finland,114
+Finland,2023,At least 100Mbps,78.0,,Finland,114
+Finland,2022,At least 100Mbps,71.0,,Finland,114
+EU27,2024,At least 100Mbps,91.1,,Finland,114
+Finland,2024,At least 1Gbps,75.0,,Finland,114
+Finland,2023,At least 1Gbps,71.0,,Finland,114
+Finland,2022,At least 1Gbps,60.0,,Finland,114
+EU27,2024,At least 1Gbps,79.7,,Finland,114
+Finland,2024,At least 1Gbps upload and download,42.0,,Finland,114
+Finland,2023,At least 1Gbps upload and download,33.0,,Finland,114
+Finland,2022,At least 1Gbps upload and download,15.0,,Finland,114
+EU27,2024,At least 1Gbps upload and download,,,Finland,114
+France,2024,DSL,98.9,97.9,France,119
+France,2023,DSL,97.3,98.2,France,119
+France,2022,DSL,97.5,97.6,France,119
+EU27,2024,DSL,74.5,63.1,France,119
+France,2024,VDSL,18.6,25.5,France,119
+France,2023,VDSL,16.6,25.2,France,119
+France,2022,VDSL,15.9,24.9,France,119
+EU27,2024,VDSL,52.1,36.9,France,119
+France,2024,VDSL2 Vectoring,0.0,0.0,France,119
+France,2023,VDSL2 Vectoring,0.0,0.0,France,119
+France,2022,VDSL2 Vectoring,0.0,0.0,France,119
+EU27,2024,VDSL2 Vectoring,38.1,20.3,France,119
+France,2024,FTTP,87.5,78.1,France,119
+France,2023,FTTP,81.4,64.6,France,119
+France,2022,FTTP,73.4,45.9,France,119
+EU27,2024,FTTP,69.2,58.8,France,119
+France,2024,Cable modem DOCSIS 3.0,18.9,0.2,France,119
+France,2023,Cable modem DOCSIS 3.0,19.7,0.2,France,119
+France,2022,Cable modem DOCSIS 3.0,20.0,0.3,France,119
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,France,119
+France,2024,Cable modem DOCSIS 3.1,0.0,0.0,France,119
+France,2023,Cable modem DOCSIS 3.1,0.0,0.0,France,119
+France,2022,Cable modem DOCSIS 3.1,0.0,0.0,France,119
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,France,119
+France,2024,FWA,99.2,98.2,France,119
+France,2023,FWA,99.0,97.3,France,119
+France,2022,FWA,99.1,98.4,France,119
+EU27,2024,FWA,69.3,62.2,France,119
+France,2024,5G,94.3,77.9,France,119
+France,2023,5G,90.9,73.4,France,119
+France,2022,5G,87.5,74.1,France,119
+EU27,2024,5G,94.3,79.6,France,119
+France,2024,5G in the 3.4– 3.8 GHz band,74.0,24.0,France,119
+France,2023,5G in the 3.4– 3.8 GHz band,66.2,15.4,France,119
+France,2022,5G in the 3.4– 3.8 GHz band,53.4,6.2,France,119
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,France,119
+France,2024,Satellite,100.0,100.0,France,119
+France,2023,Satellite,100.0,100.0,France,119
+France,2022,Satellite,100.0,100.0,France,119
+EU27,2024,Satellite,99.9,99.9,France,119
+France,2024,Overall fixed broadband,100.0,100.0,France,119
+France,2023,Overall fixed broadband,100.0,99.9,France,119
+France,2022,Overall fixed broadband,100.0,99.9,France,119
+EU27,2024,Overall fixed broadband,97.9,93.1,France,119
+France,2024,Overall NGA broadband,90.8,83.0,France,119
+France,2023,Overall NGA broadband,86.2,73.2,France,119
+France,2022,Overall NGA broadband,80.4,59.6,France,119
+EU27,2024,Overall NGA broadband,94.1,82.6,France,119
+France,2024,Fixed VHCN (FTTP & DOCSIS 3.1),87.5,78.1,France,119
+France,2023,Fixed VHCN (FTTP & DOCSIS 3.1),81.4,64.6,France,119
+France,2022,Fixed VHCN (FTTP & DOCSIS 3.1),73.4,45.9,France,119
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,France,119
+France,2024,VHCN (as defined by BEREC),87.5,78.1,France,119
+France,2023,VHCN (as defined by BEREC),81.4,64.6,France,119
+France,2022,VHCN (as defined by BEREC),,,France,119
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,France,119
+France,2024,At least 30Mbps,90.9,,France,119
+France,2023,At least 30Mbps,86.5,,France,119
+France,2022,At least 30Mbps,81.6,,France,119
+EU27,2024,At least 30Mbps,94.8,,France,119
+France,2024,At least 100Mbps,88.2,,France,119
+France,2023,At least 100Mbps,82.1,,France,119
+France,2022,At least 100Mbps,74.0,,France,119
+EU27,2024,At least 100Mbps,91.1,,France,119
+France,2024,At least 1Gbps,87.9,,France,119
+France,2023,At least 1Gbps,81.7,,France,119
+France,2022,At least 1Gbps,73.2,,France,119
+EU27,2024,At least 1Gbps,79.7,,France,119
+France,2024,At least 1Gbps upload and download,87.1,,France,119
+France,2023,At least 1Gbps upload and download,80.7,,France,119
+France,2022,At least 1Gbps upload and download,73.2,,France,119
+EU27,2024,At least 1Gbps upload and download,,,France,119
+Germany,2024,DSL,96.4,94.5,Germany,125
+Germany,2023,DSL,96.7,94.6,Germany,125
+Germany,2022,DSL,97.7,94.4,Germany,125
+EU27,2024,DSL,74.5,63.1,Germany,125
+Germany,2024,VDSL,87.0,73.3,Germany,125
+Germany,2023,VDSL,86.6,71.8,Germany,125
+Germany,2022,VDSL,94.8,89.7,Germany,125
+EU27,2024,VDSL,52.1,36.9,Germany,125
+Germany,2024,VDSL2 Vectoring,79.8,59.8,Germany,125
+Germany,2023,VDSL2 Vectoring,79.4,58.8,Germany,125
+Germany,2022,VDSL2 Vectoring,74.2,50.3,Germany,125
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Germany,125
+Germany,2024,FTTP,36.8,33.9,Germany,125
+Germany,2023,FTTP,29.8,25.6,Germany,125
+Germany,2022,FTTP,19.3,16.9,Germany,125
+EU27,2024,FTTP,69.2,58.8,Germany,125
+Germany,2024,Cable modem DOCSIS 3.0,63.5,16.4,Germany,125
+Germany,2023,Cable modem DOCSIS 3.0,63.5,16.0,Germany,125
+Germany,2022,Cable modem DOCSIS 3.0,62.8,15.3,Germany,125
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Germany,125
+Germany,2024,Cable modem DOCSIS 3.1,63.2,15.9,Germany,125
+Germany,2023,Cable modem DOCSIS 3.1,63.1,15.2,Germany,125
+Germany,2022,Cable modem DOCSIS 3.1,62.3,14.8,Germany,125
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Germany,125
+Germany,2024,FWA,91.1,88.4,Germany,125
+Germany,2023,FWA,90.3,88.1,Germany,125
+Germany,2022,FWA,89.8,87.1,Germany,125
+EU27,2024,FWA,69.3,62.2,Germany,125
+Germany,2024,5G,99.1,96.0,Germany,125
+Germany,2023,5G,98.1,92.8,Germany,125
+Germany,2022,5G,93.2,74.8,Germany,125
+EU27,2024,5G,94.3,79.6,Germany,125
+Germany,2024,5G in the 3.4– 3.8 GHz band,49.5,6.7,Germany,125
+Germany,2023,5G in the 3.4– 3.8 GHz band,43.8,4.8,Germany,125
+Germany,2022,5G in the 3.4– 3.8 GHz band,36.5,2.1,Germany,125
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Germany,125
+Germany,2024,Satellite,100.0,100.0,Germany,125
+Germany,2023,Satellite,100.0,100.0,Germany,125
+Germany,2022,Satellite,100.0,100.0,Germany,125
+EU27,2024,Satellite,99.9,99.9,Germany,125
+Germany,2024,Overall fixed broadband,99.0,98.0,Germany,125
+Germany,2023,Overall fixed broadband,99.0,97.5,Germany,125
+Germany,2022,Overall fixed broadband,99.2,97.0,Germany,125
+EU27,2024,Overall fixed broadband,97.9,93.1,Germany,125
+Germany,2024,Overall NGA broadband,96.5,90.1,Germany,125
+Germany,2023,Overall NGA broadband,95.6,86.3,Germany,125
+Germany,2022,Overall NGA broadband,97.4,92.8,Germany,125
+EU27,2024,Overall NGA broadband,94.1,82.6,Germany,125
+Germany,2024,Fixed VHCN (FTTP & DOCSIS 3.1),77.4,45.2,Germany,125
+Germany,2023,Fixed VHCN (FTTP & DOCSIS 3.1),74.7,37.6,Germany,125
+Germany,2022,Fixed VHCN (FTTP & DOCSIS 3.1),70.1,30.1,Germany,125
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Germany,125
+Germany,2024,VHCN (as defined by BEREC),,,Germany,125
+Germany,2023,VHCN (as defined by BEREC),,,Germany,125
+Germany,2022,VHCN (as defined by BEREC),,,Germany,125
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Germany,125
+Germany,2024,At least 30Mbps,96.7,,Germany,125
+Germany,2023,At least 30Mbps,96.1,,Germany,125
+Germany,2022,At least 30Mbps,94.2,,Germany,125
+EU27,2024,At least 30Mbps,94.8,,Germany,125
+Germany,2024,At least 100Mbps,93.7,,Germany,125
+Germany,2023,At least 100Mbps,92.9,,Germany,125
+Germany,2022,At least 100Mbps,91.0,,Germany,125
+EU27,2024,At least 100Mbps,91.1,,Germany,125
+Germany,2024,At least 1Gbps,76.5,,Germany,125
+Germany,2023,At least 1Gbps,73.6,,Germany,125
+Germany,2022,At least 1Gbps,68.6,,Germany,125
+EU27,2024,At least 1Gbps,79.7,,Germany,125
+Germany,2024,At least 1Gbps upload and download,14.8,,Germany,125
+Germany,2023,At least 1Gbps upload and download,12.4,,Germany,125
+Germany,2022,At least 1Gbps upload and download,,,Germany,125
+EU27,2024,At least 1Gbps upload and download,,,Germany,125
+Greece,2024,DSL,95.5,92.3,Greece,130
+Greece,2023,DSL,96.0,90.9,Greece,130
+Greece,2022,DSL,97.9,97.8,Greece,130
+EU27,2024,DSL,74.5,63.1,Greece,130
+Greece,2024,VDSL,74.7,55.0,Greece,130
+Greece,2023,VDSL,77.1,54.9,Greece,130
+Greece,2022,VDSL,76.3,51.1,Greece,130
+EU27,2024,VDSL,52.1,36.9,Greece,130
+Greece,2024,VDSL2 Vectoring,53.4,10.3,Greece,130
+Greece,2023,VDSL2 Vectoring,54.9,10.0,Greece,130
+Greece,2022,VDSL2 Vectoring,54.5,9.3,Greece,130
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Greece,130
+Greece,2024,FTTP,46.1,3.3,Greece,130
+Greece,2023,FTTP,38.4,0.0,Greece,130
+Greece,2022,FTTP,27.8,0.0,Greece,130
+EU27,2024,FTTP,69.2,58.8,Greece,130
+Greece,2024,Cable modem DOCSIS 3.0,0.0,0.0,Greece,130
+Greece,2023,Cable modem DOCSIS 3.0,0.0,0.0,Greece,130
+Greece,2022,Cable modem DOCSIS 3.0,0.0,0.0,Greece,130
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Greece,130
+Greece,2024,Cable modem DOCSIS 3.1,0.0,0.0,Greece,130
+Greece,2023,Cable modem DOCSIS 3.1,0.0,0.0,Greece,130
+Greece,2022,Cable modem DOCSIS 3.1,0.0,0.0,Greece,130
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Greece,130
+Greece,2024,FWA,0.0,0.0,Greece,130
+Greece,2023,FWA,0.0,0.0,Greece,130
+Greece,2022,FWA,0.7,3.5,Greece,130
+EU27,2024,FWA,69.3,62.2,Greece,130
+Greece,2024,5G,99.8,99.3,Greece,130
+Greece,2023,5G,98.1,92.1,Greece,130
+Greece,2022,5G,85.7,57.8,Greece,130
+EU27,2024,5G,94.3,79.6,Greece,130
+Greece,2024,5G in the 3.4– 3.8 GHz band,72.9,41.0,Greece,130
+Greece,2023,5G in the 3.4– 3.8 GHz band,58.8,6.2,Greece,130
+Greece,2022,5G in the 3.4– 3.8 GHz band,36.8,4.2,Greece,130
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Greece,130
+Greece,2024,Satellite,100.0,100.0,Greece,130
+Greece,2023,Satellite,100.0,100.0,Greece,130
+Greece,2022,Satellite,100.0,100.0,Greece,130
+EU27,2024,Satellite,99.9,99.9,Greece,130
+Greece,2024,Overall fixed broadband,97.2,93.7,Greece,130
+Greece,2023,Overall fixed broadband,96.9,90.9,Greece,130
+Greece,2022,Overall fixed broadband,99.0,98.1,Greece,130
+EU27,2024,Overall fixed broadband,97.9,93.1,Greece,130
+Greece,2024,Overall NGA broadband,86.4,56.0,Greece,130
+Greece,2023,Overall NGA broadband,86.0,54.9,Greece,130
+Greece,2022,Overall NGA broadband,86.3,51.1,Greece,130
+EU27,2024,Overall NGA broadband,94.1,82.6,Greece,130
+Greece,2024,Fixed VHCN (FTTP & DOCSIS 3.1),46.1,3.3,Greece,130
+Greece,2023,Fixed VHCN (FTTP & DOCSIS 3.1),38.4,0.0,Greece,130
+Greece,2022,Fixed VHCN (FTTP & DOCSIS 3.1),27.8,0.0,Greece,130
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Greece,130
+Greece,2024,VHCN (as defined by BEREC),,,Greece,130
+Greece,2023,VHCN (as defined by BEREC),,,Greece,130
+Greece,2022,VHCN (as defined by BEREC),,,Greece,130
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Greece,130
+Greece,2024,At least 30Mbps,97.5,,Greece,130
+Greece,2023,At least 30Mbps,97.5,,Greece,130
+Greece,2022,At least 30Mbps,96.0,,Greece,130
+EU27,2024,At least 30Mbps,94.8,,Greece,130
+Greece,2024,At least 100Mbps,60.7,,Greece,130
+Greece,2023,At least 100Mbps,60.7,,Greece,130
+Greece,2022,At least 100Mbps,63.9,,Greece,130
+EU27,2024,At least 100Mbps,91.1,,Greece,130
+Greece,2024,At least 1Gbps,47.5,,Greece,130
+Greece,2023,At least 1Gbps,39.5,,Greece,130
+Greece,2022,At least 1Gbps,27.9,,Greece,130
+EU27,2024,At least 1Gbps,79.7,,Greece,130
+Greece,2024,At least 1Gbps upload and download,45.4,,Greece,130
+Greece,2023,At least 1Gbps upload and download,39.5,,Greece,130
+Greece,2022,At least 1Gbps upload and download,26.1,,Greece,130
+EU27,2024,At least 1Gbps upload and download,,,Greece,130
+Hungary,2024,DSL,64.4,75.0,Hungary,135
+Hungary,2023,DSL,66.6,78.1,Hungary,135
+Hungary,2022,DSL,77.3,91.7,Hungary,135
+EU27,2024,DSL,74.5,63.1,Hungary,135
+Hungary,2024,VDSL,41.6,38.2,Hungary,135
+Hungary,2023,VDSL,42.4,39.1,Hungary,135
+Hungary,2022,VDSL,48.4,48.2,Hungary,135
+EU27,2024,VDSL,52.1,36.9,Hungary,135
+Hungary,2024,VDSL2 Vectoring,39.2,33.1,Hungary,135
+Hungary,2023,VDSL2 Vectoring,39.7,33.3,Hungary,135
+Hungary,2022,VDSL2 Vectoring,0.0,0.0,Hungary,135
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Hungary,135
+Hungary,2024,FTTP,79.9,68.5,Hungary,135
+Hungary,2023,FTTP,76.2,64.7,Hungary,135
+Hungary,2022,FTTP,70.1,52.4,Hungary,135
+EU27,2024,FTTP,69.2,58.8,Hungary,135
+Hungary,2024,Cable modem DOCSIS 3.0,77.4,63.2,Hungary,135
+Hungary,2023,Cable modem DOCSIS 3.0,77.6,63.7,Hungary,135
+Hungary,2022,Cable modem DOCSIS 3.0,81.2,63.6,Hungary,135
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Hungary,135
+Hungary,2024,Cable modem DOCSIS 3.1,41.8,12.4,Hungary,135
+Hungary,2023,Cable modem DOCSIS 3.1,41.1,8.2,Hungary,135
+Hungary,2022,Cable modem DOCSIS 3.1,38.6,6.6,Hungary,135
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Hungary,135
+Hungary,2024,FWA,92.9,86.9,Hungary,135
+Hungary,2023,FWA,58.6,53.3,Hungary,135
+Hungary,2022,FWA,42.3,35.8,Hungary,135
+EU27,2024,FWA,69.3,62.2,Hungary,135
+Hungary,2024,5G,85.6,57.9,Hungary,135
+Hungary,2023,5G,83.7,57.5,Hungary,135
+Hungary,2022,5G,57.9,33.8,Hungary,135
+EU27,2024,5G,94.3,79.6,Hungary,135
+Hungary,2024,5G in the 3.4– 3.8 GHz band,53.4,6.4,Hungary,135
+Hungary,2023,5G in the 3.4– 3.8 GHz band,37.7,3.1,Hungary,135
+Hungary,2022,5G in the 3.4– 3.8 GHz band,21.4,2.0,Hungary,135
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Hungary,135
+Hungary,2024,Satellite,100.0,100.0,Hungary,135
+Hungary,2023,Satellite,100.0,100.0,Hungary,135
+Hungary,2022,Satellite,100.0,100.0,Hungary,135
+EU27,2024,Satellite,99.9,99.9,Hungary,135
+Hungary,2024,Overall fixed broadband,98.1,97.3,Hungary,135
+Hungary,2023,Overall fixed broadband,97.0,95.9,Hungary,135
+Hungary,2022,Overall fixed broadband,99.7,99.2,Hungary,135
+EU27,2024,Overall fixed broadband,97.9,93.1,Hungary,135
+Hungary,2024,Overall NGA broadband,97.0,95.2,Hungary,135
+Hungary,2023,Overall NGA broadband,95.9,93.7,Hungary,135
+Hungary,2022,Overall NGA broadband,98.4,96.2,Hungary,135
+EU27,2024,Overall NGA broadband,94.1,82.6,Hungary,135
+Hungary,2024,Fixed VHCN (FTTP & DOCSIS 3.1),86.0,75.9,Hungary,135
+Hungary,2023,Fixed VHCN (FTTP & DOCSIS 3.1),84.1,70.1,Hungary,135
+Hungary,2022,Fixed VHCN (FTTP & DOCSIS 3.1),80.3,59.1,Hungary,135
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Hungary,135
+Hungary,2024,VHCN (as defined by BEREC),,,Hungary,135
+Hungary,2023,VHCN (as defined by BEREC),,,Hungary,135
+Hungary,2022,VHCN (as defined by BEREC),,,Hungary,135
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Hungary,135
+Hungary,2024,At least 30Mbps,96.3,,Hungary,135
+Hungary,2023,At least 30Mbps,96.0,,Hungary,135
+Hungary,2022,At least 30Mbps,95.5,,Hungary,135
+EU27,2024,At least 30Mbps,94.8,,Hungary,135
+Hungary,2024,At least 100Mbps,95.3,,Hungary,135
+Hungary,2023,At least 100Mbps,95.1,,Hungary,135
+Hungary,2022,At least 100Mbps,91.9,,Hungary,135
+EU27,2024,At least 100Mbps,91.1,,Hungary,135
+Hungary,2024,At least 1Gbps,82.6,,Hungary,135
+Hungary,2023,At least 1Gbps,82.4,,Hungary,135
+Hungary,2022,At least 1Gbps,81.9,,Hungary,135
+EU27,2024,At least 1Gbps,79.7,,Hungary,135
+Hungary,2024,At least 1Gbps upload and download,,,Hungary,135
+Hungary,2023,At least 1Gbps upload and download,,,Hungary,135
+Hungary,2022,At least 1Gbps upload and download,,,Hungary,135
+EU27,2024,At least 1Gbps upload and download,,,Hungary,135
+Iceland,2024,DSL,82.7,36.1,Iceland,140
+Iceland,2023,DSL,90.8,49.5,Iceland,140
+Iceland,2022,DSL,89.0,48.0,Iceland,140
+EU27,2024,DSL,74.5,63.1,Iceland,140
+Iceland,2024,VDSL,57.3,2.2,Iceland,140
+Iceland,2023,VDSL,90.8,49.5,Iceland,140
+Iceland,2022,VDSL,84.1,7.6,Iceland,140
+EU27,2024,VDSL,52.1,36.9,Iceland,140
+Iceland,2024,VDSL2 Vectoring,43.3,0.3,Iceland,140
+Iceland,2023,VDSL2 Vectoring,68.6,1.2,Iceland,140
+Iceland,2022,VDSL2 Vectoring,65.4,0.8,Iceland,140
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Iceland,140
+Iceland,2024,FTTP,95.3,82.7,Iceland,140
+Iceland,2023,FTTP,91.0,83.9,Iceland,140
+Iceland,2022,FTTP,88.2,78.7,Iceland,140
+EU27,2024,FTTP,69.2,58.8,Iceland,140
+Iceland,2024,Cable modem DOCSIS 3.0,0.0,0.0,Iceland,140
+Iceland,2023,Cable modem DOCSIS 3.0,3.1,0.9,Iceland,140
+Iceland,2022,Cable modem DOCSIS 3.0,3.1,0.9,Iceland,140
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Iceland,140
+Iceland,2024,Cable modem DOCSIS 3.1,0.0,0.0,Iceland,140
+Iceland,2023,Cable modem DOCSIS 3.1,3.1,0.9,Iceland,140
+Iceland,2022,Cable modem DOCSIS 3.1,3.1,0.9,Iceland,140
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Iceland,140
+Iceland,2024,FWA,0.0,0.0,Iceland,140
+Iceland,2023,FWA,2.0,19.1,Iceland,140
+Iceland,2022,FWA,2.0,19.1,Iceland,140
+EU27,2024,FWA,69.3,62.2,Iceland,140
+Iceland,2024,5G,80.3,7.4,Iceland,140
+Iceland,2023,5G,78.3,5.7,Iceland,140
+Iceland,2022,5G,41.6,7.9,Iceland,140
+EU27,2024,5G,94.3,79.6,Iceland,140
+Iceland,2024,5G in the 3.4– 3.8 GHz band,,,Iceland,140
+Iceland,2023,5G in the 3.4– 3.8 GHz band,,,Iceland,140
+Iceland,2022,5G in the 3.4– 3.8 GHz band,,,Iceland,140
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Iceland,140
+Iceland,2024,Satellite,0.0,0.0,Iceland,140
+Iceland,2023,Satellite,0.0,0.0,Iceland,140
+Iceland,2022,Satellite,0.0,0.0,Iceland,140
+EU27,2024,Satellite,99.9,99.9,Iceland,140
+Iceland,2024,Overall fixed broadband,99.3,87.9,Iceland,140
+Iceland,2023,Overall fixed broadband,99.3,91.7,Iceland,140
+Iceland,2022,Overall fixed broadband,99.2,88.1,Iceland,140
+EU27,2024,Overall fixed broadband,97.9,93.1,Iceland,140
+Iceland,2024,Overall NGA broadband,99.1,84.1,Iceland,140
+Iceland,2023,Overall NGA broadband,98.9,91.7,Iceland,140
+Iceland,2022,Overall NGA broadband,98.8,82.3,Iceland,140
+EU27,2024,Overall NGA broadband,94.1,82.6,Iceland,140
+Iceland,2024,Fixed VHCN (FTTP & DOCSIS 3.1),95.3,82.7,Iceland,140
+Iceland,2023,Fixed VHCN (FTTP & DOCSIS 3.1),92.6,84.3,Iceland,140
+Iceland,2022,Fixed VHCN (FTTP & DOCSIS 3.1),89.2,78.7,Iceland,140
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Iceland,140
+Iceland,2024,VHCN (as defined by BEREC),98.7,85.0,Iceland,140
+Iceland,2023,VHCN (as defined by BEREC),,,Iceland,140
+Iceland,2022,VHCN (as defined by BEREC),,,Iceland,140
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Iceland,140
+Iceland,2024,At least 30Mbps,99.1,,Iceland,140
+Iceland,2023,At least 30Mbps,99.1,,Iceland,140
+Iceland,2022,At least 30Mbps,98.8,,Iceland,140
+EU27,2024,At least 30Mbps,94.8,,Iceland,140
+Iceland,2024,At least 100Mbps,95.3,,Iceland,140
+Iceland,2023,At least 100Mbps,89.3,,Iceland,140
+Iceland,2022,At least 100Mbps,88.3,,Iceland,140
+EU27,2024,At least 100Mbps,91.1,,Iceland,140
+Iceland,2024,At least 1Gbps,95.1,,Iceland,140
+Iceland,2023,At least 1Gbps,88.6,,Iceland,140
+Iceland,2022,At least 1Gbps,85.6,,Iceland,140
+EU27,2024,At least 1Gbps,79.7,,Iceland,140
+Iceland,2024,At least 1Gbps upload and download,95.1,,Iceland,140
+Iceland,2023,At least 1Gbps upload and download,88.6,,Iceland,140
+Iceland,2022,At least 1Gbps upload and download,85.6,,Iceland,140
+EU27,2024,At least 1Gbps upload and download,,,Iceland,140
+Ireland,2024,DSL,84.9,82.6,Ireland,145
+Ireland,2023,DSL,91.6,82.6,Ireland,145
+Ireland,2022,DSL,90.0,82.3,Ireland,145
+EU27,2024,DSL,74.5,63.1,Ireland,145
+Ireland,2024,VDSL,76.5,69.8,Ireland,145
+Ireland,2023,VDSL,83.1,66.5,Ireland,145
+Ireland,2022,VDSL,82.0,65.7,Ireland,145
+EU27,2024,VDSL,52.1,36.9,Ireland,145
+Ireland,2024,VDSL2 Vectoring,,,Ireland,145
+Ireland,2023,VDSL2 Vectoring,,,Ireland,145
+Ireland,2022,VDSL2 Vectoring,,,Ireland,145
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Ireland,145
+Ireland,2024,FTTP,73.5,72.1,Ireland,145
+Ireland,2023,FTTP,61.6,56.7,Ireland,145
+Ireland,2022,FTTP,51.5,45.8,Ireland,145
+EU27,2024,FTTP,69.2,58.8,Ireland,145
+Ireland,2024,Cable modem DOCSIS 3.0,31.5,0.3,Ireland,145
+Ireland,2023,Cable modem DOCSIS 3.0,36.0,0.3,Ireland,145
+Ireland,2022,Cable modem DOCSIS 3.0,38.2,0.3,Ireland,145
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Ireland,145
+Ireland,2024,Cable modem DOCSIS 3.1,31.5,0.3,Ireland,145
+Ireland,2023,Cable modem DOCSIS 3.1,36.0,0.3,Ireland,145
+Ireland,2022,Cable modem DOCSIS 3.1,38.2,0.3,Ireland,145
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Ireland,145
+Ireland,2024,FWA,51.0,70.0,Ireland,145
+Ireland,2023,FWA,51.6,36.2,Ireland,145
+Ireland,2022,FWA,29.5,19.2,Ireland,145
+EU27,2024,FWA,69.3,62.2,Ireland,145
+Ireland,2024,5G,89.9,76.4,Ireland,145
+Ireland,2023,5G,85.3,62.3,Ireland,145
+Ireland,2022,5G,83.9,58.3,Ireland,145
+EU27,2024,5G,94.3,79.6,Ireland,145
+Ireland,2024,5G in the 3.4– 3.8 GHz band,58.8,18.5,Ireland,145
+Ireland,2023,5G in the 3.4– 3.8 GHz band,56.7,10.5,Ireland,145
+Ireland,2022,5G in the 3.4– 3.8 GHz band,56.0,8.8,Ireland,145
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Ireland,145
+Ireland,2024,Satellite,100.0,100.0,Ireland,145
+Ireland,2023,Satellite,100.0,100.0,Ireland,145
+Ireland,2022,Satellite,100.0,100.0,Ireland,145
+EU27,2024,Satellite,99.9,99.9,Ireland,145
+Ireland,2024,Overall fixed broadband,100.0,100.0,Ireland,145
+Ireland,2023,Overall fixed broadband,100.0,100.0,Ireland,145
+Ireland,2022,Overall fixed broadband,99.6,99.0,Ireland,145
+EU27,2024,Overall fixed broadband,97.9,93.1,Ireland,145
+Ireland,2024,Overall NGA broadband,100.0,100.0,Ireland,145
+Ireland,2023,Overall NGA broadband,98.9,96.2,Ireland,145
+Ireland,2022,Overall NGA broadband,97.2,93.8,Ireland,145
+EU27,2024,Overall NGA broadband,94.1,82.6,Ireland,145
+Ireland,2024,Fixed VHCN (FTTP & DOCSIS 3.1),87.2,72.2,Ireland,145
+Ireland,2023,Fixed VHCN (FTTP & DOCSIS 3.1),78.5,56.9,Ireland,145
+Ireland,2022,Fixed VHCN (FTTP & DOCSIS 3.1),72.2,46.0,Ireland,145
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Ireland,145
+Ireland,2024,VHCN (as defined by BEREC),98.2,95.5,Ireland,145
+Ireland,2023,VHCN (as defined by BEREC),,,Ireland,145
+Ireland,2022,VHCN (as defined by BEREC),,,Ireland,145
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Ireland,145
+Ireland,2024,At least 30Mbps,100.0,,Ireland,145
+Ireland,2023,At least 30Mbps,100.0,,Ireland,145
+Ireland,2022,At least 30Mbps,97.2,,Ireland,145
+EU27,2024,At least 30Mbps,94.8,,Ireland,145
+Ireland,2024,At least 100Mbps,87.3,,Ireland,145
+Ireland,2023,At least 100Mbps,78.6,,Ireland,145
+Ireland,2022,At least 100Mbps,70.6,,Ireland,145
+EU27,2024,At least 100Mbps,91.1,,Ireland,145
+Ireland,2024,At least 1Gbps,87.2,,Ireland,145
+Ireland,2023,At least 1Gbps,70.9,,Ireland,145
+Ireland,2022,At least 1Gbps,68.6,,Ireland,145
+EU27,2024,At least 1Gbps,79.7,,Ireland,145
+Ireland,2024,At least 1Gbps upload and download,36.5,,Ireland,145
+Ireland,2023,At least 1Gbps upload and download,22.6,,Ireland,145
+Ireland,2022,At least 1Gbps upload and download,,,Ireland,145
+EU27,2024,At least 1Gbps upload and download,,,Ireland,145
+Italy,2024,DSL,99.8,98.7,Italy,150
+Italy,2023,DSL,99.8,98.9,Italy,150
+Italy,2022,DSL,99.8,98.8,Italy,150
+EU27,2024,DSL,74.5,63.1,Italy,150
+Italy,2024,VDSL,96.4,86.8,Italy,150
+Italy,2023,VDSL,96.4,87.1,Italy,150
+Italy,2022,VDSL,96.2,86.8,Italy,150
+EU27,2024,VDSL,52.1,36.9,Italy,150
+Italy,2024,VDSL2 Vectoring,71.0,30.8,Italy,150
+Italy,2023,VDSL2 Vectoring,70.6,34.4,Italy,150
+Italy,2022,VDSL2 Vectoring,70.1,33.9,Italy,150
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Italy,150
+Italy,2024,FTTP,70.7,36.8,Italy,150
+Italy,2023,FTTP,59.6,37.7,Italy,150
+Italy,2022,FTTP,53.7,26.0,Italy,150
+EU27,2024,FTTP,69.2,58.8,Italy,150
+Italy,2024,Cable modem DOCSIS 3.0,0.0,0.0,Italy,150
+Italy,2023,Cable modem DOCSIS 3.0,0.0,0.0,Italy,150
+Italy,2022,Cable modem DOCSIS 3.0,0.0,0.0,Italy,150
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Italy,150
+Italy,2024,Cable modem DOCSIS 3.1,0.0,0.0,Italy,150
+Italy,2023,Cable modem DOCSIS 3.1,0.0,0.0,Italy,150
+Italy,2022,Cable modem DOCSIS 3.1,0.0,0.0,Italy,150
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Italy,150
+Italy,2024,FWA,100.0,99.9,Italy,150
+Italy,2023,FWA,100.0,99.9,Italy,150
+Italy,2022,FWA,97.4,96.8,Italy,150
+EU27,2024,FWA,69.3,62.2,Italy,150
+Italy,2024,5G,99.5,99.1,Italy,150
+Italy,2023,5G,99.5,98.3,Italy,150
+Italy,2022,5G,99.7,99.8,Italy,150
+EU27,2024,5G,94.3,79.6,Italy,150
+Italy,2024,5G in the 3.4– 3.8 GHz band,93.3,74.4,Italy,150
+Italy,2023,5G in the 3.4– 3.8 GHz band,88.3,68.9,Italy,150
+Italy,2022,5G in the 3.4– 3.8 GHz band,80.3,53.3,Italy,150
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Italy,150
+Italy,2024,Satellite,100.0,100.0,Italy,150
+Italy,2023,Satellite,100.0,100.0,Italy,150
+Italy,2022,Satellite,100.0,100.0,Italy,150
+EU27,2024,Satellite,99.9,99.9,Italy,150
+Italy,2024,Overall fixed broadband,99.9,99.4,Italy,150
+Italy,2023,Overall fixed broadband,100.0,99.9,Italy,150
+Italy,2022,Overall fixed broadband,99.8,99.4,Italy,150
+EU27,2024,Overall fixed broadband,97.9,93.1,Italy,150
+Italy,2024,Overall NGA broadband,98.8,93.0,Italy,150
+Italy,2023,Overall NGA broadband,98.4,93.6,Italy,150
+Italy,2022,Overall NGA broadband,97.6,91.1,Italy,150
+EU27,2024,Overall NGA broadband,94.1,82.6,Italy,150
+Italy,2024,Fixed VHCN (FTTP & DOCSIS 3.1),70.7,36.8,Italy,150
+Italy,2023,Fixed VHCN (FTTP & DOCSIS 3.1),59.6,37.7,Italy,150
+Italy,2022,Fixed VHCN (FTTP & DOCSIS 3.1),53.7,26.0,Italy,150
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Italy,150
+Italy,2024,VHCN (as defined by BEREC),97.0,77.0,Italy,150
+Italy,2023,VHCN (as defined by BEREC),92.9,75.8,Italy,150
+Italy,2022,VHCN (as defined by BEREC),,,Italy,150
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Italy,150
+Italy,2024,At least 30Mbps,95.8,,Italy,150
+Italy,2023,At least 30Mbps,94.2,,Italy,150
+Italy,2022,At least 30Mbps,92.3,,Italy,150
+EU27,2024,At least 30Mbps,94.8,,Italy,150
+Italy,2024,At least 100Mbps,90.8,,Italy,150
+Italy,2023,At least 100Mbps,87.1,,Italy,150
+Italy,2022,At least 100Mbps,82.8,,Italy,150
+EU27,2024,At least 100Mbps,91.1,,Italy,150
+Italy,2024,At least 1Gbps,70.7,,Italy,150
+Italy,2023,At least 1Gbps,59.6,,Italy,150
+Italy,2022,At least 1Gbps,53.5,,Italy,150
+EU27,2024,At least 1Gbps,79.7,,Italy,150
+Italy,2024,At least 1Gbps upload and download,70.5,,Italy,150
+Italy,2023,At least 1Gbps upload and download,59.6,,Italy,150
+Italy,2022,At least 1Gbps upload and download,53.5,,Italy,150
+EU27,2024,At least 1Gbps upload and download,,,Italy,150
+Latvia,2024,DSL,27.4,30.7,Latvia,155
+Latvia,2023,DSL,21.4,26.3,Latvia,155
+Latvia,2022,DSL,21.4,26.7,Latvia,155
+EU27,2024,DSL,74.5,63.1,Latvia,155
+Latvia,2024,VDSL,19.5,23.2,Latvia,155
+Latvia,2023,VDSL,15.2,18.3,Latvia,155
+Latvia,2022,VDSL,16.5,19.8,Latvia,155
+EU27,2024,VDSL,52.1,36.9,Latvia,155
+Latvia,2024,VDSL2 Vectoring,19.5,23.1,Latvia,155
+Latvia,2023,VDSL2 Vectoring,15.2,17.9,Latvia,155
+Latvia,2022,VDSL2 Vectoring,16.5,19.8,Latvia,155
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Latvia,155
+Latvia,2024,FTTP,61.1,10.4,Latvia,155
+Latvia,2023,FTTP,61.9,11.7,Latvia,155
+Latvia,2022,FTTP,60.9,11.2,Latvia,155
+EU27,2024,FTTP,69.2,58.8,Latvia,155
+Latvia,2024,Cable modem DOCSIS 3.0,21.1,0.0,Latvia,155
+Latvia,2023,Cable modem DOCSIS 3.0,22.2,0.0,Latvia,155
+Latvia,2022,Cable modem DOCSIS 3.0,22.3,0.0,Latvia,155
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Latvia,155
+Latvia,2024,Cable modem DOCSIS 3.1,17.1,0.0,Latvia,155
+Latvia,2023,Cable modem DOCSIS 3.1,18.1,0.0,Latvia,155
+Latvia,2022,Cable modem DOCSIS 3.1,18.2,0.0,Latvia,155
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Latvia,155
+Latvia,2024,FWA,3.1,4.1,Latvia,155
+Latvia,2023,FWA,4.0,5.4,Latvia,155
+Latvia,2022,FWA,3.9,5.4,Latvia,155
+EU27,2024,FWA,69.3,62.2,Latvia,155
+Latvia,2024,5G,71.1,15.0,Latvia,155
+Latvia,2023,5G,53.1,0.0,Latvia,155
+Latvia,2022,5G,42.0,0.0,Latvia,155
+EU27,2024,5G,94.3,79.6,Latvia,155
+Latvia,2024,5G in the 3.4– 3.8 GHz band,52.2,0.0,Latvia,155
+Latvia,2023,5G in the 3.4– 3.8 GHz band,39.0,0.0,Latvia,155
+Latvia,2022,5G in the 3.4– 3.8 GHz band,20.6,0.0,Latvia,155
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Latvia,155
+Latvia,2024,Satellite,100.0,100.0,Latvia,155
+Latvia,2023,Satellite,100.0,100.0,Latvia,155
+Latvia,2022,Satellite,100.0,100.0,Latvia,155
+EU27,2024,Satellite,99.9,99.9,Latvia,155
+Latvia,2024,Overall fixed broadband,80.9,35.4,Latvia,155
+Latvia,2023,Overall fixed broadband,74.0,31.6,Latvia,155
+Latvia,2022,Overall fixed broadband,73.0,35.0,Latvia,155
+EU27,2024,Overall fixed broadband,97.9,93.1,Latvia,155
+Latvia,2024,Overall NGA broadband,80.3,29.4,Latvia,155
+Latvia,2023,Overall NGA broadband,72.0,24.7,Latvia,155
+Latvia,2022,Overall NGA broadband,69.3,25.4,Latvia,155
+EU27,2024,Overall NGA broadband,94.1,82.6,Latvia,155
+Latvia,2024,Fixed VHCN (FTTP & DOCSIS 3.1),68.1,10.4,Latvia,155
+Latvia,2023,Fixed VHCN (FTTP & DOCSIS 3.1),68.0,11.7,Latvia,155
+Latvia,2022,Fixed VHCN (FTTP & DOCSIS 3.1),62.7,11.2,Latvia,155
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Latvia,155
+Latvia,2024,VHCN (as defined by BEREC),72.0,13.2,Latvia,155
+Latvia,2023,VHCN (as defined by BEREC),73.2,12.9,Latvia,155
+Latvia,2022,VHCN (as defined by BEREC),,,Latvia,155
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Latvia,155
+Latvia,2024,At least 30Mbps,70.5,,Latvia,155
+Latvia,2023,At least 30Mbps,68.3,,Latvia,155
+Latvia,2022,At least 30Mbps,67.6,,Latvia,155
+EU27,2024,At least 30Mbps,94.8,,Latvia,155
+Latvia,2024,At least 100Mbps,65.5,,Latvia,155
+Latvia,2023,At least 100Mbps,63.6,,Latvia,155
+Latvia,2022,At least 100Mbps,62.6,,Latvia,155
+EU27,2024,At least 100Mbps,91.1,,Latvia,155
+Latvia,2024,At least 1Gbps,0.0,,Latvia,155
+Latvia,2023,At least 1Gbps,0.0,,Latvia,155
+Latvia,2022,At least 1Gbps,0.0,,Latvia,155
+EU27,2024,At least 1Gbps,79.7,,Latvia,155
+Latvia,2024,At least 1Gbps upload and download,0.0,,Latvia,155
+Latvia,2023,At least 1Gbps upload and download,,,Latvia,155
+Latvia,2022,At least 1Gbps upload and download,,,Latvia,155
+EU27,2024,At least 1Gbps upload and download,,,Latvia,155
+Lithuania,2024,DSL,83.9,58.3,Lithuania,159
+Lithuania,2023,DSL,85.2,61.4,Lithuania,159
+Lithuania,2022,DSL,85.2,61.3,Lithuania,159
+EU27,2024,DSL,74.5,63.1,Lithuania,159
+Lithuania,2024,VDSL,83.9,58.3,Lithuania,159
+Lithuania,2023,VDSL,78.0,53.3,Lithuania,159
+Lithuania,2022,VDSL,77.7,52.6,Lithuania,159
+EU27,2024,VDSL,52.1,36.9,Lithuania,159
+Lithuania,2024,VDSL2 Vectoring,83.9,58.3,Lithuania,159
+Lithuania,2023,VDSL2 Vectoring,78.0,53.3,Lithuania,159
+Lithuania,2022,VDSL2 Vectoring,77.7,52.6,Lithuania,159
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Lithuania,159
+Lithuania,2024,FTTP,78.3,39.8,Lithuania,159
+Lithuania,2023,FTTP,78.1,39.6,Lithuania,159
+Lithuania,2022,FTTP,78.0,39.5,Lithuania,159
+EU27,2024,FTTP,69.2,58.8,Lithuania,159
+Lithuania,2024,Cable modem DOCSIS 3.0,25.0,0.4,Lithuania,159
+Lithuania,2023,Cable modem DOCSIS 3.0,25.6,0.5,Lithuania,159
+Lithuania,2022,Cable modem DOCSIS 3.0,26.5,0.5,Lithuania,159
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Lithuania,159
+Lithuania,2024,Cable modem DOCSIS 3.1,0.0,0.0,Lithuania,159
+Lithuania,2023,Cable modem DOCSIS 3.1,0.0,0.0,Lithuania,159
+Lithuania,2022,Cable modem DOCSIS 3.1,0.0,0.0,Lithuania,159
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Lithuania,159
+Lithuania,2024,FWA,32.0,13.9,Lithuania,159
+Lithuania,2023,FWA,26.3,13.4,Lithuania,159
+Lithuania,2022,FWA,14.7,6.9,Lithuania,159
+EU27,2024,FWA,69.3,62.2,Lithuania,159
+Lithuania,2024,5G,99.7,99.1,Lithuania,159
+Lithuania,2023,5G,98.9,96.4,Lithuania,159
+Lithuania,2022,5G,90.1,75.6,Lithuania,159
+EU27,2024,5G,94.3,79.6,Lithuania,159
+Lithuania,2024,5G in the 3.4– 3.8 GHz band,75.1,20.3,Lithuania,159
+Lithuania,2023,5G in the 3.4– 3.8 GHz band,61.4,8.2,Lithuania,159
+Lithuania,2022,5G in the 3.4– 3.8 GHz band,35.9,5.6,Lithuania,159
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Lithuania,159
+Lithuania,2024,Satellite,100.0,100.0,Lithuania,159
+Lithuania,2023,Satellite,100.0,100.0,Lithuania,159
+Lithuania,2022,Satellite,100.0,100.0,Lithuania,159
+EU27,2024,Satellite,99.9,99.9,Lithuania,159
+Lithuania,2024,Overall fixed broadband,89.0,65.9,Lithuania,159
+Lithuania,2023,Overall fixed broadband,89.5,69.4,Lithuania,159
+Lithuania,2022,Overall fixed broadband,89.2,68.4,Lithuania,159
+EU27,2024,Overall fixed broadband,97.9,93.1,Lithuania,159
+Lithuania,2024,Overall NGA broadband,88.1,63.6,Lithuania,159
+Lithuania,2023,Overall NGA broadband,87.0,62.5,Lithuania,159
+Lithuania,2022,Overall NGA broadband,86.9,62.1,Lithuania,159
+EU27,2024,Overall NGA broadband,94.1,82.6,Lithuania,159
+Lithuania,2024,Fixed VHCN (FTTP & DOCSIS 3.1),78.3,39.8,Lithuania,159
+Lithuania,2023,Fixed VHCN (FTTP & DOCSIS 3.1),78.1,39.6,Lithuania,159
+Lithuania,2022,Fixed VHCN (FTTP & DOCSIS 3.1),78.0,39.5,Lithuania,159
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Lithuania,159
+Lithuania,2024,VHCN (as defined by BEREC),98.1,94.2,Lithuania,159
+Lithuania,2023,VHCN (as defined by BEREC),97.2,93.6,Lithuania,159
+Lithuania,2022,VHCN (as defined by BEREC),,,Lithuania,159
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Lithuania,159
+Lithuania,2024,At least 30Mbps,88.1,,Lithuania,159
+Lithuania,2023,At least 30Mbps,86.9,,Lithuania,159
+Lithuania,2022,At least 30Mbps,86.7,,Lithuania,159
+EU27,2024,At least 30Mbps,94.8,,Lithuania,159
+Lithuania,2024,At least 100Mbps,88.1,,Lithuania,159
+Lithuania,2023,At least 100Mbps,86.9,,Lithuania,159
+Lithuania,2022,At least 100Mbps,86.7,,Lithuania,159
+EU27,2024,At least 100Mbps,91.1,,Lithuania,159
+Lithuania,2024,At least 1Gbps,78.1,,Lithuania,159
+Lithuania,2023,At least 1Gbps,78.0,,Lithuania,159
+Lithuania,2022,At least 1Gbps,77.8,,Lithuania,159
+EU27,2024,At least 1Gbps,79.7,,Lithuania,159
+Lithuania,2024,At least 1Gbps upload and download,78.1,,Lithuania,159
+Lithuania,2023,At least 1Gbps upload and download,78.0,,Lithuania,159
+Lithuania,2022,At least 1Gbps upload and download,77.8,,Lithuania,159
+EU27,2024,At least 1Gbps upload and download,,,Lithuania,159
+Luxembourg,2024,DSL,23.3,49.4,Luxembourg,164
+Luxembourg,2023,DSL,23.6,53.7,Luxembourg,164
+Luxembourg,2022,DSL,59.7,66.5,Luxembourg,164
+EU27,2024,DSL,74.5,63.1,Luxembourg,164
+Luxembourg,2024,VDSL,23.1,48.5,Luxembourg,164
+Luxembourg,2023,VDSL,23.0,52.6,Luxembourg,164
+Luxembourg,2022,VDSL,54.5,63.2,Luxembourg,164
+EU27,2024,VDSL,52.1,36.9,Luxembourg,164
+Luxembourg,2024,VDSL2 Vectoring,10.5,29.9,Luxembourg,164
+Luxembourg,2023,VDSL2 Vectoring,11.3,31.7,Luxembourg,164
+Luxembourg,2022,VDSL2 Vectoring,15.2,28.7,Luxembourg,164
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Luxembourg,164
+Luxembourg,2024,FTTP,81.8,68.0,Luxembourg,164
+Luxembourg,2023,FTTP,78.9,61.9,Luxembourg,164
+Luxembourg,2022,FTTP,76.2,58.2,Luxembourg,164
+EU27,2024,FTTP,69.2,58.8,Luxembourg,164
+Luxembourg,2024,Cable modem DOCSIS 3.0,87.5,55.2,Luxembourg,164
+Luxembourg,2023,Cable modem DOCSIS 3.0,87.6,55.9,Luxembourg,164
+Luxembourg,2022,Cable modem DOCSIS 3.0,88.3,57.3,Luxembourg,164
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Luxembourg,164
+Luxembourg,2024,Cable modem DOCSIS 3.1,83.8,53.6,Luxembourg,164
+Luxembourg,2023,Cable modem DOCSIS 3.1,84.0,54.8,Luxembourg,164
+Luxembourg,2022,Cable modem DOCSIS 3.1,82.5,54.5,Luxembourg,164
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Luxembourg,164
+Luxembourg,2024,FWA,0.0,0.0,Luxembourg,164
+Luxembourg,2023,FWA,0.0,0.0,Luxembourg,164
+Luxembourg,2022,FWA,0.0,0.0,Luxembourg,164
+EU27,2024,FWA,69.3,62.2,Luxembourg,164
+Luxembourg,2024,5G,99.6,96.8,Luxembourg,164
+Luxembourg,2023,5G,99.6,96.9,Luxembourg,164
+Luxembourg,2022,5G,93.2,46.7,Luxembourg,164
+EU27,2024,5G,94.3,79.6,Luxembourg,164
+Luxembourg,2024,5G in the 3.4– 3.8 GHz band,70.6,18.1,Luxembourg,164
+Luxembourg,2023,5G in the 3.4– 3.8 GHz band,63.1,14.1,Luxembourg,164
+Luxembourg,2022,5G in the 3.4– 3.8 GHz band,51.3,14.0,Luxembourg,164
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Luxembourg,164
+Luxembourg,2024,Satellite,100.0,100.0,Luxembourg,164
+Luxembourg,2023,Satellite,100.0,100.0,Luxembourg,164
+Luxembourg,2022,Satellite,100.0,100.0,Luxembourg,164
+EU27,2024,Satellite,99.9,99.9,Luxembourg,164
+Luxembourg,2024,Overall fixed broadband,100.0,100.0,Luxembourg,164
+Luxembourg,2023,Overall fixed broadband,100.0,100.0,Luxembourg,164
+Luxembourg,2022,Overall fixed broadband,100.0,100.0,Luxembourg,164
+EU27,2024,Overall fixed broadband,97.9,93.1,Luxembourg,164
+Luxembourg,2024,Overall NGA broadband,97.3,91.1,Luxembourg,164
+Luxembourg,2023,Overall NGA broadband,97.3,90.5,Luxembourg,164
+Luxembourg,2022,Overall NGA broadband,97.5,95.3,Luxembourg,164
+EU27,2024,Overall NGA broadband,94.1,82.6,Luxembourg,164
+Luxembourg,2024,Fixed VHCN (FTTP & DOCSIS 3.1),95.2,82.8,Luxembourg,164
+Luxembourg,2023,Fixed VHCN (FTTP & DOCSIS 3.1),94.7,80.3,Luxembourg,164
+Luxembourg,2022,Fixed VHCN (FTTP & DOCSIS 3.1),93.3,79.1,Luxembourg,164
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Luxembourg,164
+Luxembourg,2024,VHCN (as defined by BEREC),95.2,82.8,Luxembourg,164
+Luxembourg,2023,VHCN (as defined by BEREC),94.7,80.3,Luxembourg,164
+Luxembourg,2022,VHCN (as defined by BEREC),,,Luxembourg,164
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Luxembourg,164
+Luxembourg,2024,At least 30Mbps,97.3,,Luxembourg,164
+Luxembourg,2023,At least 30Mbps,97.3,,Luxembourg,164
+Luxembourg,2022,At least 30Mbps,97.5,,Luxembourg,164
+EU27,2024,At least 30Mbps,94.8,,Luxembourg,164
+Luxembourg,2024,At least 100Mbps,95.7,,Luxembourg,164
+Luxembourg,2023,At least 100Mbps,95.4,,Luxembourg,164
+Luxembourg,2022,At least 100Mbps,95.1,,Luxembourg,164
+EU27,2024,At least 100Mbps,91.1,,Luxembourg,164
+Luxembourg,2024,At least 1Gbps,95.2,,Luxembourg,164
+Luxembourg,2023,At least 1Gbps,94.7,,Luxembourg,164
+Luxembourg,2022,At least 1Gbps,93.3,,Luxembourg,164
+EU27,2024,At least 1Gbps,79.7,,Luxembourg,164
+Luxembourg,2024,At least 1Gbps upload and download,81.8,,Luxembourg,164
+Luxembourg,2023,At least 1Gbps upload and download,78.9,,Luxembourg,164
+Luxembourg,2022,At least 1Gbps upload and download,,,Luxembourg,164
+EU27,2024,At least 1Gbps upload and download,,,Luxembourg,164
+Malta,2024,DSL,100.0,100.0,Malta,169
+Malta,2023,DSL,100.0,100.0,Malta,169
+Malta,2022,DSL,100.0,100.0,Malta,169
+EU27,2024,DSL,74.5,63.1,Malta,169
+Malta,2024,VDSL,72.0,0.0,Malta,169
+Malta,2023,VDSL,72.0,0.0,Malta,169
+Malta,2022,VDSL,72.0,0.0,Malta,169
+EU27,2024,VDSL,52.1,36.9,Malta,169
+Malta,2024,VDSL2 Vectoring,0.0,0.0,Malta,169
+Malta,2023,VDSL2 Vectoring,0.0,0.0,Malta,169
+Malta,2022,VDSL2 Vectoring,0.0,0.0,Malta,169
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Malta,169
+Malta,2024,FTTP,86.2,26.6,Malta,169
+Malta,2023,FTTP,69.6,16.2,Malta,169
+Malta,2022,FTTP,56.2,0.0,Malta,169
+EU27,2024,FTTP,69.2,58.8,Malta,169
+Malta,2024,Cable modem DOCSIS 3.0,100.0,100.0,Malta,169
+Malta,2023,Cable modem DOCSIS 3.0,100.0,100.0,Malta,169
+Malta,2022,Cable modem DOCSIS 3.0,100.0,100.0,Malta,169
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Malta,169
+Malta,2024,Cable modem DOCSIS 3.1,100.0,100.0,Malta,169
+Malta,2023,Cable modem DOCSIS 3.1,100.0,100.0,Malta,169
+Malta,2022,Cable modem DOCSIS 3.1,100.0,100.0,Malta,169
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Malta,169
+Malta,2024,FWA,100.0,100.0,Malta,169
+Malta,2023,FWA,100.0,100.0,Malta,169
+Malta,2022,FWA,100.0,100.0,Malta,169
+EU27,2024,FWA,69.3,62.2,Malta,169
+Malta,2024,5G,100.0,100.0,Malta,169
+Malta,2023,5G,100.0,100.0,Malta,169
+Malta,2022,5G,100.0,100.0,Malta,169
+EU27,2024,5G,94.3,79.6,Malta,169
+Malta,2024,5G in the 3.4– 3.8 GHz band,40.0,10.1,Malta,169
+Malta,2023,5G in the 3.4– 3.8 GHz band,24.7,6.0,Malta,169
+Malta,2022,5G in the 3.4– 3.8 GHz band,20.0,4.9,Malta,169
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Malta,169
+Malta,2024,Satellite,100.0,100.0,Malta,169
+Malta,2023,Satellite,100.0,100.0,Malta,169
+Malta,2022,Satellite,100.0,100.0,Malta,169
+EU27,2024,Satellite,99.9,99.9,Malta,169
+Malta,2024,Overall fixed broadband,100.0,100.0,Malta,169
+Malta,2023,Overall fixed broadband,100.0,100.0,Malta,169
+Malta,2022,Overall fixed broadband,100.0,100.0,Malta,169
+EU27,2024,Overall fixed broadband,97.9,93.1,Malta,169
+Malta,2024,Overall NGA broadband,100.0,100.0,Malta,169
+Malta,2023,Overall NGA broadband,100.0,100.0,Malta,169
+Malta,2022,Overall NGA broadband,100.0,100.0,Malta,169
+EU27,2024,Overall NGA broadband,94.1,82.6,Malta,169
+Malta,2024,Fixed VHCN (FTTP & DOCSIS 3.1),100.0,100.0,Malta,169
+Malta,2023,Fixed VHCN (FTTP & DOCSIS 3.1),100.0,100.0,Malta,169
+Malta,2022,Fixed VHCN (FTTP & DOCSIS 3.1),100.0,100.0,Malta,169
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Malta,169
+Malta,2024,VHCN (as defined by BEREC),100.0,100.0,Malta,169
+Malta,2023,VHCN (as defined by BEREC),100.0,100.0,Malta,169
+Malta,2022,VHCN (as defined by BEREC),,,Malta,169
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Malta,169
+Malta,2024,At least 30Mbps,100.0,,Malta,169
+Malta,2023,At least 30Mbps,100.0,,Malta,169
+Malta,2022,At least 30Mbps,100.0,,Malta,169
+EU27,2024,At least 30Mbps,94.8,,Malta,169
+Malta,2024,At least 100Mbps,100.0,,Malta,169
+Malta,2023,At least 100Mbps,100.0,,Malta,169
+Malta,2022,At least 100Mbps,100.0,,Malta,169
+EU27,2024,At least 100Mbps,91.1,,Malta,169
+Malta,2024,At least 1Gbps,100.0,,Malta,169
+Malta,2023,At least 1Gbps,100.0,,Malta,169
+Malta,2022,At least 1Gbps,100.0,,Malta,169
+EU27,2024,At least 1Gbps,79.7,,Malta,169
+Malta,2024,At least 1Gbps upload and download,0.0,,Malta,169
+Malta,2023,At least 1Gbps upload and download,0.0,,Malta,169
+Malta,2022,At least 1Gbps upload and download,0.0,,Malta,169
+EU27,2024,At least 1Gbps upload and download,,,Malta,169
+Netherlands,2024,DSL,48.6,81.4,Netherlands,175
+Netherlands,2023,DSL,53.8,82.3,Netherlands,175
+Netherlands,2022,DSL,57.6,83.6,Netherlands,175
+EU27,2024,DSL,74.5,63.1,Netherlands,175
+Netherlands,2024,VDSL,47.8,68.8,Netherlands,175
+Netherlands,2023,VDSL,52.8,68.9,Netherlands,175
+Netherlands,2022,VDSL,55.8,64.3,Netherlands,175
+EU27,2024,VDSL,52.1,36.9,Netherlands,175
+Netherlands,2024,VDSL2 Vectoring,39.1,44.5,Netherlands,175
+Netherlands,2023,VDSL2 Vectoring,41.6,42.3,Netherlands,175
+Netherlands,2022,VDSL2 Vectoring,43.5,39.8,Netherlands,175
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Netherlands,175
+Netherlands,2024,FTTP,85.3,78.8,Netherlands,175
+Netherlands,2023,FTTP,77.7,78.4,Netherlands,175
+Netherlands,2022,FTTP,63.4,76.4,Netherlands,175
+EU27,2024,FTTP,69.2,58.8,Netherlands,175
+Netherlands,2024,Cable modem DOCSIS 3.0,93.5,27.8,Netherlands,175
+Netherlands,2023,Cable modem DOCSIS 3.0,88.6,26.9,Netherlands,175
+Netherlands,2022,Cable modem DOCSIS 3.0,94.1,28.5,Netherlands,175
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Netherlands,175
+Netherlands,2024,Cable modem DOCSIS 3.1,88.9,26.0,Netherlands,175
+Netherlands,2023,Cable modem DOCSIS 3.1,87.8,26.0,Netherlands,175
+Netherlands,2022,Cable modem DOCSIS 3.1,88.9,26.3,Netherlands,175
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Netherlands,175
+Netherlands,2024,FWA,0.0,0.0,Netherlands,175
+Netherlands,2023,FWA,0.0,0.0,Netherlands,175
+Netherlands,2022,FWA,86.7,87.8,Netherlands,175
+EU27,2024,FWA,69.3,62.2,Netherlands,175
+Netherlands,2024,5G,100.0,100.0,Netherlands,175
+Netherlands,2023,5G,100.0,100.0,Netherlands,175
+Netherlands,2022,5G,100.0,100.0,Netherlands,175
+EU27,2024,5G,94.3,79.6,Netherlands,175
+Netherlands,2024,5G in the 3.4– 3.8 GHz band,99.4,97.8,Netherlands,175
+Netherlands,2023,5G in the 3.4– 3.8 GHz band,0.0,0.0,Netherlands,175
+Netherlands,2022,5G in the 3.4– 3.8 GHz band,0.0,0.0,Netherlands,175
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Netherlands,175
+Netherlands,2024,Satellite,100.0,100.0,Netherlands,175
+Netherlands,2023,Satellite,100.0,100.0,Netherlands,175
+Netherlands,2022,Satellite,100.0,100.0,Netherlands,175
+EU27,2024,Satellite,99.9,99.9,Netherlands,175
+Netherlands,2024,Overall fixed broadband,99.6,98.6,Netherlands,175
+Netherlands,2023,Overall fixed broadband,99.7,99.5,Netherlands,175
+Netherlands,2022,Overall fixed broadband,99.3,98.6,Netherlands,175
+EU27,2024,Overall fixed broadband,97.9,93.1,Netherlands,175
+Netherlands,2024,Overall NGA broadband,99.2,97.1,Netherlands,175
+Netherlands,2023,Overall NGA broadband,99.2,97.8,Netherlands,175
+Netherlands,2022,Overall NGA broadband,99.2,96.3,Netherlands,175
+EU27,2024,Overall NGA broadband,94.1,82.6,Netherlands,175
+Netherlands,2024,Fixed VHCN (FTTP & DOCSIS 3.1),98.4,88.4,Netherlands,175
+Netherlands,2023,Fixed VHCN (FTTP & DOCSIS 3.1),98.3,89.4,Netherlands,175
+Netherlands,2022,Fixed VHCN (FTTP & DOCSIS 3.1),97.8,88.3,Netherlands,175
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Netherlands,175
+Netherlands,2024,VHCN (as defined by BEREC),98.4,88.4,Netherlands,175
+Netherlands,2023,VHCN (as defined by BEREC),98.3,89.4,Netherlands,175
+Netherlands,2022,VHCN (as defined by BEREC),,,Netherlands,175
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Netherlands,175
+Netherlands,2024,At least 30Mbps,99.0,,Netherlands,175
+Netherlands,2023,At least 30Mbps,98.9,,Netherlands,175
+Netherlands,2022,At least 30Mbps,98.9,,Netherlands,175
+EU27,2024,At least 30Mbps,94.8,,Netherlands,175
+Netherlands,2024,At least 100Mbps,98.7,,Netherlands,175
+Netherlands,2023,At least 100Mbps,98.7,,Netherlands,175
+Netherlands,2022,At least 100Mbps,98.7,,Netherlands,175
+EU27,2024,At least 100Mbps,91.1,,Netherlands,175
+Netherlands,2024,At least 1Gbps,98.4,,Netherlands,175
+Netherlands,2023,At least 1Gbps,98.2,,Netherlands,175
+Netherlands,2022,At least 1Gbps,97.8,,Netherlands,175
+EU27,2024,At least 1Gbps,79.7,,Netherlands,175
+Netherlands,2024,At least 1Gbps upload and download,85.3,,Netherlands,175
+Netherlands,2023,At least 1Gbps upload and download,78.4,,Netherlands,175
+Netherlands,2022,At least 1Gbps upload and download,63.4,,Netherlands,175
+EU27,2024,At least 1Gbps upload and download,,,Netherlands,175
+Norway,2024,DSL,91.6,74.8,Norway,181
+Norway,2023,DSL,91.6,74.8,Norway,181
+Norway,2022,DSL,91.6,74.8,Norway,181
+EU27,2024,DSL,74.5,63.1,Norway,181
+Norway,2024,VDSL,56.7,30.1,Norway,181
+Norway,2023,VDSL,56.6,30.1,Norway,181
+Norway,2022,VDSL,56.6,30.0,Norway,181
+EU27,2024,VDSL,52.1,36.9,Norway,181
+Norway,2024,VDSL2 Vectoring,0.0,0.0,Norway,181
+Norway,2023,VDSL2 Vectoring,0.0,0.0,Norway,181
+Norway,2022,VDSL2 Vectoring,0.0,0.0,Norway,181
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Norway,181
+Norway,2024,FTTP,92.5,81.4,Norway,181
+Norway,2023,FTTP,87.2,76.8,Norway,181
+Norway,2022,FTTP,81.9,70.4,Norway,181
+EU27,2024,FTTP,69.2,58.8,Norway,181
+Norway,2024,Cable modem DOCSIS 3.0,40.8,1.2,Norway,181
+Norway,2023,Cable modem DOCSIS 3.0,40.8,1.2,Norway,181
+Norway,2022,Cable modem DOCSIS 3.0,40.7,1.1,Norway,181
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Norway,181
+Norway,2024,Cable modem DOCSIS 3.1,39.6,0.0,Norway,181
+Norway,2023,Cable modem DOCSIS 3.1,38.8,0.0,Norway,181
+Norway,2022,Cable modem DOCSIS 3.1,32.5,0.0,Norway,181
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Norway,181
+Norway,2024,FWA,95.4,89.2,Norway,181
+Norway,2023,FWA,92.6,88.5,Norway,181
+Norway,2022,FWA,86.5,82.6,Norway,181
+EU27,2024,FWA,69.3,62.2,Norway,181
+Norway,2024,5G,99.1,96.0,Norway,181
+Norway,2023,5G,95.3,84.8,Norway,181
+Norway,2022,5G,81.5,59.8,Norway,181
+EU27,2024,5G,94.3,79.6,Norway,181
+Norway,2024,5G in the 3.4– 3.8 GHz band,66.5,16.0,Norway,181
+Norway,2023,5G in the 3.4– 3.8 GHz band,61.9,13.1,Norway,181
+Norway,2022,5G in the 3.4– 3.8 GHz band,45.7,6.5,Norway,181
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Norway,181
+Norway,2024,Satellite,97.2,92.7,Norway,181
+Norway,2023,Satellite,97.2,92.7,Norway,181
+Norway,2022,Satellite,97.2,92.7,Norway,181
+EU27,2024,Satellite,99.9,99.9,Norway,181
+Norway,2024,Overall fixed broadband,99.9,99.5,Norway,181
+Norway,2023,Overall fixed broadband,99.9,99.4,Norway,181
+Norway,2022,Overall fixed broadband,99.8,99.1,Norway,181
+EU27,2024,Overall fixed broadband,97.9,93.1,Norway,181
+Norway,2024,Overall NGA broadband,96.2,81.4,Norway,181
+Norway,2023,Overall NGA broadband,95.2,77.0,Norway,181
+Norway,2022,Overall NGA broadband,94.1,73.6,Norway,181
+EU27,2024,Overall NGA broadband,94.1,82.6,Norway,181
+Norway,2024,Fixed VHCN (FTTP & DOCSIS 3.1),95.4,81.4,Norway,181
+Norway,2023,Fixed VHCN (FTTP & DOCSIS 3.1),93.1,76.8,Norway,181
+Norway,2022,Fixed VHCN (FTTP & DOCSIS 3.1),81.9,70.4,Norway,181
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Norway,181
+Norway,2024,VHCN (as defined by BEREC),,,Norway,181
+Norway,2023,VHCN (as defined by BEREC),,,Norway,181
+Norway,2022,VHCN (as defined by BEREC),,,Norway,181
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Norway,181
+Norway,2024,At least 30Mbps,99.8,,Norway,181
+Norway,2023,At least 30Mbps,99.8,,Norway,181
+Norway,2022,At least 30Mbps,98.5,,Norway,181
+EU27,2024,At least 30Mbps,94.8,,Norway,181
+Norway,2024,At least 100Mbps,97.5,,Norway,181
+Norway,2023,At least 100Mbps,96.6,,Norway,181
+Norway,2022,At least 100Mbps,93.6,,Norway,181
+EU27,2024,At least 100Mbps,91.1,,Norway,181
+Norway,2024,At least 1Gbps,96.3,,Norway,181
+Norway,2023,At least 1Gbps,95.1,,Norway,181
+Norway,2022,At least 1Gbps,92.5,,Norway,181
+EU27,2024,At least 1Gbps,79.7,,Norway,181
+Norway,2024,At least 1Gbps upload and download,90.4,,Norway,181
+Norway,2023,At least 1Gbps upload and download,87.2,,Norway,181
+Norway,2022,At least 1Gbps upload and download,81.9,,Norway,181
+EU27,2024,At least 1Gbps upload and download,,,Norway,181
+Poland,2024,DSL,54.3,14.2,Poland,186
+Poland,2023,DSL,54.9,21.0,Poland,186
+Poland,2022,DSL,57.1,43.6,Poland,186
+EU27,2024,DSL,74.5,63.1,Poland,186
+Poland,2024,VDSL,39.7,12.0,Poland,186
+Poland,2023,VDSL,39.5,17.6,Poland,186
+Poland,2022,VDSL,24.2,12.0,Poland,186
+EU27,2024,VDSL,52.1,36.9,Poland,186
+Poland,2024,VDSL2 Vectoring,29.2,10.5,Poland,186
+Poland,2023,VDSL2 Vectoring,29.0,15.6,Poland,186
+Poland,2022,VDSL2 Vectoring,16.6,9.8,Poland,186
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Poland,186
+Poland,2024,FTTP,77.8,65.6,Poland,186
+Poland,2023,FTTP,75.4,56.3,Poland,186
+Poland,2022,FTTP,59.5,32.1,Poland,186
+EU27,2024,FTTP,69.2,58.8,Poland,186
+Poland,2024,Cable modem DOCSIS 3.0,41.1,1.7,Poland,186
+Poland,2023,Cable modem DOCSIS 3.0,41.8,1.7,Poland,186
+Poland,2022,Cable modem DOCSIS 3.0,43.4,1.6,Poland,186
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Poland,186
+Poland,2024,Cable modem DOCSIS 3.1,41.1,1.7,Poland,186
+Poland,2023,Cable modem DOCSIS 3.1,41.7,1.7,Poland,186
+Poland,2022,Cable modem DOCSIS 3.1,42.8,1.5,Poland,186
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Poland,186
+Poland,2024,FWA,9.8,17.5,Poland,186
+Poland,2023,FWA,15.3,20.7,Poland,186
+Poland,2022,FWA,14.4,16.4,Poland,186
+EU27,2024,FWA,69.3,62.2,Poland,186
+Poland,2024,5G,89.3,72.4,Poland,186
+Poland,2023,5G,71.9,58.5,Poland,186
+Poland,2022,5G,63.4,2.8,Poland,186
+EU27,2024,5G,94.3,79.6,Poland,186
+Poland,2024,5G in the 3.4– 3.8 GHz band,60.2,17.4,Poland,186
+Poland,2023,5G in the 3.4– 3.8 GHz band,0.0,0.0,Poland,186
+Poland,2022,5G in the 3.4– 3.8 GHz band,0.0,0.0,Poland,186
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Poland,186
+Poland,2024,Satellite,100.0,100.0,Poland,186
+Poland,2023,Satellite,100.0,100.0,Poland,186
+Poland,2022,Satellite,100.0,100.0,Poland,186
+EU27,2024,Satellite,99.9,99.9,Poland,186
+Poland,2024,Overall fixed broadband,87.9,77.5,Poland,186
+Poland,2023,Overall fixed broadband,86.9,74.0,Poland,186
+Poland,2022,Overall fixed broadband,82.9,68.7,Poland,186
+EU27,2024,Overall fixed broadband,97.9,93.1,Poland,186
+Poland,2024,Overall NGA broadband,85.7,72.0,Poland,186
+Poland,2023,Overall NGA broadband,84.0,65.9,Poland,186
+Poland,2022,Overall NGA broadband,73.4,40.3,Poland,186
+EU27,2024,Overall NGA broadband,94.1,82.6,Poland,186
+Poland,2024,Fixed VHCN (FTTP & DOCSIS 3.1),83.8,66.5,Poland,186
+Poland,2023,Fixed VHCN (FTTP & DOCSIS 3.1),81.1,57.2,Poland,186
+Poland,2022,Fixed VHCN (FTTP & DOCSIS 3.1),70.7,32.8,Poland,186
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Poland,186
+Poland,2024,VHCN (as defined by BEREC),,,Poland,186
+Poland,2023,VHCN (as defined by BEREC),,,Poland,186
+Poland,2022,VHCN (as defined by BEREC),,,Poland,186
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Poland,186
+Poland,2024,At least 30Mbps,87.9,,Poland,186
+Poland,2023,At least 30Mbps,86.9,,Poland,186
+Poland,2022,At least 30Mbps,76.0,,Poland,186
+EU27,2024,At least 30Mbps,94.8,,Poland,186
+Poland,2024,At least 100Mbps,86.1,,Poland,186
+Poland,2023,At least 100Mbps,81.5,,Poland,186
+Poland,2022,At least 100Mbps,73.8,,Poland,186
+EU27,2024,At least 100Mbps,91.1,,Poland,186
+Poland,2024,At least 1Gbps,80.1,,Poland,186
+Poland,2023,At least 1Gbps,75.1,,Poland,186
+Poland,2022,At least 1Gbps,62.2,,Poland,186
+EU27,2024,At least 1Gbps,79.7,,Poland,186
+Poland,2024,At least 1Gbps upload and download,53.0,,Poland,186
+Poland,2023,At least 1Gbps upload and download,45.0,,Poland,186
+Poland,2022,At least 1Gbps upload and download,,,Poland,186
+EU27,2024,At least 1Gbps upload and download,,,Poland,186
+Portugal,2024,DSL,84.9,69.7,Portugal,191
+Portugal,2023,DSL,85.3,70.3,Portugal,191
+Portugal,2022,DSL,85.4,70.3,Portugal,191
+EU27,2024,DSL,74.5,63.1,Portugal,191
+Portugal,2024,VDSL,0.0,0.0,Portugal,191
+Portugal,2023,VDSL,0.0,0.0,Portugal,191
+Portugal,2022,VDSL,0.0,0.0,Portugal,191
+EU27,2024,VDSL,52.1,36.9,Portugal,191
+Portugal,2024,VDSL2 Vectoring,0.0,0.0,Portugal,191
+Portugal,2023,VDSL2 Vectoring,0.0,0.0,Portugal,191
+Portugal,2022,VDSL2 Vectoring,0.0,0.0,Portugal,191
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Portugal,191
+Portugal,2024,FTTP,93.2,70.1,Portugal,191
+Portugal,2023,FTTP,92.3,68.7,Portugal,191
+Portugal,2022,FTTP,90.8,65.1,Portugal,191
+EU27,2024,FTTP,69.2,58.8,Portugal,191
+Portugal,2024,Cable modem DOCSIS 3.0,57.6,35.2,Portugal,191
+Portugal,2023,Cable modem DOCSIS 3.0,57.8,35.3,Portugal,191
+Portugal,2022,Cable modem DOCSIS 3.0,57.5,35.3,Portugal,191
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Portugal,191
+Portugal,2024,Cable modem DOCSIS 3.1,57.6,35.2,Portugal,191
+Portugal,2023,Cable modem DOCSIS 3.1,57.8,35.3,Portugal,191
+Portugal,2022,Cable modem DOCSIS 3.1,57.5,35.3,Portugal,191
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Portugal,191
+Portugal,2024,FWA,0.0,0.0,Portugal,191
+Portugal,2023,FWA,0.0,0.0,Portugal,191
+Portugal,2022,FWA,0.0,0.0,Portugal,191
+EU27,2024,FWA,69.3,62.2,Portugal,191
+Portugal,2024,5G,98.7,92.3,Portugal,191
+Portugal,2023,5G,98.1,87.5,Portugal,191
+Portugal,2022,5G,70.1,20.8,Portugal,191
+EU27,2024,5G,94.3,79.6,Portugal,191
+Portugal,2024,5G in the 3.4– 3.8 GHz band,71.4,21.4,Portugal,191
+Portugal,2023,5G in the 3.4– 3.8 GHz band,65.2,13.3,Portugal,191
+Portugal,2022,5G in the 3.4– 3.8 GHz band,48.2,9.2,Portugal,191
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Portugal,191
+Portugal,2024,Satellite,100.0,100.0,Portugal,191
+Portugal,2023,Satellite,100.0,100.0,Portugal,191
+Portugal,2022,Satellite,100.0,100.0,Portugal,191
+EU27,2024,Satellite,99.9,99.9,Portugal,191
+Portugal,2024,Overall fixed broadband,97.4,88.7,Portugal,191
+Portugal,2023,Overall fixed broadband,97.6,88.4,Portugal,191
+Portugal,2022,Overall fixed broadband,97.3,88.6,Portugal,191
+EU27,2024,Overall fixed broadband,97.9,93.1,Portugal,191
+Portugal,2024,Overall NGA broadband,94.6,73.2,Portugal,191
+Portugal,2023,Overall NGA broadband,94.2,71.4,Portugal,191
+Portugal,2022,Overall NGA broadband,93.0,68.8,Portugal,191
+EU27,2024,Overall NGA broadband,94.1,82.6,Portugal,191
+Portugal,2024,Fixed VHCN (FTTP & DOCSIS 3.1),94.6,73.2,Portugal,191
+Portugal,2023,Fixed VHCN (FTTP & DOCSIS 3.1),94.2,71.4,Portugal,191
+Portugal,2022,Fixed VHCN (FTTP & DOCSIS 3.1),93.0,68.8,Portugal,191
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Portugal,191
+Portugal,2024,VHCN (as defined by BEREC),,,Portugal,191
+Portugal,2023,VHCN (as defined by BEREC),,,Portugal,191
+Portugal,2022,VHCN (as defined by BEREC),,,Portugal,191
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Portugal,191
+Portugal,2024,At least 30Mbps,96.2,,Portugal,191
+Portugal,2023,At least 30Mbps,95.7,,Portugal,191
+Portugal,2022,At least 30Mbps,94.9,,Portugal,191
+EU27,2024,At least 30Mbps,94.8,,Portugal,191
+Portugal,2024,At least 100Mbps,96.2,,Portugal,191
+Portugal,2023,At least 100Mbps,95.7,,Portugal,191
+Portugal,2022,At least 100Mbps,94.9,,Portugal,191
+EU27,2024,At least 100Mbps,91.1,,Portugal,191
+Portugal,2024,At least 1Gbps,89.9,,Portugal,191
+Portugal,2023,At least 1Gbps,89.5,,Portugal,191
+Portugal,2022,At least 1Gbps,88.4,,Portugal,191
+EU27,2024,At least 1Gbps,79.7,,Portugal,191
+Portugal,2024,At least 1Gbps upload and download,,,Portugal,191
+Portugal,2023,At least 1Gbps upload and download,,,Portugal,191
+Portugal,2022,At least 1Gbps upload and download,,,Portugal,191
+EU27,2024,At least 1Gbps upload and download,,,Portugal,191
+Romania,2024,DSL,28.5,23.8,Romania,195
+Romania,2023,DSL,37.5,36.1,Romania,195
+Romania,2022,DSL,53.1,54.4,Romania,195
+EU27,2024,DSL,74.5,63.1,Romania,195
+Romania,2024,VDSL,4.5,0.5,Romania,195
+Romania,2023,VDSL,5.5,0.8,Romania,195
+Romania,2022,VDSL,9.1,2.3,Romania,195
+EU27,2024,VDSL,52.1,36.9,Romania,195
+Romania,2024,VDSL2 Vectoring,0.0,0.0,Romania,195
+Romania,2023,VDSL2 Vectoring,0.0,0.0,Romania,195
+Romania,2022,VDSL2 Vectoring,0.0,0.0,Romania,195
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Romania,195
+Romania,2024,FTTP,95.7,93.5,Romania,195
+Romania,2023,FTTP,95.0,92.5,Romania,195
+Romania,2022,FTTP,95.6,90.1,Romania,195
+EU27,2024,FTTP,69.2,58.8,Romania,195
+Romania,2024,Cable modem DOCSIS 3.0,32.8,14.3,Romania,195
+Romania,2023,Cable modem DOCSIS 3.0,32.9,14.3,Romania,195
+Romania,2022,Cable modem DOCSIS 3.0,40.2,17.8,Romania,195
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Romania,195
+Romania,2024,Cable modem DOCSIS 3.1,8.5,7.7,Romania,195
+Romania,2023,Cable modem DOCSIS 3.1,8.5,7.7,Romania,195
+Romania,2022,Cable modem DOCSIS 3.1,0.0,0.0,Romania,195
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Romania,195
+Romania,2024,FWA,53.0,18.7,Romania,195
+Romania,2023,FWA,52.6,18.2,Romania,195
+Romania,2022,FWA,58.0,25.3,Romania,195
+EU27,2024,FWA,69.3,62.2,Romania,195
+Romania,2024,5G,46.8,14.5,Romania,195
+Romania,2023,5G,32.8,6.3,Romania,195
+Romania,2022,5G,26.8,2.9,Romania,195
+EU27,2024,5G,94.3,79.6,Romania,195
+Romania,2024,5G in the 3.4– 3.8 GHz band,32.8,3.3,Romania,195
+Romania,2023,5G in the 3.4– 3.8 GHz band,28.9,2.6,Romania,195
+Romania,2022,5G in the 3.4– 3.8 GHz band,25.7,2.2,Romania,195
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Romania,195
+Romania,2024,Satellite,100.0,100.0,Romania,195
+Romania,2023,Satellite,100.0,100.0,Romania,195
+Romania,2022,Satellite,100.0,100.0,Romania,195
+EU27,2024,Satellite,99.9,99.9,Romania,195
+Romania,2024,Overall fixed broadband,98.0,95.4,Romania,195
+Romania,2023,Overall fixed broadband,97.8,95.2,Romania,195
+Romania,2022,Overall fixed broadband,97.8,95.1,Romania,195
+EU27,2024,Overall fixed broadband,97.9,93.1,Romania,195
+Romania,2024,Overall NGA broadband,96.6,94.2,Romania,195
+Romania,2023,Overall NGA broadband,95.9,93.2,Romania,195
+Romania,2022,Overall NGA broadband,97.2,93.7,Romania,195
+EU27,2024,Overall NGA broadband,94.1,82.6,Romania,195
+Romania,2024,Fixed VHCN (FTTP & DOCSIS 3.1),95.9,93.6,Romania,195
+Romania,2023,Fixed VHCN (FTTP & DOCSIS 3.1),95.0,92.5,Romania,195
+Romania,2022,Fixed VHCN (FTTP & DOCSIS 3.1),95.6,90.1,Romania,195
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Romania,195
+Romania,2024,VHCN (as defined by BEREC),95.9,93.7,Romania,195
+Romania,2023,VHCN (as defined by BEREC),95.7,92.9,Romania,195
+Romania,2022,VHCN (as defined by BEREC),,,Romania,195
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Romania,195
+Romania,2024,At least 30Mbps,96.6,,Romania,195
+Romania,2023,At least 30Mbps,95.8,,Romania,195
+Romania,2022,At least 30Mbps,96.1,,Romania,195
+EU27,2024,At least 30Mbps,94.8,,Romania,195
+Romania,2024,At least 100Mbps,96.4,,Romania,195
+Romania,2023,At least 100Mbps,95.7,,Romania,195
+Romania,2022,At least 100Mbps,94.5,,Romania,195
+EU27,2024,At least 100Mbps,91.1,,Romania,195
+Romania,2024,At least 1Gbps,95.9,,Romania,195
+Romania,2023,At least 1Gbps,95.0,,Romania,195
+Romania,2022,At least 1Gbps,91.8,,Romania,195
+EU27,2024,At least 1Gbps,79.7,,Romania,195
+Romania,2024,At least 1Gbps upload and download,0.0,,Romania,195
+Romania,2023,At least 1Gbps upload and download,0.0,,Romania,195
+Romania,2022,At least 1Gbps upload and download,0.0,,Romania,195
+EU27,2024,At least 1Gbps upload and download,,,Romania,195
+Slovakia,2024,DSL,51.8,78.8,Slovakia,200
+Slovakia,2023,DSL,55.9,82.7,Slovakia,200
+Slovakia,2022,DSL,66.9,74.2,Slovakia,200
+EU27,2024,DSL,74.5,63.1,Slovakia,200
+Slovakia,2024,VDSL,41.8,59.4,Slovakia,200
+Slovakia,2023,VDSL,45.2,62.5,Slovakia,200
+Slovakia,2022,VDSL,54.7,56.6,Slovakia,200
+EU27,2024,VDSL,52.1,36.9,Slovakia,200
+Slovakia,2024,VDSL2 Vectoring,24.6,49.9,Slovakia,200
+Slovakia,2023,VDSL2 Vectoring,26.5,52.6,Slovakia,200
+Slovakia,2022,VDSL2 Vectoring,32.0,48.1,Slovakia,200
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Slovakia,200
+Slovakia,2024,FTTP,67.8,39.6,Slovakia,200
+Slovakia,2023,FTTP,64.2,35.0,Slovakia,200
+Slovakia,2022,FTTP,66.9,31.2,Slovakia,200
+EU27,2024,FTTP,69.2,58.8,Slovakia,200
+Slovakia,2024,Cable modem DOCSIS 3.0,38.4,4.7,Slovakia,200
+Slovakia,2023,Cable modem DOCSIS 3.0,37.8,4.0,Slovakia,200
+Slovakia,2022,Cable modem DOCSIS 3.0,40.7,2.9,Slovakia,200
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Slovakia,200
+Slovakia,2024,Cable modem DOCSIS 3.1,26.6,1.1,Slovakia,200
+Slovakia,2023,Cable modem DOCSIS 3.1,16.4,1.0,Slovakia,200
+Slovakia,2022,Cable modem DOCSIS 3.1,17.6,0.8,Slovakia,200
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Slovakia,200
+Slovakia,2024,FWA,94.6,94.3,Slovakia,200
+Slovakia,2023,FWA,94.8,94.3,Slovakia,200
+Slovakia,2022,FWA,94.9,94.6,Slovakia,200
+EU27,2024,FWA,69.3,62.2,Slovakia,200
+Slovakia,2024,5G,87.9,72.5,Slovakia,200
+Slovakia,2023,5G,79.0,46.1,Slovakia,200
+Slovakia,2022,5G,55.3,39.3,Slovakia,200
+EU27,2024,5G,94.3,79.6,Slovakia,200
+Slovakia,2024,5G in the 3.4– 3.8 GHz band,70.6,46.7,Slovakia,200
+Slovakia,2023,5G in the 3.4– 3.8 GHz band,47.5,34.0,Slovakia,200
+Slovakia,2022,5G in the 3.4– 3.8 GHz band,39.2,27.9,Slovakia,200
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Slovakia,200
+Slovakia,2024,Satellite,100.0,100.0,Slovakia,200
+Slovakia,2023,Satellite,100.0,100.0,Slovakia,200
+Slovakia,2022,Satellite,100.0,100.0,Slovakia,200
+EU27,2024,Satellite,99.9,99.9,Slovakia,200
+Slovakia,2024,Overall fixed broadband,97.5,97.2,Slovakia,200
+Slovakia,2023,Overall fixed broadband,97.4,97.3,Slovakia,200
+Slovakia,2022,Overall fixed broadband,97.4,97.3,Slovakia,200
+EU27,2024,Overall fixed broadband,97.9,93.1,Slovakia,200
+Slovakia,2024,Overall NGA broadband,85.9,80.8,Slovakia,200
+Slovakia,2023,Overall NGA broadband,84.7,81.7,Slovakia,200
+Slovakia,2022,Overall NGA broadband,84.4,72.9,Slovakia,200
+EU27,2024,Overall NGA broadband,94.1,82.6,Slovakia,200
+Slovakia,2024,Fixed VHCN (FTTP & DOCSIS 3.1),73.0,39.6,Slovakia,200
+Slovakia,2023,Fixed VHCN (FTTP & DOCSIS 3.1),69.1,35.0,Slovakia,200
+Slovakia,2022,Fixed VHCN (FTTP & DOCSIS 3.1),71.3,32.3,Slovakia,200
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Slovakia,200
+Slovakia,2024,VHCN (as defined by BEREC),73.0,39.6,Slovakia,200
+Slovakia,2023,VHCN (as defined by BEREC),69.1,35.0,Slovakia,200
+Slovakia,2022,VHCN (as defined by BEREC),,,Slovakia,200
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Slovakia,200
+Slovakia,2024,At least 30Mbps,97.3,,Slovakia,200
+Slovakia,2023,At least 30Mbps,97.4,,Slovakia,200
+Slovakia,2022,At least 30Mbps,82.8,,Slovakia,200
+EU27,2024,At least 30Mbps,94.8,,Slovakia,200
+Slovakia,2024,At least 100Mbps,85.9,,Slovakia,200
+Slovakia,2023,At least 100Mbps,84.7,,Slovakia,200
+Slovakia,2022,At least 100Mbps,80.2,,Slovakia,200
+EU27,2024,At least 100Mbps,91.1,,Slovakia,200
+Slovakia,2024,At least 1Gbps,68.2,,Slovakia,200
+Slovakia,2023,At least 1Gbps,60.9,,Slovakia,200
+Slovakia,2022,At least 1Gbps,40.3,,Slovakia,200
+EU27,2024,At least 1Gbps,79.7,,Slovakia,200
+Slovakia,2024,At least 1Gbps upload and download,,,Slovakia,200
+Slovakia,2023,At least 1Gbps upload and download,,,Slovakia,200
+Slovakia,2022,At least 1Gbps upload and download,,,Slovakia,200
+EU27,2024,At least 1Gbps upload and download,,,Slovakia,200
+Slovenia,2024,DSL,94.9,84.4,Slovenia,204
+Slovenia,2023,DSL,95.2,84.9,Slovenia,204
+Slovenia,2022,DSL,95.6,86.1,Slovenia,204
+EU27,2024,DSL,74.5,63.1,Slovenia,204
+Slovenia,2024,VDSL,56.2,21.7,Slovenia,204
+Slovenia,2023,VDSL,56.4,21.7,Slovenia,204
+Slovenia,2022,VDSL,56.2,21.8,Slovenia,204
+EU27,2024,VDSL,52.1,36.9,Slovenia,204
+Slovenia,2024,VDSL2 Vectoring,0.0,0.0,Slovenia,204
+Slovenia,2023,VDSL2 Vectoring,0.0,0.0,Slovenia,204
+Slovenia,2022,VDSL2 Vectoring,0.0,0.0,Slovenia,204
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Slovenia,204
+Slovenia,2024,FTTP,79.6,58.6,Slovenia,204
+Slovenia,2023,FTTP,78.5,56.8,Slovenia,204
+Slovenia,2022,FTTP,75.5,51.0,Slovenia,204
+EU27,2024,FTTP,69.2,58.8,Slovenia,204
+Slovenia,2024,Cable modem DOCSIS 3.0,57.9,19.1,Slovenia,204
+Slovenia,2023,Cable modem DOCSIS 3.0,58.0,19.0,Slovenia,204
+Slovenia,2022,Cable modem DOCSIS 3.0,58.4,20.1,Slovenia,204
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Slovenia,204
+Slovenia,2024,Cable modem DOCSIS 3.1,0.0,0.0,Slovenia,204
+Slovenia,2023,Cable modem DOCSIS 3.1,0.0,0.0,Slovenia,204
+Slovenia,2022,Cable modem DOCSIS 3.1,0.0,0.0,Slovenia,204
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Slovenia,204
+Slovenia,2024,FWA,43.6,30.5,Slovenia,204
+Slovenia,2023,FWA,34.4,28.3,Slovenia,204
+Slovenia,2022,FWA,29.9,27.5,Slovenia,204
+EU27,2024,FWA,69.3,62.2,Slovenia,204
+Slovenia,2024,5G,96.7,87.6,Slovenia,204
+Slovenia,2023,5G,82.1,45.5,Slovenia,204
+Slovenia,2022,5G,63.9,14.1,Slovenia,204
+EU27,2024,5G,94.3,79.6,Slovenia,204
+Slovenia,2024,5G in the 3.4– 3.8 GHz band,92.9,75.8,Slovenia,204
+Slovenia,2023,5G in the 3.4– 3.8 GHz band,68.1,22.3,Slovenia,204
+Slovenia,2022,5G in the 3.4– 3.8 GHz band,55.4,9.3,Slovenia,204
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Slovenia,204
+Slovenia,2024,Satellite,100.0,100.0,Slovenia,204
+Slovenia,2023,Satellite,100.0,100.0,Slovenia,204
+Slovenia,2022,Satellite,100.0,100.0,Slovenia,204
+EU27,2024,Satellite,99.9,99.9,Slovenia,204
+Slovenia,2024,Overall fixed broadband,99.0,96.6,Slovenia,204
+Slovenia,2023,Overall fixed broadband,99.1,96.7,Slovenia,204
+Slovenia,2022,Overall fixed broadband,99.0,96.3,Slovenia,204
+EU27,2024,Overall fixed broadband,97.9,93.1,Slovenia,204
+Slovenia,2024,Overall NGA broadband,92.3,75.5,Slovenia,204
+Slovenia,2023,Overall NGA broadband,91.9,73.8,Slovenia,204
+Slovenia,2022,Overall NGA broadband,90.5,70.0,Slovenia,204
+EU27,2024,Overall NGA broadband,94.1,82.6,Slovenia,204
+Slovenia,2024,Fixed VHCN (FTTP & DOCSIS 3.1),79.6,58.6,Slovenia,204
+Slovenia,2023,Fixed VHCN (FTTP & DOCSIS 3.1),78.5,56.8,Slovenia,204
+Slovenia,2022,Fixed VHCN (FTTP & DOCSIS 3.1),75.5,51.0,Slovenia,204
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Slovenia,204
+Slovenia,2024,VHCN (as defined by BEREC),98.6,94.5,Slovenia,204
+Slovenia,2023,VHCN (as defined by BEREC),91.8,74.1,Slovenia,204
+Slovenia,2022,VHCN (as defined by BEREC),,,Slovenia,204
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Slovenia,204
+Slovenia,2024,At least 30Mbps,92.4,,Slovenia,204
+Slovenia,2023,At least 30Mbps,91.9,,Slovenia,204
+Slovenia,2022,At least 30Mbps,90.5,,Slovenia,204
+EU27,2024,At least 30Mbps,94.8,,Slovenia,204
+Slovenia,2024,At least 100Mbps,89.8,,Slovenia,204
+Slovenia,2023,At least 100Mbps,89.0,,Slovenia,204
+Slovenia,2022,At least 100Mbps,87.2,,Slovenia,204
+EU27,2024,At least 100Mbps,91.1,,Slovenia,204
+Slovenia,2024,At least 1Gbps,79.6,,Slovenia,204
+Slovenia,2023,At least 1Gbps,10.9,,Slovenia,204
+Slovenia,2022,At least 1Gbps,6.6,,Slovenia,204
+EU27,2024,At least 1Gbps,79.7,,Slovenia,204
+Slovenia,2024,At least 1Gbps upload and download,79.6,,Slovenia,204
+Slovenia,2023,At least 1Gbps upload and download,10.9,,Slovenia,204
+Slovenia,2022,At least 1Gbps upload and download,6.6,,Slovenia,204
+EU27,2024,At least 1Gbps upload and download,,,Slovenia,204
+Spain,2024,DSL,0.0,0.0,Spain,210
+Spain,2023,DSL,31.6,19.8,Spain,210
+Spain,2022,DSL,78.7,54.5,Spain,210
+EU27,2024,DSL,74.5,63.1,Spain,210
+Spain,2024,VDSL,0.0,0.0,Spain,210
+Spain,2023,VDSL,1.1,1.7,Spain,210
+Spain,2022,VDSL,11.0,9.6,Spain,210
+EU27,2024,VDSL,52.1,36.9,Spain,210
+Spain,2024,VDSL2 Vectoring,0.0,0.0,Spain,210
+Spain,2023,VDSL2 Vectoring,0.0,0.0,Spain,210
+Spain,2022,VDSL2 Vectoring,0.0,0.0,Spain,210
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Spain,210
+Spain,2024,FTTP,94.9,86.3,Spain,210
+Spain,2023,FTTP,95.2,85.9,Spain,210
+Spain,2022,FTTP,91.0,73.9,Spain,210
+EU27,2024,FTTP,69.2,58.8,Spain,210
+Spain,2024,Cable modem DOCSIS 3.0,28.2,3.8,Spain,210
+Spain,2023,Cable modem DOCSIS 3.0,32.8,4.8,Spain,210
+Spain,2022,Cable modem DOCSIS 3.0,33.0,4.6,Spain,210
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Spain,210
+Spain,2024,Cable modem DOCSIS 3.1,28.0,3.3,Spain,210
+Spain,2023,Cable modem DOCSIS 3.1,31.4,4.1,Spain,210
+Spain,2022,Cable modem DOCSIS 3.1,33.0,4.6,Spain,210
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Spain,210
+Spain,2024,FWA,98.4,94.3,Spain,210
+Spain,2023,FWA,97.5,90.2,Spain,210
+Spain,2022,FWA,58.8,68.5,Spain,210
+EU27,2024,FWA,69.3,62.2,Spain,210
+Spain,2024,5G,95.7,79.6,Spain,210
+Spain,2023,5G,92.3,67.4,Spain,210
+Spain,2022,5G,82.3,48.3,Spain,210
+EU27,2024,5G,94.3,79.6,Spain,210
+Spain,2024,5G in the 3.4– 3.8 GHz band,74.0,22.3,Spain,210
+Spain,2023,5G in the 3.4– 3.8 GHz band,58.3,10.2,Spain,210
+Spain,2022,5G in the 3.4– 3.8 GHz band,39.1,1.9,Spain,210
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Spain,210
+Spain,2024,Satellite,100.0,100.0,Spain,210
+Spain,2023,Satellite,100.0,100.0,Spain,210
+Spain,2022,Satellite,100.0,100.0,Spain,210
+EU27,2024,Satellite,99.9,99.9,Spain,210
+Spain,2024,Overall fixed broadband,99.5,97.8,Spain,210
+Spain,2023,Overall fixed broadband,98.9,96.2,Spain,210
+Spain,2022,Overall fixed broadband,96.0,90.6,Spain,210
+EU27,2024,Overall fixed broadband,97.9,93.1,Spain,210
+Spain,2024,Overall NGA broadband,95.0,86.3,Spain,210
+Spain,2023,Overall NGA broadband,96.7,87.9,Spain,210
+Spain,2022,Overall NGA broadband,94.1,80.4,Spain,210
+EU27,2024,Overall NGA broadband,94.1,82.6,Spain,210
+Spain,2024,Fixed VHCN (FTTP & DOCSIS 3.1),95.0,86.3,Spain,210
+Spain,2023,Fixed VHCN (FTTP & DOCSIS 3.1),96.3,86.9,Spain,210
+Spain,2022,Fixed VHCN (FTTP & DOCSIS 3.1),93.3,76.0,Spain,210
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Spain,210
+Spain,2024,VHCN (as defined by BEREC),97.9,90.9,Spain,210
+Spain,2023,VHCN (as defined by BEREC),92.1,78.6,Spain,210
+Spain,2022,VHCN (as defined by BEREC),,,Spain,210
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Spain,210
+Spain,2024,At least 30Mbps,97.8,,Spain,210
+Spain,2023,At least 30Mbps,96.2,,Spain,210
+Spain,2022,At least 30Mbps,96.7,,Spain,210
+EU27,2024,At least 30Mbps,94.8,,Spain,210
+Spain,2024,At least 100Mbps,96.5,,Spain,210
+Spain,2023,At least 100Mbps,95.7,,Spain,210
+Spain,2022,At least 100Mbps,91.2,,Spain,210
+EU27,2024,At least 100Mbps,91.1,,Spain,210
+Spain,2024,At least 1Gbps,94.0,,Spain,210
+Spain,2023,At least 1Gbps,92.6,,Spain,210
+Spain,2022,At least 1Gbps,86.7,,Spain,210
+EU27,2024,At least 1Gbps,79.7,,Spain,210
+Spain,2024,At least 1Gbps upload and download,92.1,,Spain,210
+Spain,2023,At least 1Gbps upload and download,90.2,,Spain,210
+Spain,2022,At least 1Gbps upload and download,83.3,,Spain,210
+EU27,2024,At least 1Gbps upload and download,,,Spain,210
+Sweden,2024,DSL,28.9,16.7,Sweden,216
+Sweden,2023,DSL,77.7,26.2,Sweden,216
+Sweden,2022,DSL,82.8,41.8,Sweden,216
+EU27,2024,DSL,74.5,63.1,Sweden,216
+Sweden,2024,VDSL,6.3,0.1,Sweden,216
+Sweden,2023,VDSL,17.6,0.2,Sweden,216
+Sweden,2022,VDSL,18.5,0.3,Sweden,216
+EU27,2024,VDSL,52.1,36.9,Sweden,216
+Sweden,2024,VDSL2 Vectoring,0.0,0.0,Sweden,216
+Sweden,2023,VDSL2 Vectoring,0.0,0.0,Sweden,216
+Sweden,2022,VDSL2 Vectoring,0.0,0.0,Sweden,216
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Sweden,216
+Sweden,2024,FTTP,85.6,69.4,Sweden,216
+Sweden,2023,FTTP,83.9,65.2,Sweden,216
+Sweden,2022,FTTP,81.5,59.6,Sweden,216
+EU27,2024,FTTP,69.2,58.8,Sweden,216
+Sweden,2024,Cable modem DOCSIS 3.0,24.8,0.1,Sweden,216
+Sweden,2023,Cable modem DOCSIS 3.0,33.5,0.3,Sweden,216
+Sweden,2022,Cable modem DOCSIS 3.0,33.4,0.3,Sweden,216
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Sweden,216
+Sweden,2024,Cable modem DOCSIS 3.1,24.4,0.1,Sweden,216
+Sweden,2023,Cable modem DOCSIS 3.1,26.5,0.0,Sweden,216
+Sweden,2022,Cable modem DOCSIS 3.1,0.3,0.0,Sweden,216
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Sweden,216
+Sweden,2024,FWA,0.8,0.7,Sweden,216
+Sweden,2023,FWA,0.6,1.7,Sweden,216
+Sweden,2022,FWA,0.5,1.4,Sweden,216
+EU27,2024,FWA,69.3,62.2,Sweden,216
+Sweden,2024,5G,98.6,90.3,Sweden,216
+Sweden,2023,5G,90.3,67.0,Sweden,216
+Sweden,2022,5G,20.5,0.5,Sweden,216
+EU27,2024,5G,94.3,79.6,Sweden,216
+Sweden,2024,5G in the 3.4– 3.8 GHz band,74.0,10.2,Sweden,216
+Sweden,2023,5G in the 3.4– 3.8 GHz band,64.5,5.3,Sweden,216
+Sweden,2022,5G in the 3.4– 3.8 GHz band,9.7,0.1,Sweden,216
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Sweden,216
+Sweden,2024,Satellite,100.0,100.0,Sweden,216
+Sweden,2023,Satellite,100.0,100.0,Sweden,216
+Sweden,2022,Satellite,100.0,100.0,Sweden,216
+EU27,2024,Satellite,99.9,99.9,Sweden,216
+Sweden,2024,Overall fixed broadband,94.2,75.8,Sweden,216
+Sweden,2023,Overall fixed broadband,96.4,76.2,Sweden,216
+Sweden,2022,Overall fixed broadband,96.7,77.5,Sweden,216
+EU27,2024,Overall fixed broadband,97.9,93.1,Sweden,216
+Sweden,2024,Overall NGA broadband,90.7,69.5,Sweden,216
+Sweden,2023,Overall NGA broadband,90.4,65.3,Sweden,216
+Sweden,2022,Overall NGA broadband,88.8,59.8,Sweden,216
+EU27,2024,Overall NGA broadband,94.1,82.6,Sweden,216
+Sweden,2024,Fixed VHCN (FTTP & DOCSIS 3.1),89.7,69.5,Sweden,216
+Sweden,2023,Fixed VHCN (FTTP & DOCSIS 3.1),88.5,65.2,Sweden,216
+Sweden,2022,Fixed VHCN (FTTP & DOCSIS 3.1),81.6,59.6,Sweden,216
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Sweden,216
+Sweden,2024,VHCN (as defined by BEREC),95.3,79.1,Sweden,216
+Sweden,2023,VHCN (as defined by BEREC),92.3,71.4,Sweden,216
+Sweden,2022,VHCN (as defined by BEREC),,,Sweden,216
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Sweden,216
+Sweden,2024,At least 30Mbps,91.0,,Sweden,216
+Sweden,2023,At least 30Mbps,90.8,,Sweden,216
+Sweden,2022,At least 30Mbps,89.1,,Sweden,216
+EU27,2024,At least 30Mbps,94.8,,Sweden,216
+Sweden,2024,At least 100Mbps,90.1,,Sweden,216
+Sweden,2023,At least 100Mbps,89.0,,Sweden,216
+Sweden,2022,At least 100Mbps,86.8,,Sweden,216
+EU27,2024,At least 100Mbps,91.1,,Sweden,216
+Sweden,2024,At least 1Gbps,89.7,,Sweden,216
+Sweden,2023,At least 1Gbps,88.5,,Sweden,216
+Sweden,2022,At least 1Gbps,81.6,,Sweden,216
+EU27,2024,At least 1Gbps,79.7,,Sweden,216
+Sweden,2024,At least 1Gbps upload and download,89.7,,Sweden,216
+Sweden,2023,At least 1Gbps upload and download,88.5,,Sweden,216
+Sweden,2022,At least 1Gbps upload and download,81.6,,Sweden,216
+EU27,2024,At least 1Gbps upload and download,,,Sweden,216
+Switzerland,2024,DSL,99.5,98.3,Switzerland,221
+Switzerland,2023,DSL,99.5,98.8,Switzerland,221
+Switzerland,2022,DSL,99.5,98.4,Switzerland,221
+EU27,2024,DSL,74.5,63.1,Switzerland,221
+Switzerland,2024,VDSL,96.8,95.7,Switzerland,221
+Switzerland,2023,VDSL,96.4,95.9,Switzerland,221
+Switzerland,2022,VDSL,94.8,92.7,Switzerland,221
+EU27,2024,VDSL,52.1,36.9,Switzerland,221
+Switzerland,2024,VDSL2 Vectoring,95.5,94.6,Switzerland,221
+Switzerland,2023,VDSL2 Vectoring,94.9,94.6,Switzerland,221
+Switzerland,2022,VDSL2 Vectoring,92.7,90.6,Switzerland,221
+EU27,2024,VDSL2 Vectoring,38.1,20.3,Switzerland,221
+Switzerland,2024,FTTP,50.4,27.2,Switzerland,221
+Switzerland,2023,FTTP,45.8,23.5,Switzerland,221
+Switzerland,2022,FTTP,43.1,21.3,Switzerland,221
+EU27,2024,FTTP,69.2,58.8,Switzerland,221
+Switzerland,2024,Cable modem DOCSIS 3.0,85.7,83.3,Switzerland,221
+Switzerland,2023,Cable modem DOCSIS 3.0,85.8,83.3,Switzerland,221
+Switzerland,2022,Cable modem DOCSIS 3.0,85.2,83.3,Switzerland,221
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,Switzerland,221
+Switzerland,2024,Cable modem DOCSIS 3.1,85.5,79.2,Switzerland,221
+Switzerland,2023,Cable modem DOCSIS 3.1,81.0,72.9,Switzerland,221
+Switzerland,2022,Cable modem DOCSIS 3.1,77.4,71.5,Switzerland,221
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,Switzerland,221
+Switzerland,2024,FWA,0.0,0.0,Switzerland,221
+Switzerland,2023,FWA,0.0,0.0,Switzerland,221
+Switzerland,2022,FWA,0.0,0.0,Switzerland,221
+EU27,2024,FWA,69.3,62.2,Switzerland,221
+Switzerland,2024,5G,98.8,94.1,Switzerland,221
+Switzerland,2023,5G,98.5,93.0,Switzerland,221
+Switzerland,2022,5G,96.8,90.0,Switzerland,221
+EU27,2024,5G,94.3,79.6,Switzerland,221
+Switzerland,2024,5G in the 3.4– 3.8 GHz band,86.2,93.0,Switzerland,221
+Switzerland,2023,5G in the 3.4– 3.8 GHz band,84.5,92.9,Switzerland,221
+Switzerland,2022,5G in the 3.4– 3.8 GHz band,75.3,70.6,Switzerland,221
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,Switzerland,221
+Switzerland,2024,Satellite,100.0,100.0,Switzerland,221
+Switzerland,2023,Satellite,100.0,100.0,Switzerland,221
+Switzerland,2022,Satellite,100.0,100.0,Switzerland,221
+EU27,2024,Satellite,99.9,99.9,Switzerland,221
+Switzerland,2024,Overall fixed broadband,99.9,99.5,Switzerland,221
+Switzerland,2023,Overall fixed broadband,99.9,99.5,Switzerland,221
+Switzerland,2022,Overall fixed broadband,99.9,99.6,Switzerland,221
+EU27,2024,Overall fixed broadband,97.9,93.1,Switzerland,221
+Switzerland,2024,Overall NGA broadband,99.1,98.9,Switzerland,221
+Switzerland,2023,Overall NGA broadband,99.0,98.8,Switzerland,221
+Switzerland,2022,Overall NGA broadband,98.4,97.7,Switzerland,221
+EU27,2024,Overall NGA broadband,94.1,82.6,Switzerland,221
+Switzerland,2024,Fixed VHCN (FTTP & DOCSIS 3.1),92.2,86.6,Switzerland,221
+Switzerland,2023,Fixed VHCN (FTTP & DOCSIS 3.1),89.3,81.6,Switzerland,221
+Switzerland,2022,Fixed VHCN (FTTP & DOCSIS 3.1),86.8,80.0,Switzerland,221
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,Switzerland,221
+Switzerland,2024,VHCN (as defined by BEREC),,,Switzerland,221
+Switzerland,2023,VHCN (as defined by BEREC),,,Switzerland,221
+Switzerland,2022,VHCN (as defined by BEREC),,,Switzerland,221
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,Switzerland,221
+Switzerland,2024,At least 30Mbps,99.8,,Switzerland,221
+Switzerland,2023,At least 30Mbps,99.8,,Switzerland,221
+Switzerland,2022,At least 30Mbps,99.8,,Switzerland,221
+EU27,2024,At least 30Mbps,94.8,,Switzerland,221
+Switzerland,2024,At least 100Mbps,98.6,,Switzerland,221
+Switzerland,2023,At least 100Mbps,98.6,,Switzerland,221
+Switzerland,2022,At least 100Mbps,98.6,,Switzerland,221
+EU27,2024,At least 100Mbps,91.1,,Switzerland,221
+Switzerland,2024,At least 1Gbps,72.6,,Switzerland,221
+Switzerland,2023,At least 1Gbps,68.3,,Switzerland,221
+Switzerland,2022,At least 1Gbps,65.6,,Switzerland,221
+EU27,2024,At least 1Gbps,79.7,,Switzerland,221
+Switzerland,2024,At least 1Gbps upload and download,38.7,,Switzerland,221
+Switzerland,2023,At least 1Gbps upload and download,33.2,,Switzerland,221
+Switzerland,2022,At least 1Gbps upload and download,33.2,,Switzerland,221
+EU27,2024,At least 1Gbps upload and download,,,Switzerland,221
+UK,2024,DSL,99.8,98.9,UK,227
+UK,2023,DSL,99.8,98.7,UK,227
+UK,2022,DSL,99.8,98.3,UK,227
+EU27,2024,DSL,74.5,63.1,UK,227
+UK,2024,VDSL,93.5,96.4,UK,227
+UK,2023,VDSL,94.7,96.1,UK,227
+UK,2022,VDSL,94.2,95.5,UK,227
+EU27,2024,VDSL,52.1,36.9,UK,227
+UK,2024,VDSL2 Vectoring,18.8,7.4,UK,227
+UK,2023,VDSL2 Vectoring,18.6,7.2,UK,227
+UK,2022,VDSL2 Vectoring,18.2,7.1,UK,227
+EU27,2024,VDSL2 Vectoring,38.1,20.3,UK,227
+UK,2024,FTTP,68.7,52.4,UK,227
+UK,2023,FTTP,51.6,39.4,UK,227
+UK,2022,FTTP,36.3,29.5,UK,227
+EU27,2024,FTTP,69.2,58.8,UK,227
+UK,2024,Cable modem DOCSIS 3.0,44.5,3.3,UK,227
+UK,2023,Cable modem DOCSIS 3.0,45.9,3.3,UK,227
+UK,2022,Cable modem DOCSIS 3.0,48.2,3.2,UK,227
+EU27,2024,Cable modem DOCSIS 3.0,40.3,9.6,UK,227
+UK,2024,Cable modem DOCSIS 3.1,44.5,3.3,UK,227
+UK,2023,Cable modem DOCSIS 3.1,45.9,3.3,UK,227
+UK,2022,Cable modem DOCSIS 3.1,48.2,3.2,UK,227
+EU27,2024,Cable modem DOCSIS 3.1,33.3,5.9,UK,227
+UK,2024,FWA,6.6,4.6,UK,227
+UK,2023,FWA,7.6,4.0,UK,227
+UK,2022,FWA,7.4,3.8,UK,227
+EU27,2024,FWA,69.3,62.2,UK,227
+UK,2024,5G,95.1,78.9,UK,227
+UK,2023,5G,84.8,50.6,UK,227
+UK,2022,5G,57.2,14.9,UK,227
+EU27,2024,5G,94.3,79.6,UK,227
+UK,2024,5G in the 3.4– 3.8 GHz band,,,UK,227
+UK,2023,5G in the 3.4– 3.8 GHz band,,,UK,227
+UK,2022,5G in the 3.4– 3.8 GHz band,,,UK,227
+EU27,2024,5G in the 3.4– 3.8 GHz band,67.7,26.2,UK,227
+UK,2024,Satellite,100.0,100.0,UK,227
+UK,2023,Satellite,100.0,100.0,UK,227
+UK,2022,Satellite,100.0,100.0,UK,227
+EU27,2024,Satellite,99.9,99.9,UK,227
+UK,2024,Overall fixed broadband,100.0,99.5,UK,227
+UK,2023,Overall fixed broadband,99.9,99.4,UK,227
+UK,2022,Overall fixed broadband,99.9,99.2,UK,227
+EU27,2024,Overall fixed broadband,97.9,93.1,UK,227
+UK,2024,Overall NGA broadband,99.0,98.3,UK,227
+UK,2023,Overall NGA broadband,98.8,98.0,UK,227
+UK,2022,Overall NGA broadband,98.0,97.2,UK,227
+EU27,2024,Overall NGA broadband,94.1,82.6,UK,227
+UK,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.9,54.1,UK,227
+UK,2023,Fixed VHCN (FTTP & DOCSIS 3.1),74.7,41.1,UK,227
+UK,2022,Fixed VHCN (FTTP & DOCSIS 3.1),66.2,31.2,UK,227
+EU27,2024,Fixed VHCN (FTTP & DOCSIS 3.1),82.5,61.9,UK,227
+UK,2024,VHCN (as defined by BEREC),,,UK,227
+UK,2023,VHCN (as defined by BEREC),,,UK,227
+UK,2022,VHCN (as defined by BEREC),,,UK,227
+EU27,2024,VHCN (as defined by BEREC),92.1,77.3,UK,227
+UK,2024,At least 30Mbps,97.6,,UK,227
+UK,2023,At least 30Mbps,97.2,,UK,227
+UK,2022,At least 30Mbps,95.8,,UK,227
+EU27,2024,At least 30Mbps,94.8,,UK,227
+UK,2024,At least 100Mbps,84.3,,UK,227
+UK,2023,At least 100Mbps,77.1,,UK,227
+UK,2022,At least 100Mbps,69.8,,UK,227
+EU27,2024,At least 100Mbps,91.1,,UK,227
+UK,2024,At least 1Gbps,83.1,,UK,227
+UK,2023,At least 1Gbps,75.1,,UK,227
+UK,2022,At least 1Gbps,66.6,,UK,227
+EU27,2024,At least 1Gbps,79.7,,UK,227
+UK,2024,At least 1Gbps upload and download,,,UK,227
+UK,2023,At least 1Gbps upload and download,,,UK,227
+UK,2022,At least 1Gbps upload and download,,,UK,227
+EU27,2024,At least 1Gbps upload and download,,,UK,227

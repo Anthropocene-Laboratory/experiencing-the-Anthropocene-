@@ -1,0 +1,101 @@
+"CNTR_ID","NAME_ENGL","type","cells","tests","mbps_test_weighted","pct_cells_under_5_tests"
+"FR","France","fixed",18233,1142474,474.4,24.6
+"IS","Iceland","fixed",283,10499,399.8,59.7
+"CH","Switzerland","fixed",1243,352902,399.1,11.7
+"ES","Spain","fixed",8231,820646,330.3,36.2
+"LI","Liechtenstein","fixed",4,1973,330.1,25
+"LU","Luxembourg","fixed",104,38145,325.1,1.9
+"NL","Netherlands","fixed",1437,1135330,322.7,1.7
+"PT","Portugal","fixed",2696,479589,321.9,20.4
+"DK","Denmark","fixed",1687,308797,314.5,6.1
+"RO","Romania","fixed",5438,311635,307.5,39.4
+"HU","Hungary","fixed",2893,333857,305.2,19.5
+"VA","Vatican City","fixed",1,18561,299.6,0
+"PL","Poland","fixed",9755,674388,297.3,30.2
+"IE","Ireland","fixed",2641,375647,292.4,5.9
+"UK","United Kingdom","fixed",8298,5534507,284.7,6.8
+"IT","Italy","fixed",10196,3719482,271.7,10.4
+"LT","Lithuania","fixed",1312,71373,265.3,49.3
+"SE","Sweden","fixed",4782,179209,257,44.1
+"AD","Andorra","fixed",16,4513,254.9,12.5
+"SM","San Marino","fixed",3,2390,253.8,0
+"FI","Finland","fixed",4120,203080,250.1,47.3
+"BE","Belgium","fixed",1212,402489,249.2,3.1
+"NO","Norway","fixed",4627,265464,245.9,37
+"ME","Montenegro","fixed",159,20709,238.9,30.8
+"MD","Moldova","fixed",913,47857,235.9,38.6
+"HR","Croatia","fixed",1545,175853,234.8,21.7
+"SI","Slovenia","fixed",728,72367,228.2,11.8
+"JE","Jersey","fixed",4,6764,227.7,0
+"TR","Türkiye","fixed",2336,714084,227.1,38.9
+"LV","Latvia","fixed",1242,59431,226.1,45
+"SK","Slovakia","fixed",1697,212949,215.3,11.3
+"GG","Guernsey","fixed",2,1386,208.8,0
+"EL","Greece","fixed",3115,829365,203.1,31.9
+"DE","Germany","fixed",13576,2678708,191.9,7.9
+"RU","Russian Federation","fixed",16,60,189.5,75
+"CZ","Czechia","fixed",2948,299334,185.4,13.8
+"UA","Ukraine","fixed",7491,617130,180,43.5
+"BG","Bulgaria","fixed",2399,175298,179.9,36.7
+"AT","Austria","fixed",2665,332898,171.2,14.8
+"EE","Estonia","fixed",905,43041,168,44.9
+"DZ","Algeria","fixed",724,172264,165,22.2
+"AL","Albania","fixed",639,72790,156.8,28.2
+"RS","Serbia","fixed",2267,263939,149,26
+"FO","Faroes","fixed",38,1550,138.9,39.5
+"BY","Belarus","fixed",2220,161745,132.2,48.2
+"IM","Isle of Man","fixed",18,7147,130.7,0
+"MK","North Macedonia","fixed",477,68949,85.7,31.9
+"MA","Morocco","fixed",84,65573,73.5,27.4
+"BA","Bosnia and Herzegovina","fixed",1137,118952,61.5,22.5
+"TN","Tunisia","fixed",279,175008,26.4,26.2
+"FO","Faroes","mobile",24,127,362.4,79.2
+"DK","Denmark","mobile",1369,26380,263.8,42.7
+"BG","Bulgaria","mobile",2288,58720,259.3,53.6
+"IS","Iceland","mobile",146,1070,256.2,77.4
+"EE","Estonia","mobile",1021,21941,238.9,50.8
+"CH","Switzerland","mobile",1184,64941,226.7,23.8
+"RS","Serbia","mobile",2139,93023,220.8,39.6
+"LU","Luxembourg","mobile",94,2338,210.2,27.7
+"NL","Netherlands","mobile",1350,49331,209.8,21.7
+"MK","North Macedonia","mobile",467,17981,209.4,45.2
+"NO","Norway","mobile",2333,17592,209.2,70
+"SE","Sweden","mobile",2608,22451,208.9,68.2
+"SI","Slovenia","mobile",673,22152,198.1,25
+"FI","Finland","mobile",5058,110496,195,55.4
+"TR","Türkiye","mobile",1950,138857,194.9,51.5
+"AD","Andorra","mobile",13,313,194.7,38.5
+"BE","Belgium","mobile",1098,30036,188.7,26.2
+"HR","Croatia","mobile",1630,56833,186.6,35.2
+"PL","Poland","mobile",8856,233306,184.1,47.2
+"FR","France","mobile",11476,163737,181.9,58.6
+"ES","Spain","mobile",6050,132276,181.6,55.9
+"LV","Latvia","mobile",1171,23448,179.7,57.9
+"PT","Portugal","mobile",2343,98301,178.1,36.2
+"EL","Greece","mobile",3066,152460,177.3,39.4
+"CZ","Czechia","mobile",2574,64687,176.4,37.6
+"LT","Lithuania","mobile",1543,34402,174.4,54.8
+"SK","Slovakia","mobile",1400,23535,158.6,44.1
+"ME","Montenegro","mobile",194,5347,157.3,51
+"AT","Austria","mobile",2388,81774,156.9,30.3
+"HU","Hungary","mobile",2488,69967,155,44.7
+"AL","Albania","mobile",394,6870,152.6,63.7
+"VA","Vatican City","mobile",1,5724,146.3,0
+"UK","United Kingdom","mobile",6957,357759,139.9,34.7
+"IE","Ireland","mobile",2172,44042,132.2,44.2
+"DZ","Algeria","mobile",826,70015,129.7,29.8
+"RO","Romania","mobile",4219,108111,129.7,60.5
+"MA","Morocco","mobile",94,7248,128.8,42.6
+"DE","Germany","mobile",11649,353125,127.4,34.2
+"IT","Italy","mobile",9682,918548,125.4,18.9
+"LI","Liechtenstein","mobile",2,122,109.8,0
+"SM","San Marino","mobile",3,193,105.1,0
+"RU","Russian Federation","mobile",28,101,93.6,82.1
+"JE","Jersey","mobile",4,449,89,0
+"MD","Moldova","mobile",505,8453,85.1,69.1
+"TN","Tunisia","mobile",304,25753,76.8,41.8
+"UA","Ukraine","mobile",4920,119960,62.2,61.7
+"GG","Guernsey","mobile",2,35,54.9,50
+"BY","Belarus","mobile",2514,70447,45.8,58.7
+"BA","Bosnia and Herzegovina","mobile",1024,22043,33.7,43.2
+"IM","Isle of Man","mobile",13,271,23.8,38.5

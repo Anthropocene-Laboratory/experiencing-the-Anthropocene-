@@ -11,11 +11,14 @@
 #   Rscript download_data.R --id=eobs --force    re-download even if present
 #
 # WHAT THIS SCRIPT CANNOT DO
-# It covers the 13 sources that have a machine-readable route. Ten others sit
+# It covers every source that has a machine-readable route - the catalogue it
+# prints IS the list, so no count is repeated here to go stale. The others sit
 # behind a login, a browser form or a Cloudflare challenge and no script can
 # get them - they are listed at the end of every run, with their landing pages,
 # and in full in data_sources.md. Running this to completion does NOT mean you
-# have all the data.
+# have all the data: five inputs of 1_build_layerA_stack_30km.R (GLAD cropland,
+# Falchi light pollution, BII, HILDA+ v1, Kummu GDP) are manual-only, so the
+# 30-km stack cannot be rebuilt from scripts alone on a fresh machine.
 #
 # Deliberately base R only: this is the step that runs BEFORE renv::restore(),
 # on a machine where the package library may not exist yet.
@@ -70,7 +73,8 @@ datasets <- list(
        url     = "https://www.globio.info/download-grip-dataset",
        creds   = NA,
        runner  = "R", script = file.path(FE, "Transport/scripts/3_acquire_grip4_road_density.R"),
-       check   = file.path(FE, "Transport/data_raw/grip4")),
+       check   = file.path(FE, "Transport/data_raw/grip4"),
+       note    = "Windows only as written: shells out to PowerShell Invoke-WebRequest to dodge an SSL failure."),
 
   list(id = "clc122", feature = "Transport", size_mb = 35,
        label   = "CORINE Land Cover 2018 class 122, vector (EEA discomap)",
@@ -94,6 +98,15 @@ datasets <- list(
        runner  = "R", script = file.path(FE, "Biosphere/scripts/4b_change_freq_hilda_v2.R"),
        check   = file.path(FE, "Biosphere/data_raw/biosphere/hilda_plus_v2/states_wgs84/hilda_plus_states_1960_GLOB-v2_wgs84.tif"),
        note    = "This script downloads AND computes the change-frequency raster; expect it to run long after the download finishes."),
+
+  list(id = "ookla", feature = "Connectivity", size_mb = 346,
+       label   = "Speedtest by Ookla open tiles 2026Q1, fixed + mobile (CC-BY-NC-SA)",
+       url     = "https://github.com/teamookla/ookla-open-data",
+       creds   = NA,
+       runner  = "R", script = file.path(FE, "Connectivity/scripts/1_acquire_ookla_tiles.R"),
+       check   = file.path(FE, "Connectivity/data_raw/ookla_fixed_2026Q1_europe.gpkg"),
+       note    = paste("Windows only as written (PowerShell fetch). Downloads two zipped shapefiles and",
+                       "keeps only the European tiles. NON-COMMERCIAL + share-alike: derivatives inherit it.")),
 
   list(id = "cds_test", feature = "Heatwaves", size_mb = 0,
        label   = "Copernicus CDS connectivity check (run this before the big ones)",
@@ -249,8 +262,8 @@ print_catalogue <- function() {
     cat(sprintf("%d of %d download jobs outstanding, %s to fetch\n",
                 length(missing), length(datasets), fmt_size(total)))
   }
-  cat("(", length(datasets), " jobs cover 10 datasets - one job pulls GISCO boundaries,\n",
-      " Eurostat population by age and GHS-POP together.)\n", sep = "")
+  cat("(One job pulls three sources at once: GISCO boundaries, Eurostat\n",
+      " population by age and GHS-POP.)\n", sep = "")
   cat("\nNo download started. Pick a scope:\n")
   cat("  Rscript download_data.R --feature=Transport   (smallest feature, no credentials)\n")
   cat("  Rscript download_data.R --id=<id>\n")
