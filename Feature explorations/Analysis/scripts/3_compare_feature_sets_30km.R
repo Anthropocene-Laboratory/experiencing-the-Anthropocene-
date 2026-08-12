@@ -23,7 +23,7 @@
 
 suppressPackageStartupMessages({ library(terra); library(cluster) })
 
-root <- normalizePath(getwd(), winslash = "/", mustWork = TRUE)
+root <- normalizePath(here::here(), winslash = "/", mustWork = TRUE)
 out_dir    <- file.path(root, "Feature explorations/Analysis/data_processed")
 out_tables <- file.path(out_dir, "tables")
 

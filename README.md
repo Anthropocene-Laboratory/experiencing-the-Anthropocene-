@@ -1,232 +1,159 @@
 # Experiencing the Anthropocene
 
-Code, figures and method notes for a project mapping **how human-driven Earth-system
-transformations are actually encountered in daily life** across Europe — as heat on the
-body, particles in the air, a built horizon, a lost night sky, a road-cut landscape, a
-depleted biosphere — and how those encounters are filtered by where and who you are.
+[![Repository checks](https://github.com/Anthropocene-Laboratory/experiencing-the-Anthropocene-/actions/workflows/repository-checks.yml/badge.svg)](https://github.com/Anthropocene-Laboratory/experiencing-the-Anthropocene-/actions/workflows/repository-checks.yml)
 
-The organising rule of the whole project is: **do not collapse the layers.** Upstream
-drivers, experienceable features (Layer A), exposure filters (Layer B), implications and
-response capacities stay analytically separate. `AGENTS.md` states that architecture in
-full; the code follows it.
+Research code, method notes, and provisional outputs for mapping how human-driven
+Earth-system transformations are encountered in daily life across Europe: heat on the
+body, particles in the air, built and transport infrastructure, connectivity, night-sky
+brightness, and biosphere change.
 
----
+> **Research status — exploratory, not a validated production pipeline.** The project
+> has not completed feature ranking or final cross-feature validation. Do not treat the
+> committed maps as settled findings. Read the feature notes and provenance before
+> interpreting or reusing an output.
 
-## ⚠️ Status: exploratory, not settled
+## Start here
 
-**This repository is prototype work, not a finished pipeline.** The project roadmap has
-not reached Phase 2 (feature ranking): nothing here has been scored or placed into a
-Core / Shortlist / Hold bucket. Each feature folder asks *"what can we do with this
-feature, given available data?"* — it does not deliver a validated result.
+| I want to… | Read or run |
+|---|---|
+| understand the project and its analytical layers | [`AGENTS.md`](AGENTS.md) |
+| install the environment and run a first script | [`docs/getting-started.md`](docs/getting-started.md) |
+| know which scripts and inputs belong to a workflow | [`docs/workflows.md`](docs/workflows.md) |
+| find a dataset, licence, checksum, or manual target path | [`data_sources.md`](data_sources.md) |
+| diagnose an error or unexpected output | [`docs/troubleshooting.md`](docs/troubleshooting.md) |
+| assess what is and is not reproducible | [`docs/reproducibility.md`](docs/reproducibility.md) |
+| propose a change or report a problem | [`CONTRIBUTING.md`](CONTRIBUTING.md) |
+| cite or reuse code, data, figures, or tables | [`CITATION.cff`](CITATION.cff) and [`LICENSING.md`](LICENSING.md) |
 
-Read every map and number here as provisional. Methods have changed after prototypes
-revealed problems, and are expected to change again. Each feature's `*_notes.md` records
-what is known to be wrong or unresolved about it — read that note before reusing a
-figure. Some of those caveats are load-bearing, for example:
+The longer documentation is deliberately separate from this README. The README is the
+landing page; `docs/` contains procedures that need enough detail to be followed without
+guessing.
 
-- the CLC-based transport layer under-captures the road footprint by a factor of ~20;
-- the EEA PM2.5 reference year is not confirmed;
-- the exposure archetypes rest on mixed reference years (2020-2024).
+## Ten-minute orientation
 
----
+Clone the repository and open the RStudio project:
 
-## What is and is not in this repository
-
-**In:** every analysis script (46 R, 7 Python), the method notes, and the final outputs —
-52 PNG figures under `data_processed/maps/` and 37 CSV tables under `data_processed/tables/`.
-About 33 MB in total. The committed figures are there so you can check that a run on your
-machine reproduces them.
-
-**Out:** roughly 40 GB of source and intermediate data, all of it re-obtainable.
-`data_raw/` is empty in a fresh clone. Every dataset — provider, version, licence, size,
-and either the script that downloads it or the manual steps plus a SHA-256 to verify it —
-is documented in **[`data_sources.md`](data_sources.md)**. Also out: literature PDFs
-(third-party copyright) and internal working documents.
-
----
-
-## Quickstart
-
-```bash
+```powershell
 git clone https://github.com/Anthropocene-Laboratory/experiencing-the-Anthropocene-.git
 cd experiencing-the-Anthropocene-
 ```
 
-**1. R packages** — the exact versions used to produce the committed figures are pinned
-in `renv.lock`. Opening the project in RStudio bootstraps renv automatically; otherwise:
+Open `experiencing-the-anthropocene.Rproj`, then restore the recorded R environment:
 
-```bash
-Rscript -e "renv::restore()"
+```r
+renv::restore()
 ```
 
-**2. Python packages** — only needed for the Copernicus downloaders:
+Inspect the data catalogue. With no arguments, this command **downloads nothing**:
 
-```bash
-python -m venv .venv && .venv\Scripts\activate && pip install -r requirements.txt
-```
-
-**3. Copernicus credentials** — free CDS *and* ADS accounts, token in `~/.cdsapirc`.
-See the credentials section of [`data_sources.md`](data_sources.md). Check it works:
-
-```bash
-python "Feature explorations/Heatwaves/scripts/1_acquire_test_cds_connection.py"
-```
-
-**4. Get some data.** `download_data.R` is the front door. With no arguments it downloads
-nothing — it prints the catalogue, what is already on disk, and what each item costs:
-
-```bash
+```powershell
 Rscript download_data.R
 ```
 
-Then pick a scope. Start with Transport: lightest feature (~40 MB), both sources scripted,
-no credentials needed.
+Preview a small workflow, acquire its inputs, and reproduce one figure:
 
-```bash
+```powershell
+Rscript download_data.R --feature=Transport --dry-run
 Rscript download_data.R --feature=Transport
-```
-
-`--all` fetches the ~23 GB that can be fetched by code. It cannot fetch everything: ten
-datasets sit behind a login, a request form or a Cloudflare challenge, and every run ends
-by listing them with their landing pages. A completed run is **not** a complete dataset.
-
-**5. Reproduce a figure** and compare it to the committed one:
-
-```bash
 Rscript "Feature explorations/Transport/scripts/4_map_road_density_grip4.R"
 ```
 
-It should rewrite `Feature explorations/Transport/data_processed/maps/road_density_grip4_8km.png`.
-If `git diff --stat` shows that file changed materially, something in your environment
-differs from the one that produced it — say so in an issue rather than working around it.
+See the [getting-started guide](docs/getting-started.md) if `Rscript` is not on the
+Windows path, if you use RStudio rather than a terminal, or if data were downloaded
+manually.
 
-### Requirements
+## What is and is not in the repository
 
-| | version used | note |
-|---|---|---|
-| R | 4.5.3 | `renv.lock` pins 83 packages |
-| GDAL | 3.12.1 | system library, **not** pinned by renv |
-| PROJ | 9.7.1 | see the PROJ trap below |
-| GEOS | 3.14.1 | |
-| Python | 3.11-3.14 | only for the acquisition scripts |
+Included:
 
-> **Install R 4.5.x, not the newest R.** This is the one prerequisite that is not
-> optional, and getting it wrong costs half an hour. CRAN serves Windows and macOS
-> *binaries* only for the current R minor version. On R 4.6, the exact versions pinned in
-> `renv.lock` have no binary, so `renv::restore()` falls back to building them from source
-> — which needs Rtools (Windows) or a full toolchain (macOS) and otherwise fails on
-> `Rcpp`, `stringi`, `sf`, `sp` and `openssl`.
->
-> If you are already on a newer R and do not want to downgrade, answer **yes** when renv
-> offers *"try installing the latest available versions"*. It installs binaries and
-> repairs the dependency tree, and the pipeline runs. You are then on patch versions
-> slightly newer than the pinned set, so verify with the reproduction check in step 5
-> before trusting a figure. **Do not run `renv::snapshot()`** to silence the warnings —
-> that rewrites the lockfile to your machine's versions and removes the pin for everyone
-> else. Renewing the pin is a maintainer decision.
+- R and Python acquisition, processing, mapping, and analysis scripts;
+- the `renv.lock` and `requirements.txt` dependency records;
+- data provenance and method notes;
+- selected final PNG figures and CSV tables for comparison.
 
-`sf` and `terra` bind to whatever GDAL/PROJ your OS provides. renv cannot pin those, and
-they are the most likely source of a result that differs from the committed figures.
-Check yours with `Rscript -e "print(sf::sf_extSoftVersion())"`.
+Not included:
 
-One script is **Windows-only as written**:
-`Transport/scripts/1_acquire_clc122_transport_land.R` shells out to PowerShell
-`Invoke-WebRequest` to work around an SSL failure (see below).
+- roughly 40 GB of raw and intermediate source data;
+- datasets whose terms prohibit redistribution;
+- literature PDFs and internal Word, Excel, or presentation files;
+- credentials for Copernicus or other services.
 
----
+Raw data belong under each feature's `data_raw/` folder and are ignored by git. Large
+intermediate rasters belong at the `data_processed/` root and are also ignored. Final
+figures go to `data_processed/maps/`; final tabular outputs go to
+`data_processed/tables/`. Exact source locations and exceptions are recorded in
+[`data_sources.md`](data_sources.md).
 
-## Layout
+## Analytical architecture
 
-```
+The repository follows a five-step causal stack:
+
+1. **Anthropocene components** — upstream Earth-human system changes.
+2. **Layer A: experienceable features** — human-facing interfaces.
+3. **Layer B: exposure filters** — who encounters which features and how often.
+4. **Layer C: implications** — health, wellbeing, cognition, and social outcomes.
+5. **Layer D: response capacities** — institutional, collective, cultural, and technical capacities.
+
+Do not collapse these roles. In particular, population, wealth, demographics, and time
+use are exposure filters; they are not Layer-A experienceable features. The complete
+classification rules are in [`AGENTS.md`](AGENTS.md).
+
+## Repository layout
+
+```text
 Feature explorations/
   <Feature>/
-    data_raw/                 not in git - see data_sources.md
-    data_processed/
-      maps/                   final PNG figures        (committed)
-      tables/                 final CSV tables         (committed)
-      *.nc, *.tif             intermediates, plumbing  (not in git)
-    scripts/                  the pipeline, numbered in run order
-    *_notes.md                what this feature is, and what is wrong with it
-  _shared/                    reference data used by more than one feature
-  Analysis/                   cross-feature synthesis (exposure archetypes)
-    superseded/               a rejected first generation, kept as a record
+    data_raw/          source data; local only
+    data_processed/    intermediates plus maps/ and tables/
+    scripts/           numbered workflow steps
+    *_notes.md         methods, limitations, and unresolved points
+  _shared/             small reference inputs shared across features
+  Analysis/            cross-feature harmonisation and exploratory analysis
+docs/                  user, workflow, troubleshooting, and reproducibility guides
+validation/            repository and scientific validation scripts
+.github/               collaboration templates and automated checks
 ```
 
-Conventions for adding a feature or a script: `Feature explorations/CLAUDE.md`.
+## Reproducibility contract
 
-### Run order
+- R package versions are recorded in `renv.lock`; Python acquisition dependencies are
+  recorded in `requirements.txt`.
+- Scripts resolve paths from the repository root. A personal `C:/Users/...`,
+  `/Users/...`, or `/home/...` path in executable code is a defect.
+- `download_data.R` distinguishes scripted, streamed, credentialed, and manual inputs.
+- Source data, methods, and generated outputs remain separate.
+- Dataset versions, retrieval routes, licences, and known checksums are recorded in
+  `data_sources.md`.
+- `Rscript validation/check_repository.R` runs fast structural checks without downloading
+  data or recomputing maps.
 
-Scripts are numbered by stage; the number is the dependency order.
+This is not yet a one-command reproducible compendium: several sources require manual
+access, some workflows are Windows-specific, and cross-platform numerical equivalence is
+not fully tested. The exact boundaries of current reproducibility are documented in
+[`docs/reproducibility.md`](docs/reproducibility.md).
 
-| Feature | Order | Needs credentials |
-|---|---|---|
-| **Transport** | `1→2` (CLC land take), `3→4` (GRIP roadedness — use this one for "how roaded") | no |
-| **Technosphere** | `1`, `2`, `3` — independent; `1` and `2` stream WSF3D over HTTP | no |
-| **Biosphere** | `1→2→2b→3→3b→4→4b→5→6→7`, then `8`, `9`, `10` (Layer-B filters) | no |
-| **Air quality** | `1` (EEA, manual data), `2→3` (CAMS download then map) | ADS |
-| **Heatwaves** | `1_acquire_*` → `prepare_population_2020` → `compute_p90_thresholds` → `3_calculate_*` → `4_calculate/validate_*` → `5_visualize_*` → `6_ghd_weighted_exposure_2022` | CDS |
-| **Analysis** | `scripts/1→2→3→4` — consumes the `data_processed/` of every feature above | inherits |
+## Getting help and contributing
 
-Every R script resolves the repository root with `here::here()`, so it runs from any
-working directory. Python scripts use `Path(__file__).resolve().parents[3]`.
+Before opening an issue, check [`docs/troubleshooting.md`](docs/troubleshooting.md) and
+run `Rscript download_data.R` to identify missing inputs. Use the GitHub issue forms for
+usage help, a code failure, a data/provenance problem, or a scientific-method question.
+Never attach licensed source data, credentials, confidential material, or personal paths
+to an issue.
 
----
+Changes should be proposed on a branch and reviewed through a pull request. The project
+requires contributors to preserve the Layer A/B/C/D distinction, document provenance,
+state whether outputs changed, and record the validation performed. See
+[`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-## Traps already paid for
+## Citation and licences
 
-Documented so nobody rediscovers them the expensive way. Each is handled in the code;
-each will bite a new script that ignores it.
+Citation metadata are in [`CITATION.cff`](CITATION.cff); the author list must be confirmed
+before the first formal release. Cite the underlying datasets as well as this repository.
 
-**PROJ / EPSG:3035 silently punches a hole over central Europe.**
-`terra::project(r, crs = "EPSG:3035")` makes PROJ route WGS84→ETRS89 through
-country-specific deformation grids (`de_*`, `nl_*`, `ch_*`, `fi_*`). When those grids are
-absent, **terra returns NA instead of erroring** — deleting Germany, the Netherlands,
-Belgium, Switzerland and Austria from the map. 106 806 non-NA cells with `"EPSG:3035"`
-versus 113 870 with an explicit `+proj=laea +ellps=GRS80 …` string; `PROJ_NETWORK=ON`
-does not help. `Transport/scripts/4_` uses the PROJ string, tags the result EPSG:3035,
-and asserts a minimum non-NA cell count so the hole cannot come back unnoticed.
-**Any script calling `project(..., "EPSG:3035")` should be checked for it.**
+The source code is MIT-licensed. Data and derived outputs can have different or more
+restrictive terms, including attribution, non-commercial, share-alike, or database
+licence obligations. Read [`LICENSING.md`](LICENSING.md) and the relevant entry in
+[`data_sources.md`](data_sources.md) before redistribution.
 
-**R's libcurl fails the SSL handshake against Eurostat, GISCO and EEA discomap.**
-Affected downloads are shelled out to PowerShell `Invoke-WebRequest`, or the file is
-committed to `_shared/`. Not a certificate you can fix from R.
-
-**The ADS cost limit is about one month per request.** Asking CAMS for a year returns
-403 "too large". `2_fetch_cams_pm25.R` loops month by month. The `time` subset is also
-ignored server-side, so files come back full-hourly (~10 GB, not the intended ~2.5 GB).
-
-**CAMS produces values over sea.** Mask to land or the oceans flood the map.
-
-**WSF3D `BuildingFraction` is Byte with NoData = 255**, not -32767. Read it wrong and
-empty land becomes 255 % built.
-
----
-
-## Licence
-
-**Code** — MIT, see [`LICENSE`](LICENSE).
-
-**Figures and tables** — these are derived products, and some of them inherit terms from
-their inputs. In particular the **Biodiversity Intactness Index (BII) v2.1.1 is
-CC-BY-NC-SA 4.0**, so `Biosphere/data_processed/maps/bii_*.png` and any output computed
-from BII carry non-commercial and share-alike obligations. Other inputs carry their own
-attribution requirements (GRIP4 is ODbL; GHSL, EEA and Kummu et al. are CC-BY;
-administrative boundaries are © EuroGeographics). Check
-[`data_sources.md`](data_sources.md) for the specific layer before reusing a figure.
-
-> The blanket licence for outputs has not been settled — see the open items at the end of
-> `data_sources.md`. Until it is, treat the figures as "ask first".
-
----
-
-## Citing
-
-See [`CITATION.cff`](CITATION.cff). If you use a figure, cite the underlying dataset
-too — `data_sources.md` names it.
-
-## Contributing
-
-Read `Feature explorations/CLAUDE.md` first: it defines the folder contract (where a PNG
-goes, where a CSV goes, what stays out of git) and the path rule. The one hard rule is
-that **a hardcoded `C:/Users/...` path is a defect** — 32 of them were removed to make
-this repository runnable elsewhere, and one reintroduced quietly undoes that.
+Maintained by the Anthropocene Laboratory project team. See the
+[`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) for participation standards.

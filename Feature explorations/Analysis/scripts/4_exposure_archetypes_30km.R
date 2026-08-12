@@ -36,7 +36,7 @@ suppressPackageStartupMessages({
   library(cluster); library(ragg)
 })
 
-root <- normalizePath(getwd(), winslash = "/", mustWork = TRUE)
+root <- normalizePath(here::here(), winslash = "/", mustWork = TRUE)
 out_dir    <- file.path(root, "Feature explorations/Analysis/data_processed")
 out_maps   <- file.path(out_dir, "maps")
 out_tables <- file.path(out_dir, "tables")

@@ -7,8 +7,9 @@ suppressMessages(library(terra))
 args <- commandArgs(trailingOnly = TRUE)
 W <- if (length(args) >= 1) as.integer(args[1]) else 2L
 
-proc_dir   <- normalizePath(file.path("Feature explorations", "Heatwaves", "data_processed"), mustWork = TRUE)
-shared_dir <- normalizePath(file.path("Feature explorations", "_shared"), mustWork = TRUE)
+root       <- here::here()
+proc_dir   <- normalizePath(file.path(root, "Feature explorations", "Heatwaves", "data_processed"), mustWork = TRUE)
+shared_dir <- normalizePath(file.path(root, "Feature explorations", "_shared"), mustWork = TRUE)
 hw  <- rast(file.path(proc_dir, sprintf("heatwave_days_2022_tx_w%d.nc", W)))
 pop <- rast(file.path(shared_dir, "pop2020_0p1deg.tif"))
 stopifnot(compareGeom(hw, pop, stopOnError = FALSE))

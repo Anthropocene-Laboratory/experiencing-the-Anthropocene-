@@ -6,7 +6,7 @@
 # R at files that already exist and hands them back as terra / sf / data.frame
 # objects so they can be poked at in RStudio.
 #
-# Run from the workspace ROOT (the .Rproj folder):
+# Run after opening the repository's .Rproj in RStudio:
 #     source("Feature explorations/Analysis/scripts/0_load_layers.R")
 #
 # Then:
@@ -17,10 +17,9 @@
 #     anth_tables()              # every CSV written by the mapping scripts
 #     t <- anth_table("wealth_age_by_country")
 #
-# Two roots, because the repo does not carry the raw data:
-#   - PROCESSED layers live in this git repo (data_processed/, _shared/).
-#   - RAW layers (BII, anthromes, HILDA states, ...) live only in the OneDrive
-#     copy. Override that root with, before sourcing:
+# By default, both processed and raw paths are resolved inside this clone.
+# `data_raw/` is ignored by git, so downloaded files stay local. If raw files
+# are stored on another disk, override their project root before sourcing:
 #         options(anth.raw_root = "D:/somewhere/Experiencing the anthropocene")
 #     or set the environment variable ANTH_RAW_ROOT.
 # =============================================================================
@@ -32,18 +31,14 @@ suppressPackageStartupMessages({
 
 # --- roots -------------------------------------------------------------------
 
-anth_root <- normalizePath(getwd(), winslash = "/", mustWork = TRUE)
-if (!dir.exists(file.path(anth_root, "Feature explorations"))) {
-  stop("Source this from the workspace root (the folder holding ",
-       "'Feature explorations'). getwd() is: ", anth_root)
-}
+anth_root <- normalizePath(here::here(), winslash = "/", mustWork = TRUE)
 
-anth_raw_root <- normalizePath(
-  getOption("anth.raw_root",
-            Sys.getenv("ANTH_RAW_ROOT",
-                       paste0("C:/Users/benleo13/OneDrive - Kungl. Vetenskapsakademien",
-                              "/Documents/2026/AnthLab/Experiencing the anthropocene"))),
-  winslash = "/", mustWork = FALSE)
+raw_override <- getOption("anth.raw_root", NULL)
+if (is.null(raw_override) || !length(raw_override) || !nzchar(raw_override[1])) {
+  raw_override <- Sys.getenv("ANTH_RAW_ROOT", unset = "")
+}
+if (!nzchar(raw_override[1])) raw_override <- anth_root
+anth_raw_root <- normalizePath(raw_override[1], winslash = "/", mustWork = FALSE)
 
 FE <- "Feature explorations"
 
@@ -56,7 +51,7 @@ LAEA_PROJ <- paste0("+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 ",
 
 # --- the registry ------------------------------------------------------------
 # role  : A = experienceable feature, B = exposure filter, analysis, shared
-# store : repo (in git) | raw (OneDrive only)
+# store : repo (processed/shared path) | raw (data_raw path under anth_raw_root)
 # heavy : skipped by anth_all() unless heavy = TRUE is asked for
 # kind  : raster | vector
 
@@ -196,7 +191,7 @@ anth_registry <- rbind(
       "NUTS 0-3 polygons, EPSG:4326",
       "Eurostat GISCO 10M 2021. Filter on LEVL_CODE == 3 for the NUTS3 choropleths. UK absent."),
 
-  # ---- Raw layers: OneDrive only, mapped straight from source -----------------
+  # ---- Raw layers: local-only, mapped straight from source --------------------
   reg("bii_2020", "Biosphere", "A", "raster", "raw",
       file.path(FE, "Biosphere/data_raw/biosphere/bii_v2_1_1/bii-2020_v2-1-1.tif"),
       "Biodiversity Intactness Index, PERCENT (0-100)",
@@ -271,7 +266,7 @@ anth <- function(id, refresh = FALSE) {
   if (!row$exists) {
     stop("Not on disk: ", row$full_path,
          if (row$store == "raw")
-           "\n  This is a raw layer; it lives in the OneDrive copy only. Set options(anth.raw_root = ...)."
+           "\n  This is a raw layer. Download it into this clone or set options(anth.raw_root = ...)."
          else "")
   }
   if (!refresh && !is.null(.anth_cache[[id]])) return(.anth_cache[[id]])

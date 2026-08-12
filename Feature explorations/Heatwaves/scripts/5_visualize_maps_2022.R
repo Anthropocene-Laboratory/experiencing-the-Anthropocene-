@@ -9,9 +9,10 @@ suppressMessages(library(terra))
 args <- commandArgs(trailingOnly = TRUE)
 W <- if (length(args) >= 1) as.integer(args[1]) else 2L
 
-proc_dir   <- normalizePath(file.path("Feature explorations", "Heatwaves", "data_processed"), mustWork = TRUE)
-raw_dir    <- normalizePath(file.path("Feature explorations", "Heatwaves", "data_raw"), mustWork = TRUE)
-shared_dir <- normalizePath(file.path("Feature explorations", "_shared"), mustWork = TRUE)
+root       <- here::here()
+proc_dir   <- normalizePath(file.path(root, "Feature explorations", "Heatwaves", "data_processed"), mustWork = TRUE)
+raw_dir    <- normalizePath(file.path(root, "Feature explorations", "Heatwaves", "data_raw"), mustWork = TRUE)
+shared_dir <- normalizePath(file.path(root, "Feature explorations", "_shared"), mustWork = TRUE)
 out_maps   <- file.path(proc_dir, "maps")
 dir.create(out_maps, showWarnings = FALSE, recursive = TRUE)
 

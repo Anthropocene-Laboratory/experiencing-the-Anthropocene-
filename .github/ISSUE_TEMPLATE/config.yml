@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation index
+    url: https://github.com/Anthropocene-Laboratory/experiencing-the-Anthropocene-/blob/main/docs/README.md
+    about: Check setup, workflows, troubleshooting, and reproducibility guidance first.

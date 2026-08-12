@@ -1,5 +1,5 @@
 suppressMessages(library(terra))
-base <- file.path("Feature explorations", "Heatwaves")
+base <- here::here("Feature explorations", "Heatwaves")
 mx  <- rast(file.path(base, "data_raw/era5_land_daily/era5_land_daily_max_1991-07_europe.nc"))
 pop <- rast(file.path(base, "data_processed/pop1991_0p1deg.tif"))
 cat("ERA5 max layers:", nlyr(mx), "| dims:", nrow(mx), "x", ncol(mx), "\n")

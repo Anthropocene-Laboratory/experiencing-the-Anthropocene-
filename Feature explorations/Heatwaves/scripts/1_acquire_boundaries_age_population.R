@@ -1,16 +1,17 @@
 # Stage 1 inputs for the heatwave population-exposure prototype.
 # Run from the workspace root with:
-#   & 'C:/Program Files/R/R-4.5.3/bin/Rscript.exe' 'Feature explorations/Heatwaves/scripts/download_stage1_inputs.R'
+#   Rscript "Feature explorations/Heatwaves/scripts/1_acquire_boundaries_age_population.R"
 #
 # Set DOWNLOAD_GHSL=1 to download GHS-POP epoch archives (about 443 MB each).
 # Example (PowerShell):
-#   $env:DOWNLOAD_GHSL='1'; $env:GHSL_EPOCHS='1990'; & 'C:/Program Files/R/R-4.5.3/bin/Rscript.exe' 'Feature explorations/Heatwaves/scripts/download_stage1_inputs.R'
+#   $env:DOWNLOAD_GHSL='1'; $env:GHSL_EPOCHS='1990'; Rscript "Feature explorations/Heatwaves/scripts/1_acquire_boundaries_age_population.R"
 # Note: the country boundary file is a cross-feature file, shared with Biosphere -
 # it is downloaded to Feature explorations/_shared, not to this feature's own data_raw.
 
-project_dir <- normalizePath(file.path("Feature explorations", "Heatwaves"), mustWork = TRUE)
+root        <- here::here()
+project_dir <- normalizePath(file.path(root, "Feature explorations", "Heatwaves"), mustWork = TRUE)
 raw_dir    <- file.path(project_dir, "data_raw")
-shared_dir <- normalizePath(file.path("Feature explorations", "_shared"), mustWork = TRUE)
+shared_dir <- normalizePath(file.path(root, "Feature explorations", "_shared"), mustWork = TRUE)
 dir.create(raw_dir, recursive = TRUE, showWarnings = FALSE)
 
 download_once <- function(url, destination) {

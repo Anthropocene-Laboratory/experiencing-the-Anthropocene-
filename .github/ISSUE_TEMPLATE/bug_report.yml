@@ -1,0 +1,62 @@
+name: Bug report
+description: Report a script failure or behaviour that differs from its documented contract.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not upload credentials, licensed source data, confidential files, or screenshots containing personal paths.
+  - type: input
+    id: script
+    attributes:
+      label: Script and command
+      description: Give the repository-relative script path and exact command.
+      placeholder: Rscript "Feature explorations/.../script.R" --option=value
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+      description: What file, message, or result did the documentation lead you to expect?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour and first complete error
+      description: Paste text, redacting usernames, tokens, and personal paths.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system, R/Python version, and GDAL/PROJ/GEOS versions where relevant.
+      placeholder: Windows 11; R 4.5.3; output of sf::sf_extSoftVersion()
+    validations:
+      required: true
+  - type: textarea
+    id: data_status
+    attributes:
+      label: Input-data status
+      description: Relevant lines from `Rscript download_data.R`, plus version/checksum if known.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: List the shortest safe steps that reproduce the problem.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Safety checks
+      options:
+        - label: I removed credentials, confidential information, licensed data, and personal paths.
+          required: true
+        - label: I checked `docs/troubleshooting.md` and searched existing issues.
+          required: true

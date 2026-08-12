@@ -9,7 +9,7 @@
 #   5. Save the aggregated population raster.
 #
 # Run:
-#   & 'C:/Program Files/R/R-4.5.3/bin/Rscript.exe' 'Feature explorations/Heatwaves/scripts/prepare_population_2020.R'
+#   Rscript "Feature explorations/Heatwaves/scripts/prepare_population_2020.R"
 # Note: pop2020_0p1deg.tif is a cross-feature file, shared with Biosphere - it is
 # written to Feature explorations/_shared, not to this feature's own data_processed.
 
@@ -20,10 +20,11 @@ suppressMessages({
 })
 
 t0 <- Sys.time()
-proj_dir  <- normalizePath(file.path("Feature explorations", "Heatwaves"), mustWork = TRUE)
+root      <- here::here()
+proj_dir  <- normalizePath(file.path(root, "Feature explorations", "Heatwaves"), mustWork = TRUE)
 raw_dir   <- file.path(proj_dir, "data_raw")
 out_dir   <- file.path(proj_dir, "data_processed")
-shared_dir <- normalizePath(file.path("Feature explorations", "_shared"), mustWork = TRUE)
+shared_dir <- normalizePath(file.path(root, "Feature explorations", "_shared"), mustWork = TRUE)
 
 # ---- 1. Target grid from E-OBS P90 thresholds --------------------------------
 eobs_ref <- file.path(out_dir, "eobs_tx90_1991_2020_w2.nc")

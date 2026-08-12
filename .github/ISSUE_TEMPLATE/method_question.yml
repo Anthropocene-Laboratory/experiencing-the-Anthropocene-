@@ -1,0 +1,44 @@
+name: Scientific-method question
+description: Discuss classification, assumptions, thresholds, validation, or interpretation.
+title: "[Method]: "
+labels: [question]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Scientific question
+      description: State one precise mechanism, distinction, or decision that needs attention.
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: Analytical role affected
+      options:
+        - Anthropocene component
+        - Layer A — experienceable feature
+        - Layer B — exposure filter
+        - Layer C — implication
+        - Layer D — response capacity
+        - Cross-layer or not yet classified
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and current assumption
+      description: Separate source-backed evidence, repository calculations, and hypotheses.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Downstream impact
+      description: Identify affected datasets, scripts, outputs, or open project decisions.
+    validations:
+      required: true
+  - type: textarea
+    id: decision_rule
+    attributes:
+      label: Proposed test or decision rule
+      description: What evidence would distinguish the alternatives or make the method fail?

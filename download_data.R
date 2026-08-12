@@ -6,7 +6,7 @@
 #                                               already on disk (downloads nothing)
 #   Rscript download_data.R --feature=Transport  fetch one feature's data
 #   Rscript download_data.R --id=grip4           fetch one dataset
-#   Rscript download_data.R --all                fetch everything scriptable (~23 GB)
+#   Rscript download_data.R --all                fetch everything scriptable (~25 GB)
 #   Rscript download_data.R --all --dry-run      print the commands, run nothing
 #   Rscript download_data.R --id=eobs --force    re-download even if present
 #
@@ -91,13 +91,17 @@ datasets <- list(
        runner  = "R", script = file.path(FE, "Heatwaves/scripts/1_acquire_boundaries_age_population.R"),
        check   = file.path(FE, "Heatwaves/data_raw/ghsl_pop_30arcsec/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0.tif")),
 
-  list(id = "hilda_v2", feature = "Biosphere", size_mb = 1800,
+  list(id = "hilda_v2", feature = "Biosphere", size_mb = 3582,
        label   = "HILDA+ v2.0 annual land-use states 1960-2019 (PANGAEA 974335)",
        url     = "https://doi.pangaea.de/10.1594/PANGAEA.974335",
        creds   = NA,
        runner  = "R", script = file.path(FE, "Biosphere/scripts/4b_change_freq_hilda_v2.R"),
-       check   = file.path(FE, "Biosphere/data_raw/biosphere/hilda_plus_v2/states_wgs84/hilda_plus_states_1960_GLOB-v2_wgs84.tif"),
-       note    = "This script downloads AND computes the change-frequency raster; expect it to run long after the download finishes."),
+       args    = "--download-only",
+       check   = c(
+         file.path(FE, "Biosphere/data_raw/biosphere/hilda_plus_v2/hildap_vGLOB-2.0_geotiff_wgs84.zip"),
+         file.path(FE, "Biosphere/data_raw/biosphere/hilda_plus_v2/states_wgs84/hilda_plus_states_1960_GLOB-v2_wgs84.tif")),
+       note    = paste("Acquisition only: a complete archive OR extracted annual states satisfies this job.",
+                       "Run Biosphere/scripts/4b_ separately to compute the change-frequency layer.")),
 
   list(id = "ookla", feature = "Connectivity", size_mb = 346,
        label   = "Speedtest by Ookla open tiles 2026Q1, fixed + mobile (CC-BY-NC-SA)",
@@ -219,9 +223,11 @@ credentials_path <- function() {
 has_credentials <- function() !is.na(credentials_path())
 
 exists_on_disk <- function(d) {
-  if (is.na(d$check)) return(NA)          # nothing to test (connectivity check)
-  file.exists(file.path(ROOT, d$check))
+  if (length(d$check) == 1L && is.na(d$check)) return(NA) # nothing to test
+  any(file.exists(file.path(ROOT, d$check)))
 }
+
+check_label <- function(d) paste(d$check, collapse = " OR ")
 
 fmt_size <- function(mb) {
   if (mb == 0) return("  0 MB")
@@ -326,7 +332,7 @@ run_one <- function(d, dry_run) {
       # The script returned success but the file it was supposed to produce is
       # not there. Reporting "ok" here is how a broken pipeline stays hidden.
       cat(sprintf("\n  WARNING: exit code 0 but %s is still absent (%.1f min).\n",
-                  d$check, mins))
+                  check_label(d), mins))
       return("no output")
     }
     cat(sprintf("\n  done (%.1f min)\n", mins))

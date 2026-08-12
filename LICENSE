@@ -20,19 +20,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----------------------------------------------------------------------------
-
-NOTE ON SCOPE
-
-This licence covers the SOURCE CODE in this repository only.
-
-It does NOT cover the figures and tables under `data_processed/`, which are
-derived products whose terms follow from their input datasets. The
-Biodiversity Intactness Index (BII) v2.1.1 is CC-BY-NC-SA 4.0, so outputs
-computed from it carry non-commercial and share-alike obligations. GRIP4 is
-ODbL; administrative boundaries are (c) EuroGeographics; other inputs are
-CC-BY with attribution requirements of their own.
-
-See `data_sources.md` for the licence attached to each input layer, and the
-licence section of `README.md` for what that means in practice.

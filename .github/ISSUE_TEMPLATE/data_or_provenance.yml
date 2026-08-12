@@ -1,0 +1,52 @@
+name: Data or provenance problem
+description: Report a source, access, version, checksum, coverage, licence, or attribution concern.
+title: "[Data]: "
+labels: [question]
+body:
+  - type: input
+    id: dataset
+    attributes:
+      label: Dataset and version
+      placeholder: Provider, dataset title, version/year
+    validations:
+      required: true
+  - type: input
+    id: identifier
+    attributes:
+      label: DOI or exact source URL
+    validations:
+      required: true
+  - type: dropdown
+    id: concern
+    attributes:
+      label: Concern type
+      options:
+        - Access or download
+        - Version or temporal coverage
+        - Spatial coverage, CRS, or resolution
+        - Units, format, or schema
+        - Checksum or file integrity
+        - Licence or attribution
+        - Provenance or citation
+        - Measurement or selection bias
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: State what you directly verified, when, and how. Do not attach restricted data.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Affected scripts and outputs
+      description: Identify repository-relative paths and the likely downstream effect.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed resolution
+      description: Include any replacement source, migration, or validation needed.

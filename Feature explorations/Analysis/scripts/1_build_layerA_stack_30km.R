@@ -39,7 +39,7 @@ suppressPackageStartupMessages({
   library(sf); library(terra)
 })
 
-root <- normalizePath(getwd(), winslash = "/", mustWork = TRUE)
+root <- normalizePath(here::here(), winslash = "/", mustWork = TRUE)
 GRID_M <- 30000
 MIN_UTCI_COVERAGE <- 0.95 * 8760
 

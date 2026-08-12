@@ -9,7 +9,7 @@
 #   5. Report conservation: fine total vs aggregated total.
 #
 # Run:
-#   & 'C:/Program Files/R/R-4.5.3/bin/Rscript.exe' 'Feature explorations/Heatwaves/scripts/prepare_population_testmonth.R'
+#   Rscript "Feature explorations/Heatwaves/scripts/2_prepare_population_testmonth.R"
 
 suppressMessages({
   library(terra)
@@ -18,7 +18,8 @@ suppressMessages({
 })
 
 t0 <- Sys.time()
-proj_dir <- normalizePath(file.path("Feature explorations", "Heatwaves"), mustWork = TRUE)
+root     <- here::here()
+proj_dir <- normalizePath(file.path(root, "Feature explorations", "Heatwaves"), mustWork = TRUE)
 raw_dir  <- file.path(proj_dir, "data_raw")
 out_dir  <- file.path(proj_dir, "data_processed")
 dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)

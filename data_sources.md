@@ -5,12 +5,17 @@ fresh clone (~40 GB in total on a working machine) and every dataset below is ei
 downloaded by a script or obtained by hand from the provider.
 
 **How to read this file.** Each entry gives the dataset, its provider, the licence, the
-size, and one of two acquisition routes:
+size, and one of four acquisition routes:
 
-- **scripted** — run the named script; it fetches the file for you.
+- **scripted** — run the named script; it fetches the file without credentials.
+- **credentialed** — scripted, but an account, token, and accepted provider terms are required.
+- **streamed** — read over the network by the processing script; no complete local copy is stored.
 - **manual** — the provider requires a login, a click-through licence, or a browser
   form, so the file cannot be fetched from code. Follow the steps and check the
   SHA-256 so you know you have the same file that produced the figures in this repo.
+
+See [`docs/getting-started.md`](docs/getting-started.md) for first-run instructions and
+[`LICENSING.md`](LICENSING.md) for the distinction between code, input, and output terms.
 
 Verify a download on Windows with
 
@@ -28,8 +33,8 @@ or, on macOS/Linux, `shasum -a 256 "<file>"`.
 
 ## Every dataset, with its link
 
-`download_data.R` fetches everything in the **scripted** rows. Run it with no arguments
-to see what is already on disk and what is outstanding:
+`download_data.R` manages scripted and credentialed rows. Run it with no arguments to see
+what is already on disk, what is outstanding, and which sources remain streamed or manual:
 
 ```bash
 Rscript download_data.R
@@ -281,12 +286,25 @@ Used by `1_map_biosphere_anthromes.R` (`2000/anthro2_a2000.tif`) and
 |---|---|
 | Provider | PANGAEA, dataset 974335 |
 | URL | `https://download.pangaea.de/dataset/974335/files/hildap_vGLOB-2.0_geotiff_wgs84.zip` |
-| Size | 60 annual GeoTIFFs, ~29.5 MB each (~1.8 GB) |
-| Route | **scripted**: `Biosphere/scripts/4b_change_freq_hilda_v2.R` (downloads on first run) |
-| Target | `Biosphere/data_raw/biosphere/hilda_plus_v2/states_wgs84/` |
+| Archive size | 3,755,961,841 bytes (~3.5 GiB); includes states and transition products |
+| Required members | 60 annual state GeoTIFFs for 1960-2019, ~1.8 GB in total |
+| MD5 (official archive) | `56fe959df25d8efbc542b90cf971945f` |
+| Route | **scripted**: `Rscript download_data.R --id=hilda_v2`, then `Biosphere/scripts/4b_change_freq_hilda_v2.R` |
+| Default target | `Biosphere/data_raw/biosphere/hilda_plus_v2/hildap_vGLOB-2.0_geotiff_wgs84.zip` |
 
 v2.0 also provides 2020, but the analysed interval is deliberately held at 1960-2019
 (59 annual transitions) so v1 and v2 stay comparable.
+
+The analysis reads the official ZIP directly; extraction is not required. A ZIP already
+downloaded elsewhere can be used without copying or changing the working directory:
+
+```powershell
+Rscript "Feature explorations/Biosphere/scripts/4b_change_freq_hilda_v2.R" --archive="D:/Downloads/hildap_vGLOB-2.0_geotiff_wgs84.zip" --verify-md5
+```
+
+Alternatively, pass a folder containing all 60 extracted annual state files with
+`--states-dir="..."`. The HILDA+ v1 change layer is used only for an optional QA
+comparison; it is no longer a hidden requirement for completing the v2 output.
 
 ### HILDA+ via OpenLandMap (streamed, nothing stored)
 
@@ -307,7 +325,7 @@ no disk footprint — but an internet connection is required at run time.
 | Target | `Biosphere/data_raw/biosphere/bii_v2_1_1/` |
 
 ⚠️ The non-commercial / share-alike terms travel to anything derived from this layer.
-See the licence section of the README before reusing `Biosphere/data_processed/maps/bii_*.png`
+See [`LICENSING.md`](LICENSING.md) before reusing `Biosphere/data_processed/maps/bii_*.png`
 or the archetype maps that include BII as an input.
 
 ---

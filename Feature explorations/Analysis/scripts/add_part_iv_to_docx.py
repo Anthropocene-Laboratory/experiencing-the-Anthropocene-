@@ -3,8 +3,10 @@
 # Inserts Part IV (Multidimensional Exposure Typologies) into the Word Document
 # =============================================================================
 import docx
+from pathlib import Path
 
-doc_path = "Feature explorations/Heatwave exposure mapping methods.docx"
+root = Path(__file__).resolve().parents[3]
+doc_path = root / "Feature explorations" / "Heatwave exposure mapping methods.docx"
 doc = docx.Document(doc_path)
 
 # Find index of References paragraph
