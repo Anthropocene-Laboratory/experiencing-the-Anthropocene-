@@ -1,6 +1,6 @@
 # Reproducibility and reuse
 
-[Documentation index](README.md) · [Workflow map](workflows.md) · [Data sources](../data_sources.md)
+[Documentation index](README.md) · [Workflow map](workflows.md) · [Data sources](data-sources.md)
 
 This repository is an evolving research compendium, not yet a fully executable one. It
 separates code, source data, intermediate products, and selected outputs; records software
@@ -29,8 +29,8 @@ reproducibility.
 - Git version history and a public repository;
 - `renv.lock` for R dependencies and `requirements.txt` for Python acquisition tools;
 - `.here` plus script-relative Python paths for machine-independent locations;
-- `download_data.R` as an acquisition catalogue and dispatcher;
-- `data_sources.md` for provenance, versions, routes, sizes, licences, and available
+- `scripts/download-data.R` as an acquisition catalogue and dispatcher;
+- `data-sources.md` for provenance, versions, routes, sizes, licences, and available
   checksums;
 - committed PNG/CSV comparison artifacts;
 - feature notes recording known methodological limitations;
@@ -79,7 +79,7 @@ appropriate. Never record secrets or confidential local paths.
 
 Before changing code, identify the variable's single analytical role: upstream component,
 experienceable feature, exposure filter, implication, or response capacity. Then update
-`data_sources.md` with:
+`data-sources.md` with:
 
 - provider, title, version, DOI or exact stable URL;
 - access and retrieval date;

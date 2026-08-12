@@ -35,7 +35,7 @@ reason. Do not rely only on a visual diff.
 ## Checklist
 
 - [ ] I preserved the Layer A/B/C/D distinctions and documented any methodological decision.
-- [ ] I updated `data_sources.md` for every source/provenance/licence change.
+- [ ] I updated `docs/data-sources.md` for every source/provenance/licence change.
 - [ ] I introduced no credential, confidential file, restricted data, or personal path.
 - [ ] I reviewed the staged files for accidental raw or large data.
 - [ ] Fast repository checks pass.

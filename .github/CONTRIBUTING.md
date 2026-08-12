@@ -8,7 +8,9 @@ scientific role, provenance, and effect on outputs are as clear as its code.
 
 ## Before starting
 
-1. Read [`README.md`](README.md), [`AGENTS.md`](AGENTS.md), and the relevant feature note.
+1. Read [`../README.md`](../README.md),
+   [`../docs/project-architecture.md`](../docs/project-architecture.md), and the relevant
+   feature note.
 2. Search existing issues before opening a new one.
 3. For a substantial change, open an issue describing the question, affected workflow,
    evidence, and proposed validation before writing code.
@@ -47,7 +49,8 @@ Every variable must have exactly one role in the causal stack:
 Do not mix roles in one field or move population, wealth, demographics, time use, health,
 wellbeing, cognition, or response capacity into Layer A for analytical convenience. Keep
 Peter's spheres separate from Denis's modes of experience. Full definitions and open
-project decisions are in [`AGENTS.md`](AGENTS.md).
+project decisions are in
+[`../docs/project-architecture.md`](../docs/project-architecture.md).
 
 ## Code and path contract
 
@@ -66,7 +69,8 @@ project decisions are in [`AGENTS.md`](AGENTS.md).
 
 ## Data-source changes
 
-Any new or changed source requires a matching update to [`data_sources.md`](data_sources.md).
+Any new or changed source requires a matching update to
+[`../docs/data-sources.md`](../docs/data-sources.md).
 Record the provider, version, DOI or exact URL, retrieval route, target path, coverage,
 resolution, CRS, units, size, checksum where possible, licence, processing script, outputs,
 and major biases.

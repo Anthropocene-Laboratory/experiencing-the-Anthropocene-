@@ -1,7 +1,7 @@
 # Quelles variables combiner pour une typologie d'exposition européenne ?
 
 Note méthodologique — 2026-07-29
-Statut : **exploratoire** (cf. `Feature explorations/CLAUDE.md` : rien ici n'est
+Statut : **exploratoire** (cf. `docs/repository-conventions.md` : rien ici n'est
 un Core set ; la Phase 2 de classement n'a pas eu lieu).
 Périmètre : Layer A uniquement, Europe, EPSG:3035.
 
@@ -16,7 +16,7 @@ suppositions de ma part, à tester avant usage.
 | Source | Ce que j'en tire |
 |---|---|
 | `Feature library/Merged_datasets.xlsx` (5 onglets, lecture intégrale) | §2 — audit du catalogue |
-| `AGENTS.md` | règle des couches, 11 champs obligatoires, décisions ouvertes |
+| `docs/project-architecture.md` | règle des couches, 11 champs obligatoires, décisions ouvertes |
 | `Feature explorations/Analysis/exposure_archetypes_notes.md` | contraintes empiriques déjà établies (support 30 km, PC1, coverage, ρ, choix de k) |
 | Littérature (14 travaux cités, §1) | critères de sélection, traitement de la redondance, tests falsifiables |
 
@@ -286,7 +286,7 @@ Conséquence opérationnelle : **le catalogue ne peut pas, en l'état, fournir l
 tag mode-d'expérience × directness que le brief demande par variable.** Trois
 lignes sur 85 le portent (A1-b09, A1-b10, A1-b11 — les trois entrées canicule).
 Les tags que je donne au §3 sont donc **[S]**, dérivés des définitions de
-`AGENTS.md`, et doivent être validés en Phase 4, pas lus comme du catalogue.
+`docs/project-architecture.md`, et doivent être validés en Phase 4, pas lus comme du catalogue.
 
 **(c) Trois des six features actuellement clusterisées n'existent pas dans le
 catalogue.** Recherche exhaustive sur les 5 onglets : aucune occurrence de
@@ -301,7 +301,7 @@ sur ce qui a été utilisé.
 **(d) Doublons inter-couches déjà présents dans le classeur.** `A3-001 Population
 density` (Layer A) vs `B1-005 Local density / isolation` (Layer B) ;
 `A4-001 Governance quality (QoG)` et `D1-001 Governance quality (QoG)` — mêmes
-WGI, deux couches (autorisé par `AGENTS.md` si le rôle est déclaré ligne par
+WGI, deux couches (autorisé par `docs/project-architecture.md` si le rôle est déclaré ligne par
 ligne, mais le champ « Analytical role » est vide sur les deux). `A6-b01 GDP` vs
 `B1-004 National income level` vs `B2-001 Income`.
 
@@ -579,7 +579,7 @@ tout téléchargement.
    dans le classeur, ne doit pas entrer dans un clustering A.**
 5. **Temps de trajet vers la ville la plus proche (Weiss 2018) comme variable
    Layer A.** Séduisant — gridé à 1 km, pan-européen, propre. Mais
-   `AGENTS.md` définit B1 comme « urbain/rural, région, pays, quartier,
+   `docs/project-architecture.md` définit B1 comme « urbain/rural, région, pays, quartier,
    **densité, isolement** » : l'accessibilité *est* la définition de B1. L'y
    mettre en Layer A ferait entrer un filtre dans les classes. À acquérir, à
    utiliser en profilage.
@@ -613,7 +613,7 @@ tout téléchargement.
 ## 6. Décisions ouvertes — à trancher par le projet, pas dans cette note
 
 Signalées plutôt que résolues, conformément aux règles de travail et à la
-section « Open Decisions » de `AGENTS.md`.
+section « Open Decisions » de `docs/project-architecture.md`.
 
 1. **Sphère de la densité de bétail** : A1 (paysage) ou A3 (organisation de la
    production alimentaire) ? Détermine si P1 couvre 3 sphères ou 2.

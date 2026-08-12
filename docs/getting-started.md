@@ -4,7 +4,7 @@
 
 This guide starts from a fresh clone. The key distinction is:
 
-- `download_data.R` acquires source data;
+- `scripts/download-data.R` acquires source data;
 - the numbered feature scripts transform source data and create maps or tables;
 - `0_load_layers.R` only opens files that are already on disk. It never downloads or computes data.
 
@@ -38,7 +38,7 @@ Console without guessing an installation path:
 
 ```r
 rscript <- file.path(R.home("bin"), "Rscript.exe")
-system2(rscript, c("download_data.R", "--id=ookla"))
+system2(rscript, c("scripts/download-data.R", "--id=ookla"))
 ```
 
 Use R 4.5.x if possible. The exact R packages are recorded in `renv.lock`; GDAL and PROJ come from the local R installation and can still differ between computers.
@@ -62,7 +62,7 @@ Feature explorations/<Feature>/
   scripts/           numbered acquisition, processing, and mapping scripts
 ```
 
-Keep manually downloaded files in the exact target path stated in `data_sources.md`. Do not change the working directory to the Downloads folder: doing so can make relative code create a second folder tree in the wrong place.
+Keep manually downloaded files in the exact target path stated in [`data-sources.md`](data-sources.md). Do not change the working directory to the Downloads folder: doing so can make relative code create a second folder tree in the wrong place.
 
 The one intentional exception is HILDA+ v2: its script accepts an archive anywhere on the computer with `--archive=...`, so the 3.5 GB ZIP does not need to be copied.
 
@@ -71,15 +71,15 @@ The one intentional exception is HILDA+ v2: its script accepts an archive anywhe
 This command is a status report and downloads nothing:
 
 ```powershell
-Rscript download_data.R
+Rscript scripts/download-data.R
 ```
 
 Choose a dataset or feature explicitly:
 
 ```powershell
-Rscript download_data.R --id=ookla
-Rscript download_data.R --feature=Transport
-Rscript download_data.R --id=hilda_v2 --dry-run
+Rscript scripts/download-data.R --id=ookla
+Rscript scripts/download-data.R --feature=Transport
+Rscript scripts/download-data.R --id=hilda_v2 --dry-run
 ```
 
 Use `--all` only after reviewing the catalogue: it represents about 25 GB of downloads, and some inputs still require credentials or manual browser access. Re-running a completed job is safe because existing inputs are skipped; add `--force` only when a fresh download is genuinely required.
@@ -89,7 +89,7 @@ Use `--all` only after reviewing the catalogue: it represents about 25 GB of dow
 Acquire the two Ookla archives and retain their European tiles:
 
 ```powershell
-Rscript download_data.R --id=ookla
+Rscript scripts/download-data.R --id=ookla
 ```
 
 Expected local inputs:
@@ -114,7 +114,7 @@ Outputs are written under `Feature explorations/Connectivity/data_processed/`. T
 Download or detect the official input without starting the long calculation:
 
 ```powershell
-Rscript download_data.R --id=hilda_v2
+Rscript scripts/download-data.R --id=hilda_v2
 ```
 
 The archive is stored at:
@@ -175,4 +175,4 @@ That alternative root must contain the same `Feature explorations/<Feature>/data
 - Use the [troubleshooting guide](troubleshooting.md) for missing files, credentials,
   downloads, path problems, platform limitations, or unexpected results.
 - Dataset-specific URLs, licences, checksums, sizes, and manual target paths remain
-  authoritative in [`../data_sources.md`](../data_sources.md).
+  authoritative in [`data-sources.md`](data-sources.md).

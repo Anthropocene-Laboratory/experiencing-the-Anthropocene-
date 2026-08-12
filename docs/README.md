@@ -8,14 +8,20 @@ This folder separates task-oriented guidance from the repository landing page.
 | [Workflow map](workflows.md) | deciding which script to run and which earlier output it requires |
 | [Troubleshooting](troubleshooting.md) | diagnosing paths, packages, credentials, downloads, platform issues, or changed results |
 | [Reproducibility](reproducibility.md) | assessing the evidence needed to reproduce, validate, archive, or release the work |
+| [Project architecture](project-architecture.md) | understanding the causal stack, analytical layers, modes, phases, and open decisions |
+| [Repository conventions](repository-conventions.md) | deciding where code, inputs, intermediates, figures, tables, and notes belong |
+| [Data sources](data-sources.md) | finding provenance, access routes, target paths, checksums, and input licences |
+| [Licensing](licensing.md) | determining how code, source data, figures, and tables may be reused |
 
 Repository-wide references remain at the root:
 
 - [`../README.md`](../README.md) — project landing page and short quickstart;
-- [`../data_sources.md`](../data_sources.md) — source provenance, access, checksums, and licences;
-- [`../AGENTS.md`](../AGENTS.md) — analytical architecture and classification rules;
-- [`../CONTRIBUTING.md`](../CONTRIBUTING.md) — contribution and review workflow;
-- [`../LICENSING.md`](../LICENSING.md) — distinct terms for code, inputs, and outputs.
+- [`../.github/CONTRIBUTING.md`](../.github/CONTRIBUTING.md) — contribution and review workflow;
+- [`../CITATION.cff`](../CITATION.cff) — machine-readable citation metadata;
+- [`../LICENSE`](../LICENSE) — software licence.
+
+Repository-level executable entry points live in `scripts/`; feature-specific
+processing code remains beside its feature under `Feature explorations/`.
 
 ## Why the documentation is split
 

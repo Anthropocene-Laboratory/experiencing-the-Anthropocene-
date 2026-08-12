@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this code or its figures, please cite it as below, and cite the underlying datasets named in data_sources.md."
+message: "If you use this code or its figures, please cite it as below, and cite the underlying datasets named in docs/data-sources.md."
 title: "Experiencing the Anthropocene: code and figures"
 abstract: >-
   Analysis code and derived figures mapping how human-driven Earth-system

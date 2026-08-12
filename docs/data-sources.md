@@ -14,8 +14,8 @@ size, and one of four acquisition routes:
   form, so the file cannot be fetched from code. Follow the steps and check the
   SHA-256 so you know you have the same file that produced the figures in this repo.
 
-See [`docs/getting-started.md`](docs/getting-started.md) for first-run instructions and
-[`LICENSING.md`](LICENSING.md) for the distinction between code, input, and output terms.
+See [`getting-started.md`](getting-started.md) for first-run instructions and
+[`licensing.md`](licensing.md) for the distinction between code, input, and output terms.
 
 Verify a download on Windows with
 
@@ -25,7 +25,7 @@ certutil -hashfile "<file>" SHA256
 
 or, on macOS/Linux, `shasum -a 256 "<file>"`.
 
-> **Status.** This is exploratory work (see `Feature explorations/CLAUDE.md`). Dataset
+> **Status.** This is exploratory work (see [`repository-conventions.md`](repository-conventions.md)). Dataset
 > versions were chosen to answer "what can we do with this feature", not to build a
 > frozen release. Where a reference year or version is uncertain, it says so.
 
@@ -33,11 +33,11 @@ or, on macOS/Linux, `shasum -a 256 "<file>"`.
 
 ## Every dataset, with its link
 
-`download_data.R` manages scripted and credentialed rows. Run it with no arguments to see
+`scripts/download-data.R` manages scripted and credentialed rows. Run it with no arguments to see
 what is already on disk, what is outstanding, and which sources remain streamed or manual:
 
 ```bash
-Rscript download_data.R
+Rscript scripts/download-data.R
 ```
 
 The **manual** rows are the ones no code can reach — a login, a request form, a tile
@@ -289,7 +289,7 @@ Used by `1_map_biosphere_anthromes.R` (`2000/anthro2_a2000.tif`) and
 | Archive size | 3,755,961,841 bytes (~3.5 GiB); includes states and transition products |
 | Required members | 60 annual state GeoTIFFs for 1960-2019, ~1.8 GB in total |
 | MD5 (official archive) | `56fe959df25d8efbc542b90cf971945f` |
-| Route | **scripted**: `Rscript download_data.R --id=hilda_v2`, then `Biosphere/scripts/4b_change_freq_hilda_v2.R` |
+| Route | **scripted**: `Rscript scripts/download-data.R --id=hilda_v2`, then `Biosphere/scripts/4b_change_freq_hilda_v2.R` |
 | Default target | `Biosphere/data_raw/biosphere/hilda_plus_v2/hildap_vGLOB-2.0_geotiff_wgs84.zip` |
 
 v2.0 also provides 2020, but the analysed interval is deliberately held at 1960-2019
@@ -325,7 +325,7 @@ no disk footprint — but an internet connection is required at run time.
 | Target | `Biosphere/data_raw/biosphere/bii_v2_1_1/` |
 
 ⚠️ The non-commercial / share-alike terms travel to anything derived from this layer.
-See [`LICENSING.md`](LICENSING.md) before reusing `Biosphere/data_processed/maps/bii_*.png`
+See [`licensing.md`](licensing.md) before reusing `Biosphere/data_processed/maps/bii_*.png`
 or the archetype maps that include BII as an input.
 
 ---

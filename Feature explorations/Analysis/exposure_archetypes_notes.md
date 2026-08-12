@@ -56,7 +56,7 @@ bounded regions.
 ## 4. Layers kept separate
 
 Population density and GDP per capita are **Layer-B exposure filters** and were
-deliberately excluded from the clustering (AGENTS.md: do not collapse the
+deliberately excluded from the clustering (docs/project-architecture.md: do not collapse the
 layers). They characterise the archetypes afterwards. This also removes the
 pop-density / night-light duplication that would otherwise have double-counted
 urbanisation.

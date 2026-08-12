@@ -1,6 +1,6 @@
 # Technosphere — settlement / building intensity (PROVISIONAL)
 
-Exploratory prototype, not a settled finding (see `../CLAUDE.md`). This feature asks
+Exploratory prototype, not a settled finding (see `../../docs/repository-conventions.md`). This feature asks
 what the built environment ("technosphere") looks like as an experienceable Layer-A
 feature across Europe, using remote-sensed building data.
 

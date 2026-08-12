@@ -2,7 +2,7 @@
 # 1_map_technosphere_buildings.R
 # Layer-A Technosphere feature: settlement/building intensity across Europe from
 # the DLR World Settlement Footprint 3D (WSF3D v02, BuildingHeight, ~90 m global).
-# PROVISIONAL exploratory prototype (see Feature explorations/CLAUDE.md) - scope,
+# PROVISIONAL exploratory prototype (see docs/repository-conventions.md) - scope,
 # variable (height vs fraction vs volume) and classing are open to revision.
 #
 # Source (remote COG, NOT downloaded whole - read via /vsicurl/ overviews):

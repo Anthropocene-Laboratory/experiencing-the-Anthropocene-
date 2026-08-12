@@ -15,7 +15,7 @@
 #   n_spheres        how many Layer-A spheres (A1/A2) the set spans
 #
 # Layer-B variables (population density, GDP per capita) are deliberately
-# EXCLUDED from every set: AGENTS.md forbids collapsing an exposure filter into
+# EXCLUDED from every set: docs/project-architecture.md forbids collapsing an exposure filter into
 # the feature layer. They are used in script 4 to profile the result instead.
 #
 # Run from the workspace ROOT, after 1_build_layerA_stack_30km.R.

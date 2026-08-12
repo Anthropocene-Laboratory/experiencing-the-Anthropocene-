@@ -31,7 +31,7 @@ find_cdsapirc <- function() {
   hit <- unique(cands)[file.exists(unique(cands))]
   if (!length(hit)) {
     stop("No .cdsapirc found. Create it in your home directory with your ECMWF\n",
-         "  Personal Access Token - see the credentials section of data_sources.md.\n",
+         "  Personal Access Token - see the credentials section of docs/data-sources.md.\n",
          "  Looked in: ", paste(unique(cands), collapse = ", "), call. = FALSE)
   }
   hit[1]

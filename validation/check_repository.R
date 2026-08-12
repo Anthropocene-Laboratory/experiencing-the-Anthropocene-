@@ -25,10 +25,12 @@ failures <- character()
 record_failure <- function(...) failures <<- c(failures, paste0(...))
 
 required <- c(
-  "README.md", "AGENTS.md", "CONTRIBUTING.md", "CODE_OF_CONDUCT.md",
-  "LICENSE", "LICENSING.md", "CITATION.cff", "data_sources.md",
+  "README.md", "LICENSE", "CITATION.cff", "scripts/download-data.R",
+  ".github/CONTRIBUTING.md", ".github/CODE_OF_CONDUCT.md",
   "docs/README.md", "docs/getting-started.md", "docs/workflows.md",
   "docs/troubleshooting.md", "docs/reproducibility.md",
+  "docs/project-architecture.md", "docs/repository-conventions.md",
+  "docs/data-sources.md", "docs/licensing.md",
   ".github/ISSUE_TEMPLATE/bug_report.yml",
   ".github/ISSUE_TEMPLATE/data_or_provenance.yml",
   ".github/ISSUE_TEMPLATE/method_question.yml",
@@ -41,6 +43,23 @@ missing_required <- required[!file.exists(required)]
 if (length(missing_required)) {
   record_failure("Missing required repository file(s): ",
                  paste(missing_required, collapse=", "))
+}
+
+root_entries <- list.files(root, all.files=TRUE, no..=TRUE)
+forbidden_root_docs <- intersect(
+  root_entries,
+  c("CONTRIBUTING.md", "CODE_OF_CONDUCT.md", "LICENSING.md", "data_sources.md")
+)
+if (length(forbidden_root_docs)) {
+  record_failure("Documentation should be in docs/ or .github/, not the repository root: ",
+                 paste(forbidden_root_docs, collapse=", "))
+}
+
+deprecated_agent_docs <- c("AGENTS.md", "CLAUDE.md", "Feature explorations/CLAUDE.md")
+present_deprecated_agent_docs <- deprecated_agent_docs[file.exists(deprecated_agent_docs)]
+if (length(present_deprecated_agent_docs)) {
+  record_failure("Redundant assistant-specific documentation should be consolidated into docs/: ",
+                 paste(present_deprecated_agent_docs, collapse=", "))
 }
 
 git <- Sys.which("git")

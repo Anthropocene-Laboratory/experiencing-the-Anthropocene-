@@ -16,14 +16,14 @@ brightness, and biosphere change.
 
 | I want to… | Read or run |
 |---|---|
-| understand the project and its analytical layers | [`AGENTS.md`](AGENTS.md) |
+| understand the project and its analytical layers | [`docs/project-architecture.md`](docs/project-architecture.md) |
 | install the environment and run a first script | [`docs/getting-started.md`](docs/getting-started.md) |
 | know which scripts and inputs belong to a workflow | [`docs/workflows.md`](docs/workflows.md) |
-| find a dataset, licence, checksum, or manual target path | [`data_sources.md`](data_sources.md) |
+| find a dataset, licence, checksum, or manual target path | [`docs/data-sources.md`](docs/data-sources.md) |
 | diagnose an error or unexpected output | [`docs/troubleshooting.md`](docs/troubleshooting.md) |
 | assess what is and is not reproducible | [`docs/reproducibility.md`](docs/reproducibility.md) |
-| propose a change or report a problem | [`CONTRIBUTING.md`](CONTRIBUTING.md) |
-| cite or reuse code, data, figures, or tables | [`CITATION.cff`](CITATION.cff) and [`LICENSING.md`](LICENSING.md) |
+| propose a change or report a problem | [`.github/CONTRIBUTING.md`](.github/CONTRIBUTING.md) |
+| cite or reuse code, data, figures, or tables | [`CITATION.cff`](CITATION.cff) and [`docs/licensing.md`](docs/licensing.md) |
 
 The longer documentation is deliberately separate from this README. The README is the
 landing page; `docs/` contains procedures that need enough detail to be followed without
@@ -47,14 +47,14 @@ renv::restore()
 Inspect the data catalogue. With no arguments, this command **downloads nothing**:
 
 ```powershell
-Rscript download_data.R
+Rscript scripts/download-data.R
 ```
 
 Preview a small workflow, acquire its inputs, and reproduce one figure:
 
 ```powershell
-Rscript download_data.R --feature=Transport --dry-run
-Rscript download_data.R --feature=Transport
+Rscript scripts/download-data.R --feature=Transport --dry-run
+Rscript scripts/download-data.R --feature=Transport
 Rscript "Feature explorations/Transport/scripts/4_map_road_density_grip4.R"
 ```
 
@@ -82,7 +82,7 @@ Raw data belong under each feature's `data_raw/` folder and are ignored by git. 
 intermediate rasters belong at the `data_processed/` root and are also ignored. Final
 figures go to `data_processed/maps/`; final tabular outputs go to
 `data_processed/tables/`. Exact source locations and exceptions are recorded in
-[`data_sources.md`](data_sources.md).
+[`docs/data-sources.md`](docs/data-sources.md).
 
 ## Analytical architecture
 
@@ -96,7 +96,7 @@ The repository follows a five-step causal stack:
 
 Do not collapse these roles. In particular, population, wealth, demographics, and time
 use are exposure filters; they are not Layer-A experienceable features. The complete
-classification rules are in [`AGENTS.md`](AGENTS.md).
+classification rules are in [`docs/project-architecture.md`](docs/project-architecture.md).
 
 ## Repository layout
 
@@ -112,6 +112,7 @@ Feature explorations/
 docs/                  user, workflow, troubleshooting, and reproducibility guides
 validation/            repository and scientific validation scripts
 .github/               collaboration templates and automated checks
+scripts/                repository-level command-line entry points
 ```
 
 ## Reproducibility contract
@@ -120,10 +121,10 @@ validation/            repository and scientific validation scripts
   recorded in `requirements.txt`.
 - Scripts resolve paths from the repository root. A personal `C:/Users/...`,
   `/Users/...`, or `/home/...` path in executable code is a defect.
-- `download_data.R` distinguishes scripted, streamed, credentialed, and manual inputs.
+- `scripts/download-data.R` distinguishes scripted, streamed, credentialed, and manual inputs.
 - Source data, methods, and generated outputs remain separate.
 - Dataset versions, retrieval routes, licences, and known checksums are recorded in
-  `data_sources.md`.
+  `docs/data-sources.md`.
 - `Rscript validation/check_repository.R` runs fast structural checks without downloading
   data or recomputing maps.
 
@@ -135,7 +136,7 @@ not fully tested. The exact boundaries of current reproducibility are documented
 ## Getting help and contributing
 
 Before opening an issue, check [`docs/troubleshooting.md`](docs/troubleshooting.md) and
-run `Rscript download_data.R` to identify missing inputs. Use the GitHub issue forms for
+run `Rscript scripts/download-data.R` to identify missing inputs. Use the GitHub issue forms for
 usage help, a code failure, a data/provenance problem, or a scientific-method question.
 Never attach licensed source data, credentials, confidential material, or personal paths
 to an issue.
@@ -143,7 +144,7 @@ to an issue.
 Changes should be proposed on a branch and reviewed through a pull request. The project
 requires contributors to preserve the Layer A/B/C/D distinction, document provenance,
 state whether outputs changed, and record the validation performed. See
-[`CONTRIBUTING.md`](CONTRIBUTING.md).
+[`.github/CONTRIBUTING.md`](.github/CONTRIBUTING.md).
 
 ## Citation and licences
 
@@ -152,8 +153,8 @@ before the first formal release. Cite the underlying datasets as well as this re
 
 The source code is MIT-licensed. Data and derived outputs can have different or more
 restrictive terms, including attribution, non-commercial, share-alike, or database
-licence obligations. Read [`LICENSING.md`](LICENSING.md) and the relevant entry in
-[`data_sources.md`](data_sources.md) before redistribution.
+licence obligations. Read [`docs/licensing.md`](docs/licensing.md) and the relevant entry in
+[`docs/data-sources.md`](docs/data-sources.md) before redistribution.
 
 Maintained by the Anthropocene Laboratory project team. See the
-[`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) for participation standards.
+[`.github/CODE_OF_CONDUCT.md`](.github/CODE_OF_CONDUCT.md) for participation standards.

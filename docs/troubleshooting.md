@@ -5,7 +5,7 @@
 Start every diagnosis with these two commands from inside the clone:
 
 ```powershell
-Rscript download_data.R
+Rscript scripts/download-data.R
 Rscript validation/check_repository.R
 ```
 
@@ -22,7 +22,7 @@ accidentally tracked raw data without running a scientific analysis.
 | `Not on disk` or `cannot open` | required raw/intermediate input is absent | run the catalogue and inspect the exact missing path |
 | sourcing `0_load_layers.R` works but layers are missing | the loader defines functions; it does not acquire data | run `anth_layers()` and acquire the relevant inputs |
 | a new `Feature explorations/` tree appears elsewhere | the working directory was changed to a non-project folder | stop, return to the clone, and do not edit `setwd()` |
-| download command prints a catalogue but transfers nothing | `download_data.R` was run with no selection | add `--id=...`, `--feature=...`, or `--all` after reviewing size/cost |
+| download command prints a catalogue but transfers nothing | `scripts/download-data.R` was run with no selection | add `--id=...`, `--feature=...`, or `--all` after reviewing size/cost |
 | CDS/ADS request fails | credentials absent, dataset terms not accepted, or request too large | test `.cdsapirc`; accept the dataset terms; use the repository's chunked request |
 | HILDA ZIP has an unexpected size | interrupted download or HTML error page saved as ZIP | rerun to resume `.part`, or use the official manual ZIP with `--verify-md5` |
 | central Europe becomes `NA` after reprojection | local PROJ lacks deformation grids used by the EPSG route | use the explicit LAEA/GRS80 string already established in project scripts |
@@ -117,7 +117,7 @@ Include:
 - operating system, R version, and `sf::sf_extSoftVersion()`;
 - exact script and command;
 - first complete error message, not only the last line;
-- output of `Rscript download_data.R` for the relevant dataset;
+- output of `Rscript scripts/download-data.R` for the relevant dataset;
 - source version/checksum if known;
 - whether the file is automatic, streamed, credentialed, or manual;
 - the smallest reproducible example that does not expose data or credentials.

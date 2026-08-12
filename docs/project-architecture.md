@@ -1,4 +1,7 @@
-# Experiencing the Anthropocene - Agent Guide
+# Project architecture
+
+This is the human-facing source for the project's causal architecture,
+classification rules, phases, and open methodological decisions.
 
 This workspace supports the project "Experiencing the Anthropocene."
 The project maps how human-driven Earth-system transformations are encountered
@@ -306,7 +309,7 @@ Do not silently resolve these without documenting the decision:
 - Depth of A3 and A4 refresh relative to A1 and A2.
 - Aggregation rule for the Phase 2 ranking axes.
 
-## Working Rules for Agents
+## Working rules
 
 - Preserve the layered architecture in all edits.
 - Before adding a dataset, identify its analytical role.

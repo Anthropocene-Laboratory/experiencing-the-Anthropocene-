@@ -13,7 +13,7 @@
 #               duplicate of cropland fraction here (Spearman -.81).
 #
 #  Layer B      population density and GDP per capita are NOT clustered. They
-#               are exposure filters (AGENTS.md: do not collapse the layers) and
+#               are exposure filters (docs/project-architecture.md: do not collapse the layers) and
 #               are used only to profile the archetypes afterwards. This also
 #               removes the pop-density / night-light duplication (rho .84).
 #

@@ -1,6 +1,6 @@
 # Air quality — PM2.5 (PROVISIONAL)
 
-Exploratory prototype, not a settled finding (see `../CLAUDE.md`). Layer-A atmospheric
+Exploratory prototype, not a settled finding (see `../../docs/repository-conventions.md`). Layer-A atmospheric
 feature: fine-particle air pollution as an experienceable exposure across Europe.
 
 ## Current state — TWO separate maps (EEA and CAMS), same conventions

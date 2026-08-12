@@ -2,7 +2,7 @@
 # 1_map_air_quality_pm25.R
 # Layer-A Air-quality feature: PM2.5 annual mean across Europe, from the EEA
 # interpolated air quality product (1 km, EPSG:3035). PROVISIONAL exploratory
-# prototype (see Feature explorations/CLAUDE.md).
+# prototype (see docs/repository-conventions.md).
 #
 # Classification = WHO 2021 air-quality guideline + interim targets (also the EU
 # annual limit at 25). Palette = the conventional semantic air-quality ramp

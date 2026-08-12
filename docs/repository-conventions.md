@@ -1,9 +1,11 @@
-# Feature explorations - folder convention
+# Repository conventions
 
 This guide governs the PHYSICAL folder layout under `Feature explorations/`.
 For the conceptual A/B/C/D layer architecture (what a "feature," "exposure
-filter," etc. means), see the root `AGENTS.md` and `Feature library/Merged_datasets.xlsx`
-(the master feature catalogue) - do not duplicate that content here.
+filter," etc. means), see [`project-architecture.md`](project-architecture.md).
+
+Repository-wide command-line entry points live in the root `scripts/` folder;
+feature-specific processing scripts stay with their feature.
 
 ## Why this exists
 
@@ -28,8 +30,7 @@ feature (heatwaves, biosphere, whatever comes next): explore data -> map the
 Layer A feature -> link a Layer B exposure filter -> document. That cycle cuts
 across several roadmap phases at once for a single feature, so folders are
 organized BY FEATURE, not by roadmap phase number. Roadmap phase numbers (0-8)
-live only in `Project management/Anthropocene_Project_Roadmap.docx`, never as
-folder names here.
+are project-management concepts, not folder names under `Feature explorations/`.
 
 ## Layout
 
@@ -63,7 +64,7 @@ Existing features: `Heatwaves/`, `Biosphere/`, `Technosphere/`, `Air quality/`,
 
 Note on `data_raw/`: it is never committed to git (see the root `.gitignore`) and
 may not be present at all in a fresh clone. Every source is documented in the
-root `data_sources.md`, with the acquisition script that re-creates it.
+[`data-sources.md`](data-sources.md), with the acquisition script that re-creates it.
 
 ## Rules for adding a new feature or script
 

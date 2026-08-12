@@ -9,9 +9,9 @@ branch.
 
 ## Execution model
 
-1. **Inspect** source availability with `Rscript download_data.R`.
+1. **Inspect** source availability with `Rscript scripts/download-data.R`.
 2. **Acquire** a selected source with `--id=...` or `--feature=...`, or follow the manual
-   target in [`../data_sources.md`](../data_sources.md).
+   target in [`data-sources.md`](data-sources.md).
 3. **Process/map** with the numbered scripts in the relevant feature folder.
 4. **Validate** the expected files, units, coverage, and caveats before interpreting a
    result.
@@ -31,7 +31,7 @@ The acquisition catalogue has four routes:
 ### Connectivity: measured internet performance
 
 ```powershell
-Rscript download_data.R --id=ookla
+Rscript scripts/download-data.R --id=ookla
 Rscript "Feature explorations/Connectivity/scripts/2_map_ookla_experienced_speed.R"
 ```
 
@@ -49,7 +49,7 @@ branch. `4_extract_bce_pdf_tables.py` is a supporting extraction utility for BCE
 Acquire the input without starting the long calculation:
 
 ```powershell
-Rscript download_data.R --id=hilda_v2
+Rscript scripts/download-data.R --id=hilda_v2
 ```
 
 Then calculate the 1960-2019 change-frequency product:
@@ -66,7 +66,7 @@ used only for the v1-v2 QA comparison. Full manual examples are in the
 ### Transport: two different questions
 
 ```powershell
-Rscript download_data.R --feature=Transport
+Rscript scripts/download-data.R --feature=Transport
 ```
 
 - `1_acquire_clc122_transport_land.R` → `2_map_transport_land_share.R` maps land occupied
@@ -88,7 +88,7 @@ one variable.
 | Layer-B filters | Biosphere scripts `7`, `8`, `9`, and `10` map population, wealth, and age filters | routes differ; these are not Layer-A features |
 | Heatwaves | acquisition scripts → thresholds/preparation → calculation → validation → visualisation | large CDS downloads, credentials, and substantial compute time |
 
-For every branch, treat the script header and [`../data_sources.md`](../data_sources.md)
+For every branch, treat the script header and [`data-sources.md`](data-sources.md)
 as the authoritative input contract. A file being present does not prove that its version,
 licence, coverage, or units are correct.
 

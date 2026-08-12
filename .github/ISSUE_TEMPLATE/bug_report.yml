@@ -41,7 +41,7 @@ body:
     id: data_status
     attributes:
       label: Input-data status
-      description: Relevant lines from `Rscript download_data.R`, plus version/checksum if known.
+      description: Relevant lines from `Rscript scripts/download-data.R`, plus version/checksum if known.
     validations:
       required: true
   - type: textarea

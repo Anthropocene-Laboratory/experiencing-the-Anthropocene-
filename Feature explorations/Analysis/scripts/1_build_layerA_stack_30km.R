@@ -3,7 +3,7 @@
 #
 # Builds ONE harmonised 30-km EPSG:3035 stack from every gridded layer this
 # workspace can put on a common grid, plus the Layer-B filters held OUT of any
-# clustering (AGENTS.md: "do not collapse the layers").
+# clustering (docs/project-architecture.md: "do not collapse the layers").
 #
 # 30 km is not a style choice: the coarsest analytic input (ERA5-HEAT UTCI) is
 # 0.25 degrees (~28 km N-S). Any finer common grid would invent precision.

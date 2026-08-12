@@ -1,21 +1,21 @@
 #!/usr/bin/env Rscript
 # =============================================================================
-# download_data.R - fetch every source dataset that can be fetched by code
+# scripts/download-data.R - fetch every source dataset that can be fetched by code
 #
-#   Rscript download_data.R                     show the catalogue and what is
+#   Rscript scripts/download-data.R             show the catalogue and what is
 #                                               already on disk (downloads nothing)
-#   Rscript download_data.R --feature=Transport  fetch one feature's data
-#   Rscript download_data.R --id=grip4           fetch one dataset
-#   Rscript download_data.R --all                fetch everything scriptable (~25 GB)
-#   Rscript download_data.R --all --dry-run      print the commands, run nothing
-#   Rscript download_data.R --id=eobs --force    re-download even if present
+#   Rscript scripts/download-data.R --feature=Transport  fetch one feature's data
+#   Rscript scripts/download-data.R --id=grip4           fetch one dataset
+#   Rscript scripts/download-data.R --all                fetch everything scriptable (~25 GB)
+#   Rscript scripts/download-data.R --all --dry-run      print the commands, run nothing
+#   Rscript scripts/download-data.R --id=eobs --force    re-download even if present
 #
 # WHAT THIS SCRIPT CANNOT DO
 # It covers every source that has a machine-readable route - the catalogue it
 # prints IS the list, so no count is repeated here to go stale. The others sit
 # behind a login, a browser form or a Cloudflare challenge and no script can
 # get them - they are listed at the end of every run, with their landing pages,
-# and in full in data_sources.md. Running this to completion does NOT mean you
+# and in full in docs/data-sources.md. Running this to completion does NOT mean you
 # have all the data: five inputs of 1_build_layerA_stack_30km.R (GLAD cropland,
 # Falchi light pollution, BII, HILDA+ v1, Kummu GDP) are manual-only, so the
 # 30-km stack cannot be rebuilt from scripts alone on a fresh machine.
@@ -271,9 +271,9 @@ print_catalogue <- function() {
   cat("(One job pulls three sources at once: GISCO boundaries, Eurostat\n",
       " population by age and GHS-POP.)\n", sep = "")
   cat("\nNo download started. Pick a scope:\n")
-  cat("  Rscript download_data.R --feature=Transport   (smallest feature, no credentials)\n")
-  cat("  Rscript download_data.R --id=<id>\n")
-  cat("  Rscript download_data.R --all\n")
+  cat("  Rscript scripts/download-data.R --feature=Transport   (smallest feature, no credentials)\n")
+  cat("  Rscript scripts/download-data.R --id=<id>\n")
+  cat("  Rscript scripts/download-data.R --all\n")
 }
 
 print_streamed <- function() {
@@ -290,7 +290,7 @@ print_manual <- function() {
   for (m in manual) {
     cat(sprintf("  %s\n    %s\n    why manual: %s\n", m$label, m$url, m$why))
   }
-  cat("\nFull provenance, licences and SHA-256 checksums: data_sources.md\n")
+  cat("\nFull provenance, licences and SHA-256 checksums: docs/data-sources.md\n")
   cat("Verify a manual download with:  certutil -hashfile <file> SHA256   (Windows)\n")
   cat("                               shasum -a 256 <file>               (macOS/Linux)\n")
 }
@@ -317,7 +317,7 @@ run_one <- function(d, dry_run) {
   }
   if (!is.na(d$creds) && !has_credentials()) {
     cat("  SKIPPED: ", d$creds, " credentials needed but ~/.cdsapirc is absent.\n", sep = "")
-    cat("  See the credentials section of data_sources.md.\n")
+    cat("  See the credentials section of docs/data-sources.md.\n")
     return("no credentials")
   }
   if (dry_run) { cat("  (dry run - not executed)\n"); return("dry run") }

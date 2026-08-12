@@ -41,4 +41,4 @@ jobs:
           PY
 
       - name: Smoke-test the acquisition dispatcher
-        run: Rscript --vanilla download_data.R --id=hilda_v2 --force --dry-run
+        run: Rscript --vanilla scripts/download-data.R --id=hilda_v2 --force --dry-run
