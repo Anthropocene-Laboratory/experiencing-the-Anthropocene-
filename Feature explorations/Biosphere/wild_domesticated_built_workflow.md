@@ -311,8 +311,13 @@ Déjà présentes :
 
 À ajouter manuellement :
 
-- Lesiv : voir [`data_raw/biosphere/lesiv_2015/README.md`](data_raw/biosphere/lesiv_2015/README.md) ;
-- GPW : voir [`data_raw/biosphere/global_pasture_watch/README.md`](data_raw/biosphere/global_pasture_watch/README.md)
+- Lesiv : voir `data_raw/biosphere/lesiv_2015/README.md` ;
+- GPW : voir `data_raw/biosphere/global_pasture_watch/README.md`
+
+⚠️ Ces deux README ne sont **pas** dans le dépôt git : `data_raw/` est exclu par principe, et
+un lien markdown vers eux ne peut donc pas résoudre — c'est ce qui a fait échouer le contrôle
+`structure-and-syntax` du dépôt. Ils vivent à côté des données, sur le disque. La provenance
+versionnée — URL, MD5, licence, table des classes — est dans `docs/data-sources.md`.
   et remplir `gpw_manifest.csv` à partir du modèle.
 
 Les téléchargements globaux ne sont pas lancés implicitement : le raster Lesiv fait
