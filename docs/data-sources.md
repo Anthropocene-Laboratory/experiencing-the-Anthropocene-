@@ -68,6 +68,9 @@ against the SHA-256 given in its section below.
 | GLAD global cropland | Heatwaves | **manual** | https://glad.umd.edu/dataset/croplands |
 | Global Human Day time-use budgets | Heatwaves | **manual** | https://doi.org/10.5281/zenodo.7941615 |
 | Gridded GDP per capita, admin-2 | Layer B | **manual** | https://doi.org/10.5281/zenodo.13943886 |
+| Food imports as share of merchandise imports (`TM.VAL.FOOD.ZS.UN`) | Layer C context | streamed | https://data.worldbank.org/indicator/TM.VAL.FOOD.ZS.UN |
+| Political Stability, WGI estimate (`WB_WDI_GOV_WGI_PV_EST`) | Layer C / institutional context | streamed (Data360) | https://data360.worldbank.org/en/api |
+| World Values Survey Wave 2 (1990-1994) | Layer C | **manual, registered** | https://www.worldvaluessurvey.org/WVSDocumentationWV2.jsp |
 | `T.ambient.buildings.nc` | Heatwaves | **manual** | ⚠️ provenance unknown — see the last section |
 
 Underlying papers, where the link above points at data rather than at the article:
@@ -312,6 +315,45 @@ comparison; it is no longer a hidden requirement for completing the v2 output.
 over HTTP with GDAL's `/vsicurl/`
 (`https://s3.openlandmap.org/arco/land.use.land.cover_hilda.plus_...`). No download step,
 no disk footprint — but an internet connection is required at run time.
+
+### Forest management, Lesiv et al. 2022 (FML v3.2, 2015)
+
+| | |
+|---|---|
+| Provider | Zenodo, record 5879022 (Lesiv et al., *Scientific Data* 9:199) |
+| URL | `https://zenodo.org/api/records/5879022/files/FML_v3-2_with-colorbar.tif/content` |
+| File | `FML_v3-2_with-colorbar.tif`, 1,605,739,600 bytes |
+| MD5 | `23e1e0f247e0461b348d8cb9b95c8a6f` (verified on download, 2026-08-26) |
+| Grid | 141,121 × 362,880, ~100 m, WGS84, latitude −60 to +80, `INT1S` |
+| Licence | **CC-BY-4.0** — no share-alike, unlike BII |
+| Route | **scripted**: `curl.exe -L --fail -o <target> <URL>` |
+| Target | `Biosphere/data_raw/biosphere/lesiv_2015/` |
+
+Also worth fetching (12 KB): `legend.xlsx` from the same record, which carries the class
+descriptions relied on below.
+
+Used by `5_build_wild_domesticated_built.R` via `--lesiv=<path>`, exclusively inside the
+HILDA forest mask (codes `40`–`45`), to split forest into managed and unmanaged. Classes:
+
+| Code | Source label | Group |
+|---|---|---|
+| `11` | Naturally regenerating forests without any signs of management, incl. primary forests | `wild` |
+| `20` | Naturally regenerating forests with signs of management (logging, clear cuts); incl. semi-natural forests | `domesticated` |
+| `31` | Planted forests (rotation > 15 y) | `domesticated` |
+| `32` | Plantation forest (rotation ≤ 15 y), short-rotation timber | `domesticated` |
+| `40` | Oil palm plantations | `domesticated` |
+| `53` | Agroforestry | `domesticated` |
+
+There is **no class `10`**; the first class is `11`.
+
+⚠️ `11` means *no management signature inside the 100 m pixel* — **not** "no human
+presence" and **not** "intact forest". The source legend files three sub-cases under it,
+two of which carry human presence or disturbance: forest undisturbed in the pixel but with
+roads, houses or small fields **within 500 m**; and forest disturbed by natural causes
+(wildfire, windthrow, flooding, insects). Class `20` symmetrically absorbs semi-natural
+forests "visually very similar to naturally regenerating forests". The `11`/`20` boundary
+is an interpreter's judgement on imagery, not a measurement — any `wild` map built on it
+must carry that restriction in its legend.
 
 ### Biodiversity Intactness Index (BII) v2.1.1
 

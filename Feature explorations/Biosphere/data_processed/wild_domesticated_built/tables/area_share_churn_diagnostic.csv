@@ -1,0 +1,5 @@
+"component","n_deltas","S_component","gross_pp","net_pp","R","eligible_for_R","S_pooled","S_verdict","R_verdict","combined_verdict","window"
+"pct_wild",19,0.611111111111111,3.2931300108033,1.7299849902779,1.9035598743977,TRUE,0.375,"FAIL","INCONCLUSIVE","FAIL -- annual deltas are churn; do not publish pp-per-decade from consecutive years","2000-2019"
+"pct_domesticated",19,0.5,4.02682068384932,-3.0638338042939,1.31430780553626,TRUE,0.375,"FAIL","INCONCLUSIVE","FAIL -- annual deltas are churn; do not publish pp-per-decade from consecutive years","2000-2019"
+"pct_built_up",19,0.111111111111111,0.17363098259227,0.16505169008659,NA,FALSE,0.375,"FAIL","INCONCLUSIVE","FAIL -- annual deltas are churn; do not publish pp-per-decade from consecutive years","2000-2019"
+"pct_unresolved",19,0.277777777777778,1.3274167627613,1.1687971239293,1.13571186614384,TRUE,0.375,"FAIL","INCONCLUSIVE","FAIL -- annual deltas are churn; do not publish pp-per-decade from consecutive years","2000-2019"
