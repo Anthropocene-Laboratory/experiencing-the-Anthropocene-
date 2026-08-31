@@ -401,9 +401,40 @@ if (all(c(1960, 2019) %in% years)) {
   message("Wrote ", delta_path)
 }
 
+# Minimum share of the mapped land that the auxiliary layer must cover for the
+# comparison plate to be drawn at all. Not a scientific threshold -- a legibility
+# one, and it exists because of a defect this plate actually produced.
+#
+# WHAT WENT WRONG. The global run picked up the default WSF3D file, which covers
+# EUROPE ONLY. The plate rendered a world map whose right-hand panel was grey
+# everywhere outside Europe, under a caption asserting that "HILDA must exceed
+# WSF3D everywhere". Absence of measurement renders identically to a measured
+# zero, so the figure invited the reading that the rest of the world has no
+# buildings. A caption cannot fix that: the misreading happens in the eye before
+# anyone reaches the caption.
+#
+# So the plate is skipped when the auxiliary does not cover the extent, and the
+# measured coverage is printed either way -- refusing to draw is the fix, saying
+# why is the courtesy.
+WSF3D_MIN_COVERAGE_PCT <- 95
+
 if (2015 %in% years) {
   r2015 <- rasters[[match(2015, years)]]
+  aux_coverage_pct <- NA_real_
   if ("pct_built_wsf3d_aux" %in% names(r2015)) {
+    mapped <- global(!is.na(r2015[["pct_built_up"]]), "sum", na.rm = TRUE)[[1]]
+    covered <- global(!is.na(r2015[["pct_built_wsf3d_aux"]]), "sum", na.rm = TRUE)[[1]]
+    aux_coverage_pct <- if (isTRUE(mapped > 0)) 100 * covered / mapped else 0
+  }
+  if ("pct_built_wsf3d_aux" %in% names(r2015) &&
+      aux_coverage_pct < WSF3D_MIN_COVERAGE_PCT) {
+    message(sprintf(
+      paste0("Skipping the HILDA/WSF3D comparison: the auxiliary layer covers ",
+             "%.1f%% of the mapped land, below the %g%% needed for the plate to ",
+             "be readable. Outside its extent, no measurement would render the ",
+             "same as a measured zero."),
+      aux_coverage_pct, WSF3D_MIN_COVERAGE_PCT))
+  } else if ("pct_built_wsf3d_aux" %in% names(r2015)) {
     comparison_layers <- c("pct_built_up", "pct_built_wsf3d_aux")
     comparison_labels <- c(
       "HILDA urban-class share", "WSF3D physical building-footprint share"
@@ -434,7 +465,8 @@ if (2015 %in% years) {
           "WSF3D is auxiliary and is not added to the HILDA partition. Both use the ",
           "same 0-100% scale but measure different things: HILDA urban covers the whole ",
           "urban footprint, WSF3D only building footprints, so HILDA must exceed WSF3D ",
-          "everywhere. The gap is the informative quantity, not the disagreement."
+          "everywhere. The gap is the informative quantity, not the disagreement.",
+          sprintf(" WSF3D covers %.1f%% of the land mapped here.", aux_coverage_pct)
         ))
       ) +
       map_theme

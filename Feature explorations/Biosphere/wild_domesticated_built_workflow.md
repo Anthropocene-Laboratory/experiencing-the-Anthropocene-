@@ -173,6 +173,22 @@ classe urbaine HILDA couvre l'emprise urbaine entière (voirie, jardins, friches
 interstitielles), la fraction WSF3D ne couvre que l'empreinte des bâtiments. La première
 doit dépasser la seconde partout ; l'écart est la quantité informative, pas le désaccord.
 
+**Garde de couverture, ajoutée après un défaut observé (2026-09-01).** Le fichier WSFTD sur
+le disque est `eu_fraction_wsf3d_3km.tif` — **européen**. Le run mondial l'a repris par défaut
+et la planche a été rendue en carte du monde dont le panneau WSF3D était gris partout hors
+d'Europe, sous une légende affirmant que « HILDA doit dépasser WSF3D partout ». Lu ainsi, le
+reste du monde n'a pas de bâtiments.
+
+Le point de méthode : **l'absence de mesure se dessine exactement comme un zéro mesuré.** Une
+légende ne peut pas corriger ça, parce que la mauvaise lecture se fait dans l'œil avant qu'on
+arrive au texte. `5b` mesure donc la couverture de la couche auxiliaire sur les cellules que
+HILDA résout, et **refuse de dessiner** la planche sous `WSF3D_MIN_COVERAGE_PCT = 95`. Sur le
+run mondial elle vaut **5,3 %** et la planche n'est pas produite ; sur l'Europe elle est
+complète et la planche l'est aussi, sa couverture désormais chiffrée dans sa légende.
+
+C'est un seuil de lisibilité, pas un seuil scientifique, et il est énoncé comme tel dans le
+script.
+
 ## Reclassification principale
 
 | Groupe | Codes HILDA+ v2 |
