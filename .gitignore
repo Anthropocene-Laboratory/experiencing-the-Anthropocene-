@@ -34,6 +34,18 @@ data_raw/
 *.grib
 *.grb
 
+# terra writes chunked intermediates beside the outputs when a job exceeds
+# available memory, and does not clean them up. One global run left 3.6 GB
+# behind, the European series 13 GB. They are never read back.
+**/_terra_tmp/
+
+# Per-cell tables: regenerable by the pipeline, and too big for git. One row per
+# grid cell -- Europe at 10 km is 14-18 MB per year, the global run is 296 MB,
+# past GitHub's 100 MB hard limit. The summary, QA and diagnostic tables beside
+# them ARE committed: they are what a reader actually needs, at a few hundred
+# bytes each.
+**/wild_domesticated_built_cells_*.csv
+
 # Exception: small shared reference grid, needed by several scripts (0.7 MB,
 # GHSL-derived, CC-BY 4.0 - redistributable).
 !Feature explorations/_shared/pop2020_0p1deg.tif

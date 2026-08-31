@@ -1,0 +1,2 @@
+"year_from","year_to","land_km2","forest_km2_from","forest_km2_to","forest_pct_of_land_to","converted_to_forest_km2","stable_forest_km2","lost_forest_km2","S_pct_of_2015_forest","S_pp_of_land","verdict","churn_filtered","endpoints_only"
+1960,2015,4702887.90877578,1493385.2219887,1790444.05508362,38.0711615886609,438794.891680984,1351649.16340267,141736.058585898,24.5076013648742,9.33032851712614,"BETWEEN 10% AND 25% -- worth wiring in, not decisive alone",FALSE,TRUE
