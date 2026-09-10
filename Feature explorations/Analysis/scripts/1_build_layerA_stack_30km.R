@@ -77,9 +77,10 @@ template <- rast(ext(project(r_utci_all[["hours_strong"]], "EPSG:3035", res = GR
                  resolution = GRID_M, crs = "EPSG:3035")
 
 # Most inputs are continuous intensities, fractions or count densities, so an
-# areal mean ("average") is the correct aggregator. Three are not, and each gets
-# its own function below: population (a count), Ookla speed (a test-weighted
-# mean) and building height (a mean over built surface only).
+# areal mean ("average") is the correct aggregator. Four are not, and each is
+# handled separately below: population (a count), Ookla speed (a test-weighted
+# mean), building height (a mean over built surface only) and GDP per capita
+# (a per-person ratio, so a population-weighted mean).
 to_grid <- function(path, layer = NULL) {
   r <- rast(file.path(root, path))
   if (!is.null(layer)) r <- r[[layer]]
@@ -98,15 +99,34 @@ r_tland       <- to_grid(inputs[["tland"]])      # % of cell in CLC class 122
 r_hilda       <- to_grid(inputs[["hilda"]])
 r_hilda_v2    <- to_grid(inputs[["hilda_v2"]])
 
-# BII and GDP are global; crop to the European window before projecting.
+# BII is global; crop to the European window before projecting.
 win_4326 <- ext(project(as.polygons(ext(template), crs = "EPSG:3035"), "EPSG:4326"))
 r_bii <- project(crop(rast(file.path(root, inputs[["bii"]])), win_4326), template, method = "average")
-r_gdp_all <- rast(file.path(root, inputs[["gdp"]]))
-r_gdp <- project(crop(r_gdp_all[["gdp_pc_2022"]], win_4326), template, method = "average")
 
 # Population: counts must be summed, not averaged, before densifying.
-r_pop_cnt <- project(rast(file.path(root, inputs[["pop"]])), template, method = "sum")
+r_pop_src <- rast(file.path(root, inputs[["pop"]]))
+r_pop_cnt <- project(r_pop_src, template, method = "sum")
 r_popdens <- r_pop_cnt / ((GRID_M / 1000)^2)   # people per km2
+
+# GDP per capita: the same re-weighting argument as Ookla and building height,
+# with people as the weight. It is a per-PERSON ratio, not an intensity per unit
+# ground, so an areal mean lets an empty admin-2 tile pull the 30-km value as
+# hard as a metropolitan one - a cell holding one city and eight empty tiles
+# reports roughly the rural figure. Aggregate it as the quantity is defined:
+# total product over total people, sum(gdp_pc x pop) / sum(pop).
+#
+# Kummu's per-capita values are piecewise-constant within an admin-2 unit, so
+# "near" onto the population grid reproduces the published unit value exactly;
+# "average" there would blur unit boundaries before the weighting even starts.
+# Cells with no residents come back NA rather than a per-capita figure computed
+# over nobody. This does not touch the archetypes: script 4 clusters FEAT only,
+# and its complete.cases() filter is applied to FEAT, not to this band.
+r_gdp_all  <- rast(file.path(root, inputs[["gdp"]]))
+r_gdp_fine <- resample(crop(r_gdp_all[["gdp_pc_2022"]], win_4326), r_pop_src, method = "near")
+g_keep  <- !is.na(r_gdp_fine) & !is.na(r_pop_src)
+g_num   <- project(ifel(g_keep, r_gdp_fine * r_pop_src, 0), template, method = "sum")
+g_den   <- project(ifel(g_keep, r_pop_src, 0), template, method = "sum")
+r_gdp   <- ifel(g_den > 0, g_num / g_den, NA)
 
 # Ookla: band 1 is already a test-weighted mean WITHIN its 5-km tile, band 2 is
 # the test count behind it (1 to ~40000). Averaging band 1 across tiles would
@@ -210,7 +230,9 @@ band_roles <- rbind(
              note = "GHS-POP 2020, summed then densified. EXPOSURE FILTER - held out of clustering."),
   data.frame(band = "gdp_pc_2022",        role = "B",   feature = "_shared",
              unit = "GDP per capita, PPP, constant USD",
-             note = "Kummu et al. ADM2. IE/LU inflated by transfer pricing. Held out of clustering."),
+             note = paste("Kummu et al. ADM2, aggregated as a POPULATION-WEIGHTED mean",
+                          "(sum(gdp_pc x pop)/sum(pop)); NA where a cell has no residents.",
+                          "IE/LU inflated by transfer pricing. Held out of clustering.")),
 
   data.frame(band = "utci_valid_h",       role = "QC",  feature = "Heatwaves",
              unit = "hours of valid UTCI in 2022",
