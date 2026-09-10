@@ -193,9 +193,9 @@ manual <- list(
   list(label = "Global Human Day time-use budgets (Fajzel et al. 2023)",
        url = "https://doi.org/10.5281/zenodo.7941615",
        why = "Zenodo bundle, taken once"),
-  list(label = "Gridded GDP per capita, admin-2 (Kummu et al. 2025)",
-       url = "https://doi.org/10.5281/zenodo.13943886",
-       why = "Zenodo bundle, one file of many"),
+  list(label = "Gridded GDP per capita, admin-2 (Kummu et al. 2025), 1990-2024",
+       url = "https://doi.org/10.5281/zenodo.18429133",
+       why = "Zenodo bundle, one file of many: rast_adm2_gdp_perCapita_1990_2024.tif. Record 13943886 (1990-2022) is superseded; concept DOI 10.5281/zenodo.10976733 always resolves to the latest"),
   list(label = "T.ambient.buildings.nc",
        url = "(unknown - provenance not recorded anywhere in the project)",
        why = "PROVENANCE MISSING: identify it or drop it")

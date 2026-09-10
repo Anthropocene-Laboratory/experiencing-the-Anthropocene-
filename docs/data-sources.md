@@ -67,7 +67,7 @@ against the SHA-256 given in its section below.
 | EEA interpolated PM2.5, 1 km | Air quality | **manual** | https://sdi.eea.europa.eu/catalogue/srv/eng/catalog.search#/search?any=interpolated%20pm2.5 |
 | GLAD global cropland | Heatwaves | **manual** | https://glad.umd.edu/dataset/croplands |
 | Global Human Day time-use budgets | Heatwaves | **manual** | https://doi.org/10.5281/zenodo.7941615 |
-| Gridded GDP per capita, admin-2 | Layer B | **manual** | https://doi.org/10.5281/zenodo.13943886 |
+| Gridded GDP per capita, admin-2 | Layer B | **manual** | https://doi.org/10.5281/zenodo.18429133 |
 | Food imports as share of merchandise imports (`TM.VAL.FOOD.ZS.UN`) | Layer C context | streamed | https://data.worldbank.org/indicator/TM.VAL.FOOD.ZS.UN |
 | Political Stability, WGI estimate (`WB_WDI_GOV_WGI_PV_EST`) | Layer C / institutional context | streamed (Data360) | https://data360.worldbank.org/en/api |
 | World Values Survey Wave 2 (1990-1994) | Layer C | **manual, registered** | https://www.worldvaluessurvey.org/WVSDocumentationWV2.jsp |
@@ -441,12 +441,48 @@ honest map of *visible transport land take*; it is **not** road-network density.
 
 | | |
 |---|---|
-| Provider | Kummu et al. 2025, *Scientific Data* — Zenodo record 13943886 |
-| File | `rast_adm2_gdp_perCapita_1990_2022.tif` (108.6 MB), admin-2 downscaled, 5 arcmin |
-| SHA-256 | `7e86399f157c38dd6821337457b7b04a75141c3a3e23f5c2e2d4c4317560a387` |
-| Licence | CC-BY |
+| Provider | Kummu, Kosonen & Masoumzadeh Sayyar 2025, *Scientific Data* — Zenodo record 18429133 |
+| File | `rast_adm2_gdp_perCapita_1990_2024.tif` (130.3 MB), admin-2 downscaled, 5 arcmin, 35 bands `gdp_pc_1990`…`gdp_pc_2024` |
+| SHA-256 | `f1fcea7226e558442801fe3f938a6afe32845587444b078fd45756a7e6c682f6` |
+| Licence | CC-BY 4.0 |
 | Route | **manual** |
 | Target | `Feature explorations/_shared/gdp_kummu/` |
+
+> Record 13943886 (`rast_adm2_gdp_perCapita_1990_2022.tif`, 108.6 MB, SHA-256
+> `7e86399f…`) was used until 2026-09-10 and is **superseded** — Zenodo flags it
+> as such on the record page itself. The 2026-03-13 release extends the series
+> from 2022 to 2024. Concept DOI [10.5281/zenodo.10976733](https://doi.org/10.5281/zenodo.10976733)
+> always resolves to the current version; prefer it over a pinned record id when
+> checking for updates.
+>
+> Note on interpretation: regional GDP is booked where output is *produced*, not
+> where people live. Extraction regions with few residents therefore carry
+> extreme per-capita values — Yamalo-Nenets and Khanty-Mansi (Russia) exceed
+> 500 000 int$/capita. Maps built from this layer should cap the scale and say so.
+
+### Global 0.1° companions to the shared layers — derived, not committed
+
+`Feature explorations/Analysis/scripts/prepare_global_pop_gdp.R` writes three
+grids on an exact 0.1° global grid (3600 × 1800, EPSG:4326), cell-aligned with
+the downscaled HDI grid of Sherman et al. 2026:
+
+| Output | From | Method |
+|---|---|---|
+| `_shared/pop2020_global_0p1deg.tif` | GHS-POP R2023A 2020, 30 arcsec | `aggregate(fact=12, sum)` then `resample(method="sum")` |
+| `_shared/pop2020_global_0p1deg_density.tif` | the above ÷ `cellSize()` | residents per km² |
+| `_shared/gdp_kummu/gdp_pc_2024_global_0p1deg.tif` | Kummu `gdp_pc_2024` | nearest neighbour (values are constant within an admin-2 unit) |
+
+All three are `.tif` and therefore gitignored; rerun the script (about 1.2 min)
+to regenerate them. Two notes worth keeping:
+
+- GHS-POP in EPSG:4326 is **not** on a 0.1°-divisible origin (extent
+  −180.0079…180.0087, −89.100…89.100; 43202 × 21384 cells), so a plain
+  `aggregate(fact=12)` inherits that offset. The second step recentres it.
+  Count conservation over the two steps: −0.0000 % (7 840 952 947 → 7 840 951 183).
+- Neither `terra::resample(method="sum")` nor `gdalwarp -r sum` survives the
+  933 M-cell source in one pass — the first stalls, the second raises
+  `std::bad_alloc` because the small target fits its warp budget and it stops
+  chunking. The two-step route is the reason the script looks roundabout.
 
 ### World Bank indicators (national GDP per capita PPP)
 
